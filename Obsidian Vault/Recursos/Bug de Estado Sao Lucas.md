@@ -1,0 +1,1 @@
+Quando eu estava programando um botão de menu no projeto da São Lucas, o Gabriel criou um outro botão collapse. O problema é que a ativação do botão menu, ativava o collapse e vice-versa. Um clássico problema de estado no front-end.

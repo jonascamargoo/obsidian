@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "69211ea48f0fa1da",
+    "type": "split",
+    "children": [
+      {
+        "id": "65ae695730a9e27d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa8dac2ac632c050",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Areas/╡lgebra Linear/Conceitos/Idempotência.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2c60bb9b92de4435",
+    "type": "split",
+    "children": [
+      {
+        "id": "d00d6bd84b4e48f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0cb0492f835dbe7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e5a60e3136886b5c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bd4a435171bfdb2a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 309.5
+  },
+  "right": {
+    "id": "6d949823caba3117",
+    "type": "split",
+    "children": [
+      {
+        "id": "af3d0fa39aa9d2ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdcc9ecd9f79dcd6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Areas/╡lgebra Linear/Conceitos/Idempotência.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "000f4d7429e05e43",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Areas/╡lgebra Linear/Conceitos/Idempotência.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7215e391f21128d1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4af1818f8a68b306",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Areas/╡lgebra Linear/Conceitos/Idempotência.md"
+              }
+            }
+          },
+          {
+            "id": "cb990865010c23f9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "canvas:Create new canvas": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "fa8dac2ac632c050",
+  "lastOpenFiles": [
+    "Areas/Álgebra Linear/Conceitos/Idempotência.md",
+    "Areas/╡lgebra Linear/Conceitos/Idempotência.md",
+    "Areas/Produtos/Bugs.md",
+    "Areas/IAs/Engenharia de prompt/Verificação cognitiva.md",
+    "Areas/IAs/Engenharia de prompt/Prompts de follow-up.md",
+    "Areas/IAs/Engenharia de prompt/Prompt em dois passos.md",
+    "Areas/IAs/Engenharia de prompt/Persona do usuário.md",
+    "Areas/IAs/Engenharia de prompt/Meta-prompts.md",
+    "Areas/IAs/Engenharia de prompt/Chain-of-Thought Prompting.md",
+    "Areas/IAs/Engenharia de prompt/8 Elementos de um bom prompt.md",
+    "Areas/IAs/Preparando conteudo para IA/Preparando o conteúdo para ser utilizado.md",
+    "Areas/IAs/Agentes de IA/Agentes de IA.md",
+    "Areas/IAs/Criando GPT.md",
+    "Areas/Produtos/Criterios de Aceite.md",
+    "Areas/Produtos/Geração de valor.md",
+    "Areas/Produtos/Requisito vs historia de usuario.md",
+    "Areas/Produtos/Fundamentos de gestão de backlog/Gestao de dependencias.md",
+    "Areas/Produtos/Fundamentos de gestão de backlog/Fatiando Historias.md",
+    "Areas/Produtos/Fundamentos de gestão de backlog/Estimativa do backlog.md",
+    "Areas/Produtos/Fundamentos de gestão de backlog/Epicos, funcionalidades e historia de usuario.md",
+    "Areas/Produtos/Fundamentos de gestão de backlog/Backlog do produto.md",
+    "Areas/Produtos/Fundamentos de gestão de backlog/Histórias de usuário.md",
+    "Areas/Produtos/Fundamentos de gestão de backlog/Refinamento do Backlog.md",
+    "Areas/Produtos/Imagens/Pasted image 20240927153659.png",
+    "Areas/Produtos/Priorizar bklog/Metodo ICE.md",
+    "Areas/Produtos/Imagens/Pasted image 20240927152513.png",
+    "Areas/Produtos/Imagens/Pasted image 20240927151121.png",
+    "Areas/Produtos/Priorizar bklog/Priorizacao do produto.md",
+    "Areas/Produtos/Imagens/Pasted image 20240927145953.png",
+    "Areas/Produtos/Priorizar bklog/Metodo MoSCoW.md",
+    "Areas/Produtos/Priorizar bklog",
+    "Areas/Produtos/Imagens/Pasted image 20240927142244.png",
+    "Areas/Produtos/Imagens/Pasted image 20240927141830.png",
+    "Areas/Produtos/Imagens/Pasted image 20240927141425.png",
+    "Areas/Produtos/Imagens/Pasted image 20240927141225.png",
+    "Areas/Produtos/Imagens/Pasted image 20240927140857.png",
+    "Areas/Produtos/Imagens/Pasted image 20240927140314.png",
+    "Areas/Produtos/Imagens",
+    "Areas/Produtos/Fundamentos de gestão de backlog",
+    "Areas/Produtos",
+    "Areas/IAs/Preparando conteudo para IA",
+    "Areas/IAs/Agentes de IA",
+    "Areas/IAs/Engenharia de prompt/Untitled",
+    "Areas/IAs/Engenharia de prompt",
+    "Areas/IAs",
+    "Areas/Banco de dados/Struct Query Language (SQL)",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}
