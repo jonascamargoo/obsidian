@@ -12,7 +12,7 @@ Ex: Implementar um novo sistema de pagamento internacional. Este épico inclui v
 
 Quando você organiza épicos por **papel**, está focando nas necessidades e objetivos de **um tipo específico de usuário**. Neste caso, o épico descreve os principais objetivos e interações de um papel particular, e como aquele papel (persona) vai usar o sistema ou produto para atingir seus objetivos.
 
-Utilizando um exemplo de app de relacionamento. Imaginamos duas personas: um que quer compromisso e outro que quer sexo. A partir daí, definimos dois épicos: "À procura de um novo amor" e "Apenas hoje e nada mais"
+Utilizando um exemplo de app de relacionamento. Imaginamos duas personas: um que quer compromisso e outro que quer sexo. A partir daí, definimos dois épicos: "À procura de um novo amor" e "Apenas hoje e nada mais".
 
 #### Características:
 
