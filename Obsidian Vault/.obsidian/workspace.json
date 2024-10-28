@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/Produtos/Fundamentos de gestão de backlog/Epicos, funcionalidades e historia de usuario.md",
+                "file": "Areas/Redes/Camada de rede/CIDR x NAT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Epicos, funcionalidades e historia de usuario"
+              "title": "CIDR x NAT"
             }
           }
         ]
@@ -175,6 +175,16 @@
   },
   "active": "fa8dac2ac632c050",
   "lastOpenFiles": [
+    "Areas/Redes/Switches (enlace) x Routers (rede).md",
+    "Areas/Redes/Camada de rede/CIDR x NAT.md",
+    "Areas/Redes/Algumas propriedades.md",
+    "Areas/Redes/Camada de rede/Estrutura de endereçamento.md",
+    "Areas/Redes/Camada de rede/IPv4.md",
+    "Areas/Modelagem e Desenvolvimento/Metodologia Ágil/Scrum/Scrum.md",
+    "Areas/Modelagem e Desenvolvimento/Metodologia Ágil/Scrum/Notas do livro _a arte de fazer o dobro de trabalho na metade do tempo_.md",
+    "Areas/Modelagem e Desenvolvimento/Metodologia Ágil/Kanban.md",
+    "Areas/Modelagem e Desenvolvimento/Metodologia Ágil/Extreme Programming (XP).md",
+    "Areas/Produtos/Priorizar bklog/Metodo ICE.md",
     "Areas/Produtos/Fundamentos de gestão de backlog/Backlog do produto.md",
     "Areas/Produtos/Fundamentos de gestão de backlog/Epicos, funcionalidades e historia de usuario.md",
     "Areas/Produtos/Criterios de Aceite.md",
@@ -193,18 +203,9 @@
     "Areas/IAs/Engenharia de prompt/Chain-of-Thought Prompting.md",
     "Areas/IAs/Engenharia de prompt/8 Elementos de um bom prompt.md",
     "Areas/IAs/Preparando conteudo para IA/Preparando o conteúdo para ser utilizado.md",
-    "Areas/IAs/Agentes de IA/Agentes de IA.md",
-    "Areas/IAs/Criando GPT.md",
-    "Areas/Produtos/Fundamentos de gestão de backlog/Gestao de dependencias.md",
-    "Areas/Produtos/Fundamentos de gestão de backlog/Fatiando Historias.md",
-    "Areas/Produtos/Fundamentos de gestão de backlog/Estimativa do backlog.md",
-    "Areas/Produtos/Fundamentos de gestão de backlog/Histórias de usuário.md",
-    "Areas/Produtos/Fundamentos de gestão de backlog/Refinamento do Backlog.md",
     "Areas/Produtos/Imagens/Pasted image 20240927153659.png",
-    "Areas/Produtos/Priorizar bklog/Metodo ICE.md",
     "Areas/Produtos/Imagens/Pasted image 20240927152513.png",
     "Areas/Produtos/Imagens/Pasted image 20240927151121.png",
-    "Areas/Produtos/Priorizar bklog/Priorizacao do produto.md",
     "Areas/Produtos/Imagens/Pasted image 20240927145953.png",
     "Areas/Produtos/Priorizar bklog",
     "Areas/Produtos/Imagens/Pasted image 20240927142244.png",
