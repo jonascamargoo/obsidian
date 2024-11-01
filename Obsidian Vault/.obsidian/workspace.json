@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/Redes/Camada de rede/CIDR x NAT.md",
+                "file": "Areas/Sistemas Operacionais/Processos e threads/Concorrência x Paralelismo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CIDR x NAT"
+              "title": "Concorrência x Paralelismo"
             }
           }
         ]
@@ -175,8 +175,13 @@
   },
   "active": "fa8dac2ac632c050",
   "lastOpenFiles": [
-    "Areas/Redes/Switches (enlace) x Routers (rede).md",
+    "Areas/Sistemas Operacionais/Processos e threads/LEMBRETE POS PRIMEIRA PROVA!.md",
+    "Areas/Sistemas Operacionais/Processos e threads/Concorrência x Paralelismo.md",
+    "Areas/Sistemas Operacionais/Processos e threads/Threads.md",
+    "Areas/Sistemas Operacionais/Processos e threads/Processos.md",
     "Areas/Redes/Camada de rede/CIDR x NAT.md",
+    "Areas/Sistemas Operacionais/Processos e threads",
+    "Areas/Redes/Switches (enlace) x Routers (rede).md",
     "Areas/Redes/Algumas propriedades.md",
     "Areas/Redes/Camada de rede/Estrutura de endereçamento.md",
     "Areas/Redes/Camada de rede/IPv4.md",
@@ -199,10 +204,6 @@
     "Areas/IAs/Engenharia de prompt/Prompts de follow-up.md",
     "Areas/IAs/Engenharia de prompt/Prompt em dois passos.md",
     "Areas/IAs/Engenharia de prompt/Persona do usuário.md",
-    "Areas/IAs/Engenharia de prompt/Meta-prompts.md",
-    "Areas/IAs/Engenharia de prompt/Chain-of-Thought Prompting.md",
-    "Areas/IAs/Engenharia de prompt/8 Elementos de um bom prompt.md",
-    "Areas/IAs/Preparando conteudo para IA/Preparando o conteúdo para ser utilizado.md",
     "Areas/Produtos/Imagens/Pasted image 20240927153659.png",
     "Areas/Produtos/Imagens/Pasted image 20240927152513.png",
     "Areas/Produtos/Imagens/Pasted image 20240927151121.png",
@@ -220,7 +221,6 @@
     "Areas/IAs/Preparando conteudo para IA",
     "Areas/IAs/Agentes de IA",
     "Areas/IAs/Engenharia de prompt/Untitled",
-    "Areas/IAs/Engenharia de prompt",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
