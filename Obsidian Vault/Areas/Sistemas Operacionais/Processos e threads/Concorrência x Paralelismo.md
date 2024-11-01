@@ -296,4 +296,6 @@ Concorrência no mais, significa também ter várias tarefas em paralelo onde vo
 
 Em sistemas com um único núcleo de CPU, a concorrência é normalmente alcançada através de multithreading, onde as tarefas são **alternadas rapidamente**, criando a ilusão de execução simultânea. Por outro lado, o **paralelismo** requer hardware com **múltiplos núcleos**, permitindo que cada núcleo execute **diferentes threads ou processos simultaneamente**.
 
-Paralelismo em geral é concorrênte, mas nem toda concorrência é paralela.
+Paralelismo em geral é concorrente, mas nem toda concorrência é paralela.
+
+![[Pasted image 20241101171131.png]]
