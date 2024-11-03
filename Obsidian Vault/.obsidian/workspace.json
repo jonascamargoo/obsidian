@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/Sistemas Operacionais/Processos e threads/Processos.md",
+                "file": "Areas/Sistemas Operacionais/Processos e threads/Threads.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Processos"
+              "title": "Threads"
             }
           }
         ]
@@ -173,14 +173,16 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "fa8dac2ac632c050",
+  "active": "b0cb0492f835dbe7",
   "lastOpenFiles": [
-    "Areas/Sistemas Operacionais/Processos e threads/Threads.md",
+    "Areas/Sistemas Operacionais/imagens/Pasted image 20241103130506.png",
+    "Areas/Sistemas Operacionais/imagens/Pasted image 20241103125035.png",
     "Areas/Sistemas Operacionais/Processos e threads/Processos.md",
-    "Pasted image 20241103123249.png",
-    "Pasted image 20241103113112.png",
+    "Areas/Sistemas Operacionais/Processos e threads/Threads.md",
+    "Areas/Sistemas Operacionais/imagens/Pasted image 20241103123249.png",
+    "Areas/Sistemas Operacionais/imagens/Pasted image 20241103113112.png",
     "Areas/Sistemas Operacionais/imagens/Pasted image 20241103083040.png",
-    "Pasted image 20241103074944.png",
+    "Areas/Sistemas Operacionais/imagens/Pasted image 20241103074944.png",
     "Areas/Sistemas Operacionais/imagens/Pasted image 20241103074254.png",
     "Areas/Sistemas Operacionais/imagens/Pasted image 20241103072330.png",
     "Areas/Sistemas Operacionais/Processos e threads/Concorrência x Paralelismo.md",
@@ -213,7 +215,6 @@
     "Areas/IAs/Engenharia de prompt/Prompt em dois passos.md",
     "Areas/Produtos/Imagens/Pasted image 20240927153659.png",
     "Areas/Produtos/Imagens/Pasted image 20240927152513.png",
-    "Areas/Produtos/Imagens/Pasted image 20240927151121.png",
     "Areas/Produtos/Priorizar bklog",
     "Areas/Produtos/Imagens",
     "Areas/Produtos/Fundamentos de gestão de backlog",
