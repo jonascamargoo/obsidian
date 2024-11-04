@@ -139,30 +139,37 @@ Cada thread possui sua própria **pilha** na memória, que serve para armazenar 
 
 Se não houvesse uma pilha separada para cada thread, haveria várias implicações negativas que comprometeriam o funcionamento correto e eficiente do programa. Aqui estão algumas possíveis consequências e como isso afetaria a execução das threads:
 
-### 1. **Conflito de Dados**
+#### 1. **Conflito de Dados**
 
 - **Compartilhamento de Variáveis Locais**: Sem pilhas separadas, as variáveis locais de diferentes funções poderiam ser compartilhadas entre threads. Isso levaria a um estado inconsistente, onde um thread poderia alterar o valor de uma variável que outro thread estava usando, resultando em comportamentos inesperados e bugs difíceis de rastrear.
 
-### 2. **Problemas com o Endereço de Retorno**
+#### 2. Problemas com o Endereço de Retorno
 
 - **Retornos Incorretos**: A falta de pilhas separadas significa que não haveria uma forma de armazenar os endereços de retorno corretamente para cada função chamada. Quando uma função termina, o sistema não saberia para onde voltar, o que poderia causar o thread a retornar para um endereço incorreto, resultando em falhas ou corrupção de dados.
 
-### 3. **Dificuldade no Controle de Fluxo**
+#### 3. Dificuldade no Controle de Fluxo
 
 - **Interrupções e Retornos**: Em uma situação onde uma função é chamada por um thread e, durante sua execução, uma segunda função é chamada por um segundo thread, o controle de fluxo se tornaria caótico. Não seria possível determinar qual thread deveria retomar a execução após uma função retornar, levando a um estado indefinido na execução do programa.
 
-### 4. **Impossibilidade de Recursão**
+#### 4. Impossibilidade de Recursão
 
 - **Limitação da Recursão**: Funções recursivas, que chamam a si mesmas, exigem que cada chamada mantenha seu próprio contexto de execução. Sem pilhas separadas, não haveria como gerenciar várias instâncias de uma função recursiva, pois as chamadas recursivas de diferentes threads interfeririam entre si, causando uma sobreposição de estados.
 
-### 5. **Dificuldade no Gerenciamento de Exceções**
+#### 5. Dificuldade no Gerenciamento de Exceções
 
 - **Tratamento de Erros Comprometido**: Se um erro ocorresse em uma função de um thread, o tratamento da exceção precisaria saber qual contexto (ou pilha) estava ativo. Sem pilhas separadas, gerenciar exceções de maneira adequada e limpa se tornaria quase impossível.
 
-### 6. **Desempenho Prejudicado**
+#### 6. Desempenho Prejudicado
 
 - **Desempenho Geral**: A sobrecarga de gerenciar um único conjunto de dados para todas as funções e threads, juntamente com os conflitos de dados e erros resultantes, levaria a um desempenho muito pior em comparação com o uso de pilhas separadas.
 
-### Conclusão
+#### Conclusão
 
 Sem uma pilha por thread, a execução de múltiplas threads se tornaria caótica e cheia de problemas. A pilha é crucial para garantir que cada thread tenha seu próprio espaço para armazenar variáveis locais, endereços de retorno e manter o controle sobre o fluxo de execução, permitindo que as threads operem de forma independente e eficiente.
+
+
+
+## Implementação de threads no espaço de usuário
+
+## Implementação de threads no espaço do núcleo
+
