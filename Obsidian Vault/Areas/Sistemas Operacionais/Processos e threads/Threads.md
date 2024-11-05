@@ -171,5 +171,61 @@ Sem uma pilha por thread, a execução de múltiplas threads se tornaria caótic
 
 ## Implementação de threads no espaço de usuário
 
+O núcleo não sabe que mais de uma thread está sendo executada, para ele são processos de única thread. Para que elas sejam implementadas, utilizamos rotinas que as gerenciam, tendo cada thread uma tabela, tudo em tempo de execução. Para saber o estado da thread (bloqueado, exec, pronto...) funciona de forma análoga ao núcleo gerenciando tabela de processos.
+
+Apesar de mais eficientes (pois são gerenciadas por rotinas, em vez de chaveamentos no núcleo) quando um thread é bloqueada, o núcleo não faz distinção, então tudo é bloqueado. "Se o programa chama ou salta para uma instrução que não esteja na memória, ocorre uma falta de página e o sistema operacional buscará a instrução perdida (e suas vizinhas) do disco. Isso é chamado de uma falta de página. O processo é bloqueado enquanto as instruções necessárias estão sendo localizadas e lidas. Se um thread causa uma falta de página, o núcleo, desconhecendo até a existência dos threads, naturalmente bloqueia o processo inteiro até que o disco de E/S esteja completo, embora outros threads possam ser executados." Em sistemas como servidores web, que possuem alto volume de I/o, pode ser catastrófico. 
+
+"Para aplicações que são em sua essência inteiramente limitadas pela CPU e raramente são bloqueadas, qual o sentido de usar threads? Ninguém proporia seriamente computar os primeiros n números primos ou jogar xadrez usando threads, porque não há nada a ser ganho com isso."
+
+Por fim, um outro problema é que se uma thread fica em loop infinito, não há um suporte no processo para interrompê-lo. Ou seja, se a thread não se liberar voluntariamente, não é possível escalonar. ""
+
+![[Pasted image 20241105110851.png]]
+
 ## Implementação de threads no espaço do núcleo
 
+1 - **Gerenciamento centralizado pelo núcleo**: O núcleo gerencia todos os threads do sistema em uma tabela centralizada, dispensando a necessidade de tabelas de thread nos processos individuais.
+ 
+2 - **Criação e destruição de threads**: Threads podem ser criados ou destruídos com chamadas ao núcleo, que atualiza a tabela de threads para refletir essas mudanças. Esse processo é mais oneroso em comparação ao gerenciamento de threads no espaço de usuário.
+    
+3 - **Informação de threads no núcleo**: A tabela de threads do núcleo armazena informações essenciais de cada thread (registradores, estado, etc.), similar ao que seria mantido no espaço de usuário.
+
+4 - **Chamadas de sistema e bloqueio de threads**: Todas as chamadas que podem bloquear um thread são tratadas como chamadas de sistema, o que é mais custoso. Quando um thread é bloqueado, o núcleo pode escolher outro thread para execução, seja do mesmo processo ou de outro.
+
+5 - **Reciclagem de threads**: Alguns sistemas reciclam threads para economizar recursos. Em vez de destruí-los, eles são marcados como inativos e reativados quando necessário.
+
+6 - **Operações de thread e desempenho**: Threads no núcleo oferecem flexibilidade, como permitir a execução de outros threads de um processo bloqueado por falta de página. No entanto, o custo alto das chamadas de sistema pode gerar sobrecarga se as operações de thread forem frequentes.
+
+7- **Desafios adicionais com threads**:
+	_Forking de processos com múltiplos threads_: Decidir se o novo processo criado deve herdar todos os threads ou apenas um depende do contexto;
+	Sinais e threads_: Como os sinais são enviados aos processos, determinar qual thread deve tratá-los pode ser complexo, especialmente se mais de um thread estiver interessado no mesmo sinal.
+
+
+## Ativações pelo escalonador
+
+Threads de núcleo e threads de usuário têm características distintas: enquanto threads de núcleo podem ter um desempenho melhor em certos aspectos, threads de usuário oferecem maior flexibilidade e eficiência ao evitar chamadas de sistema e transições desnecessárias entre o espaço do usuário e do núcleo. Nos threads de usuário, não é preciso verificar se chamadas de sistema específicas podem bloquear, o que simplifica o gerenciamento de execução e evita sobrecarga.
+
+Para melhorar ainda mais essa eficiência, o mecanismo de **ativações pelo escalonador** foi desenvolvido. Esse sistema permite que o núcleo aloque processadores virtuais para cada processo e deixe a escolha e o gerenciamento dos threads a cargo do sistema de tempo de execução do usuário. Isso é vantajoso em sistemas multiprocessadores, onde processadores virtuais podem corresponder a CPUs reais.
+
+Quando um thread bloqueia (por uma chamada de sistema, por exemplo), o núcleo informa o sistema de tempo de execução, que, por meio de uma "upcall", pode reagir rapidamente e escalar outro thread sem intervenção adicional do núcleo, imitando a funcionalidade dos threads de núcleo com a flexibilidade dos threads de usuário.
+
+
+### O processo
+
+1.  **Reescalonamento pelo Sistema de Tempo de Execução**: Quando o sistema de tempo de execução recebe uma ativação (upcall) informando que um thread foi bloqueado, ele marca esse thread como bloqueado e seleciona outro da lista de prontos. Em seguida, configura os registradores do novo thread e o reinicia, continuando a execução sem interferência do núcleo.
+
+2. **Retorno do Thread Bloqueado**: Assim que o evento que causou o bloqueio do thread original é resolvido (por exemplo, a leitura de um pipe ou o carregamento de uma página faltante), o núcleo envia outra ativação (upcall) ao sistema de tempo de execução, informando que o thread pode voltar a executar. A partir daí, o sistema de tempo de execução decide se reinicia imediatamente o thread ou se o coloca na lista de prontos para ser executado posteriormente.
+
+3. **Interrupção de Hardware e Reação**: Quando ocorre uma interrupção de hardware enquanto um thread de usuário está executando, a CPU muda para o modo núcleo. Se a interrupção não interessa ao processo do thread interrompido (por exemplo, uma E/S de outro processo), o núcleo simplesmente devolve o controle ao thread interrompido. No entanto, se a interrupção é relevante (como a chegada de uma página necessária), o thread interrompido é suspenso, e o sistema de tempo de execução é acionado com o estado do thread na pilha. Cabe ao sistema de tempo de execução decidir qual thread escalonar: o thread interrompido, o que acabou de ser desbloqueado, ou outro.
+
+4. **Considerações sobre Upcalls**: As ativações pelo escalonador dependem dos upcalls, que representam uma comunicação “de baixo para cima” entre o núcleo e o sistema de tempo de execução do usuário. Esse tipo de comunicação é incomum, pois contraria a estrutura em camadas dos sistemas, onde a camada inferior fornece serviços que podem ser chamados pela camada superior, mas não o contrário.
+
+"Uma objeção às ativações pelo escalonador é a confiança fundamental nos upcalls, um conceito que viola a estrutura inerente em qualquer sistema de camadas. Em geral, a camada n oferece determinados serviços que a camada n + 1 pode chamar, mas a camada n pode não chamar rotinas na camada n + 1. Upcalls não seguem esse princípio fundamental".
+
+
+## Threads pop-up
+
+A abordagem dos **threads pop-up** cria um novo thread para cada mensagem recebida, permitindo um início sem contexto prévio — ou seja, sem necessidade de restaurar registradores, pilha ou histórico anterior. Esses threads começam “do zero” e são idênticos entre si, o que permite sua criação rápida. Assim, a mensagem recebida é diretamente atribuída ao novo thread para processamento imediato.
+
+Uma vantagem dessa técnica é a redução na latência entre a chegada da mensagem e o início do processamento, proporcionando uma resposta mais ágil ao evento, pois o thread recém-criado já está pronto para executar a tarefa sem esperar pela restauração de um contexto anterior.
+
+![[Pasted image 20241105150108.png]]
