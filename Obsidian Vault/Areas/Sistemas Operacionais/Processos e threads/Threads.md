@@ -11,6 +11,8 @@ Todos os threads têm exatamente o mesmo espaço de endereçamento, o que signif
 ![[Pasted image 20241103125035.png]]
 Lembrando que todas as threads do mesmo processo compartilham os itens da coluna esquerda.
 
+OBS: Quando um processo cria um processo filho, o filho geralmente começa como uma cópia do processo pai, mas as threads que são criadas após o fork não são automaticamente compartilhadas com o processo filho. Cada processo gerencia suas próprias threads, então threads criadas posteriormente no pai não são herdadas pelo filho de forma automática.
+
 ## O que é Multithreading?
 
 **Multithreading** é uma técnica de programação que consiste na criação de múltiplas threads (fluxos de execução independentes) dentro de um único processo. Cada thread pode ser responsável por diferentes tarefas ou partes de uma tarefa mais ampla. Este método pode ser aplicado **tanto em contextos concorrentes quanto paralelos**. Em sistemas com **um único núcleo do processador, o multithreading facilita a concorrência** (alternância rápida entre threads para criar a ilusão de simultaneidade). Já em sistemas **multiprocessadores, ou com múltiplos núcleos**, o multithreading pode alcançar paralelismo real, com threads sendo executadas simultaneamente em núcleos distintos da CPU**, otimizando o uso dos recursos e melhorando a eficiência e o desempenho do processo.
@@ -66,7 +68,7 @@ while(TRUE) {
 
 ### O mesmo caso, porém sem thread
 
-Esse exemplo ilustra as limitações de um servidor web sem threads e os benefícios que o uso de threads traz ao desempenho.
+Esse exemplo ilustra as limitações de um servidor web sem threads e os benefícios que o uso de threads traz ao desempenho. Só é o melhor caso quando o programa a ser utilizado for consideravelmente CPU bound, pois evita complexidade desnecessária.
 
 **Servidor Web Sem Threads**: Em um modelo de thread único, o servidor processa cada solicitação de maneira sequencial. Ele:
 
@@ -84,7 +86,7 @@ Esse exemplo ilustra as limitações de um servidor web sem threads e os benefí
 ### Servidor Web com E/S Sem Bloqueio: Simulando Concorrência com Máquina de Estados Finitos
 
 
-Esse terceiro exemplo descreve uma abordagem alternativa para implementar um servidor web quando threads não estão disponíveis e o desempenho de um único thread é insatisfatório. A solução usa operações de E/S de disco sem bloqueio para simular o processamento concorrente.
+Esse terceiro exemplo descreve uma abordagem alternativa para implementar um servidor web quando threads não estão disponíveis e o desempenho de um único thread é insatisfatório. A solução usa operações de E/S de disco sem bloqueio para simular o processamento concorrente. Em um servidor web utilizando bloqueio, quando uma thread for bloqueada tudo para.
 
 **Servidor Web com E/S Sem Bloqueio**:
 
@@ -173,13 +175,46 @@ Sem uma pilha por thread, a execução de múltiplas threads se tornaria caótic
 
 O núcleo não sabe que mais de uma thread está sendo executada, para ele são processos de única thread. Para que elas sejam implementadas, utilizamos rotinas que as gerenciam, tendo cada thread uma tabela, tudo em tempo de execução. Para saber o estado da thread (bloqueado, exec, pronto...) funciona de forma análoga ao núcleo gerenciando tabela de processos.
 
-Apesar de mais eficientes (pois são gerenciadas por rotinas, em vez de chaveamentos no núcleo) quando um thread é bloqueada, o núcleo não faz distinção, então tudo é bloqueado. "Se o programa chama ou salta para uma instrução que não esteja na memória, ocorre uma falta de página e o sistema operacional buscará a instrução perdida (e suas vizinhas) do disco. Isso é chamado de uma falta de página. O processo é bloqueado enquanto as instruções necessárias estão sendo localizadas e lidas. Se um thread causa uma falta de página, o núcleo, desconhecendo até a existência dos threads, naturalmente bloqueia o processo inteiro até que o disco de E/S esteja completo, embora outros threads possam ser executados." Em sistemas como servidores web, que possuem alto volume de I/o, pode ser catastrófico. 
+Apesar de mais eficientes (pois são gerenciadas por rotinas, em vez de chaveamentos no núcleo) quando um thread é bloqueada, o núcleo não faz distinção, então tudo é bloqueado (Isso ocorre porque, em um sistema de threads no nível de usuário, o kernel não tem visibilidade individual das threads; ele enxerga apenas o processo como um todo. Assim, se uma thread está em uma operação bloqueante, o kernel considera o processo inteiro como bloqueado, paralisando as demais threads do mesmo processo.).
+
+"Se o programa chama ou salta para uma instrução que não esteja na memória, ocorre uma falta de página e o sistema operacional buscará a instrução perdida (e suas vizinhas) do disco. Isso é chamado de uma falta de página. O processo é bloqueado enquanto as instruções necessárias estão sendo localizadas e lidas. Se um thread causa uma falta de página, o núcleo, desconhecendo até a existência dos threads, naturalmente bloqueia o processo inteiro até que o disco de E/S esteja completo, embora outros threads possam ser executados." Em sistemas como servidores web, que possuem alto volume de I/o, pode ser catastrófico.
 
 "Para aplicações que são em sua essência inteiramente limitadas pela CPU e raramente são bloqueadas, qual o sentido de usar threads? Ninguém proporia seriamente computar os primeiros n números primos ou jogar xadrez usando threads, porque não há nada a ser ganho com isso."
 
-Por fim, um outro problema é que se uma thread fica em loop infinito, não há um suporte no processo para interrompê-lo. Ou seja, se a thread não se liberar voluntariamente, não é possível escalonar. ""
+Por fim, um outro problema é que se uma thread fica em loop infinito, não há um suporte no processo para interrompê-lo. Ou seja, se a thread não se liberar voluntariamente, não é possível escalonar. "The biggest advantage is the efficiency. No traps to the kernel are needed to switch threads. The biggest disadvantage is that if one thread blocks, the entire process blocks."
 
 ![[Pasted image 20241105110851.png]]
+
+### Vantagens vs desvantagens da User-Level Thread
+
+1. **Maior Eficiência:**
+    
+    - As trocas de contexto entre threads em espaço de usuário não exigem "traps" para o kernel, tornando-as mais rápidas e menos custosas em termos de processamento.
+2. **Aumento de Responsividade:**
+    
+    - Permite que o programa seja mais responsivo, pois o agendamento de threads é controlado pelo próprio programa, não deixando o usuário parado quando há tarefas concorrentes.
+3. **Portabilidade e Flexibilidade:**
+    
+    - Como a implementação de threads é feita pelo próprio programa, ela é independente do sistema operacional. Isso permite que um mesmo código funcione em diversos sistemas sem precisar adaptar-se aos detalhes do kernel.
+4. **Utilidade em Sistemas Sem Suporte a Threads de Kernel:**
+    
+    - Quando o sistema operacional não oferece suporte para threads no nível do kernel, as threads em espaço de usuário são a única opção para paralelismo dentro de um processo.
+
+### Desvantagens das Threads em Espaço de Usuário
+
+1. **Bloqueio Total do Processo:**
+    
+    - Se uma thread executa uma operação bloqueante (como uma operação de entrada/saída), todo o processo fica bloqueado, já que o kernel não tem visibilidade das threads individuais e trata o processo como uma unidade.
+2. **Sem Benefício em Múltiplos Núcleos:**
+    
+    - Como o kernel não gerencia as threads individualmente, ele não pode alocar diferentes threads do mesmo processo para múltiplos núcleos da CPU. Isso limita o potencial de paralelismo físico.
+3. **Complexidade na Implementação de Threads:**
+    
+    - O código do programa precisa gerenciar a criação, destruição, e agendamento de threads, o que pode aumentar a complexidade da implementação.
+4. **Sem Priorização pelo Kernel:**
+    
+    - O sistema operacional não consegue priorizar threads individualmente, já que ele vê o processo como uma única entidade. Assim, o programador precisa implementar manualmente qualquer tipo de controle de prioridade entre threads.
+
 
 ## Implementação de threads no espaço do núcleo
 
