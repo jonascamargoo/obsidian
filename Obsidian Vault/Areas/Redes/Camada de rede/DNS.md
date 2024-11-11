@@ -119,7 +119,7 @@ Quando um usuário digita um endereço da web em um navegador de pesquisa, o nav
 
 ### Servidores autoritativos
 
-Os servidores autoritativos apresentam as “respostas”. Os servidores de nomes autoritativos mantêm os registros definitivos de um domínio e respondem às solicitações sobre nomes de domínio armazenados em suas respectivas zonas (normalmente com respostas [configuradas pelo proprietário do domínio](https://www.ibm.com/br-pt/blog/how-to-mitigate-the-risks-of-diy-authoritative-dns/)). Há diversos tipos de servidores de nomes autoritativos, cada um servindo uma função específica dentro da hierarquia do DNS.  
+Os servidores autoritativos apresentam as “respostas”. Os servidores de nomes autoritativos mantêm os registros definitivos de um domínio e respondem às solicitações sobre nomes de domínio armazenados em suas respectivas zonas (normalmente com respostas [configuradas pelo proprietário do domínio](https://www.ibm.com/br-pt/blog/how-to-mitigate-the-risks-of-diy-authoritative-dns/)). Há diversos tipos de servidores de nomes autoritativos, cada um servindo uma função específica dentro da hierarquia do DNS. 
   
 Os servidores de nomes DNS autoritativos são:
 
