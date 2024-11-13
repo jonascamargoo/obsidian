@@ -31,7 +31,6 @@ Vamos ver como isso funciona com um exemplo:
 - **Endereço IP**: `192.168.1.10`
 - **Máscara de Sub-rede**: `255.255.255.0`
 
-
 ## Classes IPv4
 
 O sistema de classes foi desenvolvido para organizar os endereços IPv4 em categorias, facilitando a alocação de endereços para diferentes tipos e tamanhos de redes. Cada classe de endereço foi projetada para atender diferentes necessidades, dependendo do tamanho da rede e do número de dispositivos conectados.
