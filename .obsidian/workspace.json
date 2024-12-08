@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d97e68bb74ec583b",
+        "id": "3b62f4074893c3c7",
         "type": "tabs",
         "children": [
           {
-            "id": "c792d57ae83975b0",
+            "id": "e46e656630f132e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Threads.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Threads"
+              "title": "Nova aba"
             }
           }
         ]
@@ -158,10 +154,19 @@
       "command-palette:Abrir paleta de comando": false
     }
   },
-  "active": "c792d57ae83975b0",
+  "active": "e46e656630f132e1",
   "lastOpenFiles": [
-    "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Processos.md",
+    "Obsidian Vault/Areas/Redes/Camada de rede/Estrutura de endereçamento.md",
+    "Obsidian Vault/Areas/Redes/Camada de rede/CIDR x NAT.md",
+    "Obsidian Vault/Areas/Redes/Camada de rede/IPv4.md",
+    "Obsidian Vault/Areas/Redes/Camada de rede/Classless Inter-Domain Routing (CIDR).md",
+    "Obsidian Vault/Areas/Redes/Princípio da comunicaçao de dados/Perda na transmiss╞o.md",
+    "Obsidian Vault/Areas/Redes/Princípio da comunicaçao de dados/Perda na transmissao.md",
+    "Obsidian Vault/Areas/Redes/Princípio da comunicaçao de dados/Perda na transmissão.md",
     "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Threads.md",
+    "Obsidian Vault/Areas/Redes/imagens/Pasted image 20241107152928.png",
+    "Obsidian Vault/Areas/Redes/Camada de rede/DNS.md",
+    "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Processos.md",
     "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/LEMBRETE POS PRIMEIRA PROVA!.md",
     "README.md"
   ]

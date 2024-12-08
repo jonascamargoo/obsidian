@@ -22,7 +22,7 @@ Por exemplo:
 - **Endereço IP**: `192.168.1.10`
 - **Máscara de sub-rede**: `255.255.255.0` (em binário, `11111111.11111111.11111111.00000000`)
 
-Com essa máscara, os três primeiros octetos (`192.168.1`) representam a **rede** e o último octeto (`10`) representa o **host**.
+Com essa máscara, os três primeiros octetos (`192.168.1`) representam o prefixo daquela **rede** e o último octeto (`10`) é o que sobra para acomodar (identificar) **hosts**. Portanto, podemos concluir que a máscara /24 é bem restrita, pois sobra muito pouco para hosts, sobrando apenas 8 bits (1 octeto), logo, 2^8 = 256 possíveis hosts.
 
 ### 3. Exemplo Prático: Divisão de Rede e Host
 
