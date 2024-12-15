@@ -1,10 +1,10 @@
-CIDR (Classless Inter-Domain Routing) e NAT (Network Address Translation) são conceitos fundamentais em redes, mas têm objetivos e funções bastante diferentes:
+Podemos dizer que CIDR é uma solução baseada em NAT, utilizando de suas faixas.
 
 ---
 
 ### 1. **CIDR (Classless Inter-Domain Routing)**
 
-**Função**: CIDR é uma forma de alocação e roteamento de endereços IP. Ele define o tamanho das redes e permite uma utilização mais flexível dos endereços IP, sem seguir as antigas classes rígidas de endereçamento (Classe A, B e C).
+**Função**: CIDR é uma forma de alocação e roteamento de endereços IP. Ele define o tamanho das redes e permite uma utilização mais flexível dos endereços IP, sem seguir as antigas classes rígidas de endereçamento
 
 **Principais Características**:
 
