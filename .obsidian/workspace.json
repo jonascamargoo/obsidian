@@ -11,10 +11,12 @@
             "id": "e46e656630f132e1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Release Notes 1.7.7"
             }
           }
         ]
@@ -154,8 +156,10 @@
       "command-palette:Abrir paleta de comando": false
     }
   },
-  "active": "e46e656630f132e1",
+  "active": "fc2e43fb58859db5",
   "lastOpenFiles": [
+    "Obsidian Vault/Areas/Redes/Camada de rede/Fechadas listas.md",
+    "Obsidian Vault/Areas/Redes/Camada de rede/DHCP.md",
     "Obsidian Vault/Areas/Redes/Camada de rede/Estrutura de endereçamento.md",
     "Obsidian Vault/Areas/Redes/Camada de rede/CIDR x NAT.md",
     "Obsidian Vault/Areas/Redes/Camada de rede/IPv4.md",
