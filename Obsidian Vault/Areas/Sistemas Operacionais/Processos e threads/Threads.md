@@ -170,7 +170,6 @@ Se não houvesse uma pilha separada para cada thread, haveria várias implicaç�
 Sem uma pilha por thread, a execução de múltiplas threads se tornaria caótica e cheia de problemas. A pilha é crucial para garantir que cada thread tenha seu próprio espaço para armazenar variáveis locais, endereços de retorno e manter o controle sobre o fluxo de execução, permitindo que as threads operem de forma independente e eficiente.
 
 
-
 ## Implementação de threads no espaço de usuário
 
 O núcleo não sabe que mais de uma thread está sendo executada, para ele são processos de única thread. Para que elas sejam implementadas, utilizamos rotinas que as gerenciam, tendo cada thread uma tabela, tudo em tempo de execução. Para saber o estado da thread (bloqueado, exec, pronto...) funciona de forma análoga ao núcleo gerenciando tabela de processos.
