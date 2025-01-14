@@ -2,8 +2,6 @@
 
 ## Soluções utilizando exclusão mútua
 
-
-
 ### Desabilitação de interrupções:
 
 **Explicação**:  
