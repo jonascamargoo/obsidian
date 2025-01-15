@@ -19,7 +19,6 @@ Alguns sistemas utilizam uma abordagem em que processos têm dois segmentos em e
 
 ![[Pasted image 20250114171229.png]]
 
-
 ## Nos dias atuais...
 
 Como consequência desses desenvolvimentos, há uma necessidade de executar programas que são grandes demais para se encaixar na memória e há certamente uma necessidade de ter sistemas que possam dar suporte a múltiplos programas executando em simultâneo, cada um deles encaixando-se na memória, mas com todos coletivamente excedendo-a. A troca de processos não é uma opção atraente, visto que o disco SATA típico tem um pico de taxa de transferência de várias centenas de MB/s, o que significa que demora segundos para retirar um programa de 1 GB e o mesmo para carregar um programa de 1 GB. Podemos dizer que cerca de 99% desse trabalho não é feito por swapping e sim por **memória virtual**.

@@ -2,10 +2,6 @@
 
 ### Para que? 
 
-1- Permitir o compartilhamento eficiente e seguro de memória entre vários programas, como a memória necessária por múltiplas máquinas virtuais para computação em nuvem;
-
-2 - eliminar as dificuldades de programação associadas a uma quantidade pequena e limitada de memória principal.
-
 ![[Pasted image 20231117184109.png]]
 
 
@@ -19,7 +15,7 @@
 
 #### Realocação
 
-A realocação mapeia os endereços virtuais usados por um programa para diferentes endereços físicos antes que esses endereços sejam utilizados para acessar a memória. Esse processo de realocação permite carregar o programa em qualquer lugar da memória principal. Isso elimina a necessidade de encontrar um bloco contínuo de memória para alocar para um programa. Em vez disso, o sistema operacional só precisa encontrar um número suficiente de páginas livres na memória principal. Esse método simplifica a gestão da memória, pois não é mais necessário encontrar uma grande área contígua para alocar um programa, facilitando a alocação de espaço na memória principal -> Ou seja, pode haver um processo (programa) A, processo B e processo A, todos eles rodando inconscientes da existência um do outro
+A realocação mapeia os endereços virtuais usados por um programa para diferentes endereços físicos antes que esses endereços sejam utilizados para acessar a memória. Esse processo de realocação permite carregar o programa em qualquer lugar da memória principal. Isso elimina a necessidade de encontrar um bloco contínuo de memória para alocar para um programa. Em vez disso, o sistema operacional só precisa encontrar um número suficiente de páginas livres na memória principal. Esse método simplifica a gestão da memória, pois não é mais necessário encontrar uma grande área contígua para alocar um programa, facilitando a alocação de espaço na memória principal -> Ou seja, pode haver um processo (programa) A, processo B e processo A, todos eles rodando inconscientes da existência um do outro.
 
 #### Placing a Page and Finding it Again
 
