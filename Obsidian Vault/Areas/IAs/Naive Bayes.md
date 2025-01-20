@@ -73,4 +73,34 @@ Com as probabilidades calculadas para cada classe, escolhemos a classe com a mai
 Se $P(Spam∣X)>P(Não Spam∣X)$, o e-mail é classificado como spam. Caso contrário, é classificado como não spam. 
 
 
+## Tipos de Naive Bayes
 
+### 1. **Gaussian Naive Bayes** (Dados contínuos)
+
+O Gaussian Naive Bayes é usado para dados contínuos, onde as características seguem uma distribuição normal (ou Gaussiana).
+Ele calcula a probabilidade de uma característica <span class="math-inline">x\_i</span> para uma classe <span class="math-inline">C</span> usando a fórmula da função densidade de probabilidade da distribuição normal:
+
+
+$P(x_i|C) = \frac{1}{\sqrt{2\pi\sigma_C^2}} \exp\left(-\frac{(x_i - \mu_C)^2}{2\sigma_C^2}\right)$
+
+- μC​: Média dos valores da característica xi​ para a classe C.
+- $σ^2_C$​: Variância dos valores da característica xi​ para a classe C.
+
+
+### 2. **Multinomial Naive Bayes** (contagem - frequência)
+
+O **Multinomial Naive Bayes** é usado para dados categóricos ou dados representados como contagens (frequência de eventos). A probabilidade é baseada no número de vezes que uma característica xix_ixi​ ocorre na classe CCC:
+
+$P(x_i|C) = \frac{\text{Contagem de } x_i \text{ na classe } C}{\sum_{x_j \in C} \text{Contagem de } x_j}$
+
+
+**Exemplo prático**: Filtragem de spam em e-mails, onde as características são contagens de palavras (frequências de termos em um documento). Outro exemplo é a análise de sentimentos
+
+
+### 3. **Bernoulli Naive Bayes** (Dados binários)
+
+O **Bernoulli Naive Bayes** é usado para dados binários, ou seja, onde as características assumem apenas dois valores (presença ou ausência, 111 ou 000). A probabilidade para uma característica xix_ixi​ em uma classe CCC é:
+
+$$ P(x_i \mid C) = \begin{cases} P(x_i = 1 \mid C), & \text{se } x_i \text{ está presente} \\ 1 - P(x_i = 1 \mid C), & \text{se } x_i \text{ está ausente} \end{cases} $$
+
+**Exemplo prático**: Classificação de documentos com base na presença ou ausência de palavras-chave (ex.: "clique", "promoção").
