@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8f890298534a0372",
+        "id": "5a284d4119832cee",
         "type": "tabs",
         "children": [
           {
-            "id": "02510bd0769b6d57",
+            "id": "45b4ed70795a47dc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Areas/Redes/imagens/Pasted image 20240323205544.png"
+                "file": "Areas/IAs/Naive Bayes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20240323205544"
+              "icon": "lucide-file",
+              "title": "Naive Bayes"
             }
           }
         ]
@@ -173,12 +175,15 @@
   },
   "active": "b0cb0492f835dbe7",
   "lastOpenFiles": [
+    "Areas/IAs/imagens",
+    "Areas/Containers/O que é um container.md",
+    "Areas/IAs/Naive Bayes.md",
+    "Areas/Redes/imagens/Pasted image 20240323205544.png",
     "Areas/Data Engeneering/Arquitetura de Dados/Data Lakehouse.md",
     "Areas/Data Engeneering/Arquitetura de Dados/Data Lake.md",
     "Areas/outras imagens/Destinada para todas imagens da pasta.md",
     "Areas/outras imagens/Pasted image 20240323210643.png",
     "Areas/Data Engeneering/imagens/Pasted image 20240123085348.png",
-    "Areas/Redes/imagens/Pasted image 20240323205544.png",
     "Areas/Data Engeneering/imagens/Pasted image 20240123100217.png",
     "Areas/Data Engeneering/imagens/Pasted image 20240123092008.png",
     "Areas/Data Engeneering/imagens/Pasted image 20240123091302.png",
@@ -210,14 +215,11 @@
     "Recursos/Anotações de git.md",
     "Recursos/AnotaçΣes de git.md",
     "Areas/Sistemas Operacionais/processes and threads/Concorrência x Paralelismo.md",
-    "Areas/Banco de dados/Struct Query Language (SQL)/Structured Query Language (SQL) 1.md",
-    "Areas/Containers/O que é um container.md",
     "Areas/Sistemas Operacionais/memory management",
     "Areas/Redes/application layer",
     "Areas/Sistemas Operacionais/processes and threads/Interprocess Communication/Sync",
     "Areas/Sistemas Operacionais/processes and threads/Interprocess Communication",
     "Areas/Sistemas Operacionais/imagens",
-    "Areas/Sistemas Operacionais/processes and threads",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
