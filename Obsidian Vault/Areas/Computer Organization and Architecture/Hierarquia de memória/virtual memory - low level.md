@@ -5,7 +5,7 @@
 ![[Pasted image 20231117184109.png]]
 
 
-#### Conceitos chave:
+### Conceitos chave:
 
 - Memória física (physical address) ->An address in main memory;
 - page fault -> An event that occurs when an accessed page is not present in main memory;
@@ -13,14 +13,14 @@
 - address translation -> Also called address mapping. The process by which a virtual address is mapped to an address used to access memory.
 - Processo vs programa -> O "processo" refere-se à instância em execução de um programa, incluindo seu estado atual, enquanto o "programa" se refere ao conjunto de instruções e dados que compõem a lógica do software.
 
-#### Realocação
+### Realocação
 
 A realocação mapeia os endereços virtuais usados por um programa para diferentes endereços físicos antes que esses endereços sejam utilizados para acessar a memória. Esse processo de realocação permite carregar o programa em qualquer lugar da memória principal. Isso elimina a necessidade de encontrar um bloco contínuo de memória para alocar para um programa. Em vez disso, o sistema operacional só precisa encontrar um número suficiente de páginas livres na memória principal. Esse método simplifica a gestão da memória, pois não é mais necessário encontrar uma grande área contígua para alocar um programa, facilitando a alocação de espaço na memória principal -> Ou seja, pode haver um processo (programa) A, processo B e processo A, todos eles rodando inconscientes da existência um do outro.
 
-#### Placing a Page and Finding it Again
+### Placing a Page and Finding it Again
 
 Devido à penalidade significativamente alta para uma falha de página, os projetistas buscam reduzir a frequência dessas falhas otimizando o posicionamento das páginas. Ao permitir que uma página virtual seja associada a qualquer página física, o sistema operacional pode escolher substituir qualquer página durante uma falha de página. Isso permite o uso de algoritmos sofisticados e estruturas de dados complexas para selecionar páginas que provavelmente não serão necessárias por um longo tempo. A capacidade de empregar um esquema de substituição inteligente e flexível reduz a taxa de falhas de página e simplifica o uso de posicionamento totalmente associativo de páginas.
-##### Page tables
+### Page tables
 
 "The table containing the virtual to physical address translations in a virtual memory system. The table, which is stored in memory, is typically indexed by the virtual page number; each entry in the table contains the physical page number for that virtual page if the page is currently in memory."
 
@@ -41,7 +41,71 @@ Vejamos esse exemplo ilustrativo:
 
 como a tabela de páginas contém um mapeamento para cada possível página virtual, não são necessárias etiquetas (tags). Em terminologia de cache, o índice usado para acessar a tabela de páginas consiste no endereço completo do bloco, que é o número da página virtual. o número da página virtual serve como índice direto para acessar a tabela de páginas, eliminando a necessidade de tags adicionais.
 
-#### Page Faults
+#### Como funciona?
+
+### 1. **Divisão do Endereço Virtual**
+
+O endereço virtual (gerado pelo programa em execução) é dividido em:
+
+- **Número da Página Virtual**: Indica qual página virtual está sendo acessada. Corresponde aos bits mais significativos do endereço.
+- **Deslocamento**: Determina a posição específica dentro da página virtual selecionada. Corresponde aos bits menos significativos do endereço.
+
+Por exemplo:
+
+- Um endereço de **16 bits**:
+    - Se o tamanho da página for **4 KB (4096 bytes)**, serão necessários **12 bits** para o deslocamento, já que 212=40962^{12} = 4096212=4096.
+    - Os **4 bits superiores** representam o número da página virtual (com 24=162^4 = 1624=16 páginas virtuais possíveis).
+
+A divisão entre número de página e deslocamento depende diretamente do tamanho da página. Abaixo, uma operação interna na MMU com 16 páginas de 4 KB:
+
+![[Pasted image 20250121142503.png]]
+
+---
+
+### 2. **Mapeamento com a Tabela de Páginas**
+
+A tabela de páginas atua como uma função de tradução:
+
+- O **número da página virtual** é usado como índice para acessar a tabela de páginas.
+- A tabela armazena a correspondência entre números de páginas virtuais e **números de quadros de páginas** (frames), que são as unidades físicas na memória principal.
+
+Se uma página virtual está **mapeada** na memória física, a entrada correspondente na tabela fornecerá o número do quadro físico.
+
+---
+
+### 3. **Construção do Endereço Físico**
+
+Após encontrar o número do quadro físico:
+
+1. Substituímos o número da página virtual pelo número do quadro físico.
+2. O **deslocamento** é mantido inalterado.
+3. A combinação desses valores forma o endereço físico.
+
+---
+
+### Exemplo:
+
+- Tamanho da página: **4 KB**.
+- Endereço virtual: **0xABCD (hexadecimal)**.
+    - Número da página virtual: **A (4 bits)**.
+    - Deslocamento: **BCD (12 bits)**.
+
+Se a página virtual **A** está mapeada no quadro físico **7**, o endereço físico seria:
+
+- Número do quadro físico: **7**.
+- Deslocamento: **BCD**.
+- Endereço físico: **0x7BCD**.
+
+---
+
+### 4. **Função da Tabela de Páginas**
+
+Matematicamente, a tabela de páginas pode ser descrita como uma função fff, onde: f(Nuˊmero da Paˊgina Virtual)=Nuˊmero do Quadro Fıˊsicof(\text{Número da Página Virtual}) = \text{Número do Quadro Físico}f(Nuˊmero da Paˊgina Virtual)=Nuˊmero do Quadro Fıˊsico
+
+Se o número da página virtual não estiver mapeado (ou seja, não existir no momento na memória física), ocorre uma **falha de página** (_page fault_), exigindo que o sistema operacional traga a página da memória secundária (disco).
+
+
+### Page Faults
 
 "If the valid bit for a virtual page is off, a page fault occurs. The operating system must be given control. This transfer is done with the exception mechanism. Once the operating system gets control, it must find the page in the next level of the hierarchy (usually flash memory or magnetic disk) and decide where to place the requested page in main memory."
 
