@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3b62f4074893c3c7",
+        "id": "a8068e4667c7944f",
         "type": "tabs",
         "children": [
           {
-            "id": "e46e656630f132e1",
+            "id": "6306ec370312c902",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.7"
+                "file": "Obsidian Vault/Areas/Redes/application layer/network management.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "network management"
             }
           }
         ]
@@ -50,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "UDP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,22 +158,47 @@
       "command-palette:Abrir paleta de comando": false
     }
   },
-  "active": "fc2e43fb58859db5",
+  "active": "6306ec370312c902",
   "lastOpenFiles": [
-    "Obsidian Vault/Areas/Redes/Camada de rede/Fechadas listas.md",
-    "Obsidian Vault/Areas/Redes/Camada de rede/DHCP.md",
-    "Obsidian Vault/Areas/Redes/Camada de rede/Estrutura de endereçamento.md",
-    "Obsidian Vault/Areas/Redes/Camada de rede/CIDR x NAT.md",
-    "Obsidian Vault/Areas/Redes/Camada de rede/IPv4.md",
-    "Obsidian Vault/Areas/Redes/Camada de rede/Classless Inter-Domain Routing (CIDR).md",
-    "Obsidian Vault/Areas/Redes/Princípio da comunicaçao de dados/Perda na transmiss╞o.md",
-    "Obsidian Vault/Areas/Redes/Princípio da comunicaçao de dados/Perda na transmissao.md",
-    "Obsidian Vault/Areas/Redes/Princípio da comunicaçao de dados/Perda na transmissão.md",
-    "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Threads.md",
-    "Obsidian Vault/Areas/Redes/imagens/Pasted image 20241107152928.png",
-    "Obsidian Vault/Areas/Redes/Camada de rede/DNS.md",
-    "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Processos.md",
-    "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/LEMBRETE POS PRIMEIRA PROVA!.md",
-    "README.md"
+    "Obsidian Vault/Areas/Redes/imagens/Pasted image 20250123093115.png",
+    "Obsidian Vault/Areas/Redes/imagens/Pasted image 20250123091934.png",
+    "Obsidian Vault/Areas/Redes/imagens/Pasted image 20250123084630.png",
+    "Obsidian Vault/Areas/Redes/application layer/ports.md",
+    "Obsidian Vault/Areas/Redes/application layer/cookie and web cache.md",
+    "Obsidian Vault/Areas/Redes/application layer/application layer.md",
+    "Obsidian Vault/Areas/Redes/application layer/network management.md",
+    "README.md",
+    "Obsidian Vault/Areas/Redes/imagens/Pasted image 20250123084443.png",
+    "Obsidian Vault/Areas/Redes/imagens/Pasted image 20250123082529.png",
+    "Obsidian Vault/Areas/Redes/imagens/Pasted image 20250123082456.png",
+    "Obsidian Vault/Areas/Redes/transport layer/transport layer.md",
+    "Obsidian Vault/Areas/Redes/network layer/network layer.md",
+    "Obsidian Vault/Areas/Redes/Princípio da comunicaçao de dados/OSI X TCP - IP.md",
+    "Obsidian Vault/Areas/Redes/Sem título.md",
+    "Obsidian Vault/Areas/Redes/transport layer",
+    "Obsidian Vault/Areas/Redes/network layer/Estrutura de endereçamento.md",
+    "Obsidian Vault/Pasted image 20250110180751.png",
+    "Obsidian Vault/Pasted image 20250110180558.png",
+    "Obsidian Vault/Areas/Sistemas Operacionais/imagens/Pasted image 20241118141617.png",
+    "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Interprocess Communication/Sync/Semaphore.md",
+    "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Interprocess Communication/Sync/Monitores.md",
+    "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Interprocess Communication/Sync",
+    "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Interprocess Communication/Race condition.md",
+    "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Interprocess Communication/Mutual exclusion using Busy Wait.md",
+    "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Interprocess Communication",
+    "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Escalonamento.md",
+    "Obsidian Vault/Areas/Redes/imagens/Pasted image 20250110172849.png",
+    "Obsidian Vault/Areas/Redes/imagens/Pasted image 20250110171016.png",
+    "Obsidian Vault/Areas/Redes/application layer/SSH e Telnet.md",
+    "Obsidian Vault/Areas/Redes/application layer/SMTP, POP3, IMAP.md",
+    "Obsidian Vault/Areas/Redes/application layer/HTTP and HTTPS.md",
+    "Obsidian Vault/Areas/Redes/application layer/FTP.md",
+    "Obsidian Vault/Areas/Redes/application layer",
+    "Obsidian Vault/Areas/Redes/network layer/IPv6.md",
+    "Obsidian Vault/Areas/Redes/network layer/DHCP.md",
+    "Obsidian Vault/Areas/Redes/Princípio da comunicaçao de dados/Wireless/Arquitetura - IEEE 802.11.md",
+    "Obsidian Vault/Areas/Redes/network layer/IPv4.md",
+    "Obsidian Vault/Areas/Redes/network layer/DNS.md",
+    "Obsidian Vault/Areas/Redes/network layer/Fechadas listas.md"
   ]
 }

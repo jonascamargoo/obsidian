@@ -1,5 +1,3 @@
-
-
 ## O que são portas?
 
 Em redes de computadores, uma **porta** é um número lógico usado para identificar serviços ou processos específicos em um dispositivo conectado à rede. As portas permitem que várias aplicações em execução em um mesmo computador possam enviar e receber dados simultaneamente, diferenciando os dados que chegam e saem com base no número da porta.
