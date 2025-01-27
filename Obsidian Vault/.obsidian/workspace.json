@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/Sistemas Operacionais/memory management/page replacement algorithms.md",
+                "file": "Areas/Sistemas Operacionais/memory management/virtual memory - o.s. level.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "page replacement algorithms"
+              "title": "virtual memory - o.s. level"
             }
           }
         ]
@@ -175,13 +175,13 @@
   },
   "active": "45b4ed70795a47dc",
   "lastOpenFiles": [
-    "Areas/Sistemas Operacionais/memory management/address spaces.md",
-    "Areas/Sistemas Operacionais/memory management/page replacement algorithms.md",
-    "Areas/Sistemas Operacionais/memory management/virtual memory - o.s. level.md",
     "Areas/Computer Organization and Architecture/Hierarquia de memória/virtual memory - low level.md",
+    "Areas/Computer Organization and Architecture/Hierarquia de memória/virtual machine.md",
+    "Areas/Sistemas Operacionais/memory management/page replacement algorithms.md",
+    "Areas/Sistemas Operacionais/memory management/address spaces.md",
+    "Areas/Sistemas Operacionais/memory management/virtual memory - o.s. level.md",
     "Areas/Computer Organization and Architecture/C e asm.md",
     "Areas/Computer Organization and Architecture/images/Pasted image 20250121142503.png",
-    "Areas/Computer Organization and Architecture/Hierarquia de memória/virtual machine.md",
     "Areas/Computer Organization and Architecture/Hierarquia de memória/Princípio da localidade.md",
     "Areas/Computer Organization and Architecture/Hierarquia de memória/Memory Technologies.md",
     "Areas/Computer Organization and Architecture/Hierarquia de memória/Hierarquia de memória.md",
