@@ -54,14 +54,13 @@ Suponha que seja necessário atualizar o diagrama da Figura 6 para incluir a inf
 
 Uma entidade associativa nada mais é que a redefinição de um relacionamento, que passa a ser tratado como se fosse uma entidade. Graficamente, isso é feito como mostrado na Figura 7. O retângulo desenhado ao redor do relacionamento CONSULTA indica que este relacionamento passa a ser visto como uma entidade associativa:
 
-	![[Pasted image 20240724155033.png]]
+	
 
-
+![[Pasted image 20240724155033.png]]
 Caso não seja viável utilizar o conceito de entidade associativa, é possível transformar o relacionamento CONSULTA em uma entidade separada, que pode então ser relacionada com MEDICAMENTO, conforme mostrado na Figura 8:
 
-	![[Pasted image 20240724155224.png]]
 
-
+![[Pasted image 20240724155224.png]]
 
 ## Generalização e Especialização
 

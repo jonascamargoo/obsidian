@@ -105,8 +105,7 @@ Aqui a opcionalidade reina, ambos podem não ter associado, e no máximo 1. Seri
 
 Cada aluno pode se relacionar com no mínimo 1 curso e no máximo com quantos quiser. Cada curso deve estar relacionado a no máx e mín 1 pessoa
 
-
-	![[Pasted image 20240308190243.png]]
+![[Pasted image 20240308190243.png]]
 
 Aqui cada aluno pode se relacionar com no máximo n e no mínimo 0. Enquanto cursos podem ser feitos obrigatoriamente por 1 aluno.
 
