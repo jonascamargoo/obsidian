@@ -41,7 +41,6 @@ Stemming e lematização são técnicas usadas para reduzir as palavras à sua r
 
 A lematização, no entanto, envolve a redução de palavras à sua forma básica segundo sua classe gramatical. Por exemplo: a palavra "jumped" seria lematizada para "jump", mas a palavra "jumping" seria lematizada para "jumping", pois está no gerúndio.
 
-
 ## Modelo bag of words
 
 O modelo bag of words (saco de palavras) é uma técnica usada no processamento de linguagem natural (PLN) para representar dados de textos como um conjunto de recursos numéricos. Nesse modelo, cada documento ou texto é representado como um "saco" de palavras, com cada palavra no texto representada por um atributo (feature) ou dimensão separada no vetor resultante. O valor de cada atributo é determinado pelo número de vezes que a palavra correspondente aparece no texto.
