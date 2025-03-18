@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/Retrieval-Augmented Generation (RAG).md",
+                "file": "Areas/IAs/Langchain (framework).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Retrieval-Augmented Generation (RAG)"
+              "title": "Langchain (framework)"
             }
           }
         ]
@@ -176,7 +176,9 @@
   },
   "active": "38a18f6c65111961",
   "lastOpenFiles": [
-    "Areas/IAs/Untitled.md",
+    "Areas/IAs/Agents.md",
+    "Areas/IAs/Langchain (framework).md",
+    "Areas/IAs/imagens/Pasted image 20250318154423.png",
     "Areas/IAs/Retrieval-Augmented Generation (RAG).md",
     "Areas/IAs/imagens/Pasted image 20250318140907.png",
     "Areas/IAs/MCP.md",
@@ -184,7 +186,6 @@
     "Areas/IAs/analise de sentimentos/Aprendizado profundo baseado em um transformador pré-treinado/Pre-processamento de textos.md",
     "Areas/IAs/imagens/Pasted image 20250317170634.png",
     "Areas/IAs/imagens/Pasted image 20250314131611.png",
-    "Areas/IAs/Agents.md",
     "Areas/IAs/protocols",
     "Areas/IAs/analise de sentimentos/analise de sentimentos.md",
     "Areas/Sistemas Operacionais/memory management/virtual memory - o.s. level.md",
@@ -208,7 +209,6 @@
     "Areas/Data Engeneering/imagens/Pasted image 20240123085348.png",
     "Areas/Data Engeneering/imagens/Pasted image 20240123100217.png",
     "Areas/Data Engeneering/imagens/Pasted image 20240123092008.png",
-    "Areas/Data Engeneering/imagens/Pasted image 20240123091302.png",
     "Areas/Arquitetura e Eng. Software/Mensageria.md",
     "Areas/Exceções/NullPointerException (NPE).md",
     "Areas/Data Engeneering/imagens",
