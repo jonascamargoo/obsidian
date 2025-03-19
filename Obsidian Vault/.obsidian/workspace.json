@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/Langchain (framework).md",
+                "file": "Areas/IAs/AI-powered applications and LLM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Langchain (framework)"
+              "title": "AI-powered applications and LLM"
             }
           }
         ]
@@ -176,12 +176,15 @@
   },
   "active": "38a18f6c65111961",
   "lastOpenFiles": [
-    "Areas/IAs/Agents.md",
+    "Areas/IAs/imagens/Pasted image 20250319144905.png",
+    "Areas/IAs/imagens/Pasted image 20250319132933.png",
+    "Areas/IAs/MCP.md",
+    "Areas/IAs/AI-powered applications and LLM.md",
     "Areas/IAs/Langchain (framework).md",
+    "Areas/IAs/Agents.md",
     "Areas/IAs/imagens/Pasted image 20250318154423.png",
     "Areas/IAs/Retrieval-Augmented Generation (RAG).md",
     "Areas/IAs/imagens/Pasted image 20250318140907.png",
-    "Areas/IAs/MCP.md",
     "Areas/IAs/Criando GPT.md",
     "Areas/IAs/analise de sentimentos/Aprendizado profundo baseado em um transformador pré-treinado/Pre-processamento de textos.md",
     "Areas/IAs/imagens/Pasted image 20250317170634.png",
@@ -208,12 +211,10 @@
     "Areas/outras imagens/Pasted image 20240323210643.png",
     "Areas/Data Engeneering/imagens/Pasted image 20240123085348.png",
     "Areas/Data Engeneering/imagens/Pasted image 20240123100217.png",
-    "Areas/Data Engeneering/imagens/Pasted image 20240123092008.png",
     "Areas/Arquitetura e Eng. Software/Mensageria.md",
     "Areas/Exceções/NullPointerException (NPE).md",
     "Areas/Data Engeneering/imagens",
     "Areas/Exceções/Exceções em Java.md",
-    "Areas/Exceções/Erro Vs Exceção.md",
     "Areas/Exceções/imagens",
     "Areas/Data Engeneering",
     "Untitled",
