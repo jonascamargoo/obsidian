@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/AI-powered applications and LLM.md",
+                "file": "Areas/IAs/Engenharia de prompt/Chain-of-Thought Prompting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI-powered applications and LLM"
+              "title": "Chain-of-Thought Prompting"
             }
           }
         ]
@@ -176,12 +176,14 @@
   },
   "active": "38a18f6c65111961",
   "lastOpenFiles": [
+    "Areas/IAs/Engenharia de prompt/Prompt em dois passos.md",
+    "Areas/IAs/Engenharia de prompt/Prompts de follow-up.md",
+    "Areas/IAs/Langchain (framework).md",
+    "Areas/IAs/AI-powered applications and LLM.md",
+    "Areas/IAs/Agents.md",
+    "Areas/IAs/MCP.md",
     "Areas/IAs/imagens/Pasted image 20250319144905.png",
     "Areas/IAs/imagens/Pasted image 20250319132933.png",
-    "Areas/IAs/MCP.md",
-    "Areas/IAs/AI-powered applications and LLM.md",
-    "Areas/IAs/Langchain (framework).md",
-    "Areas/IAs/Agents.md",
     "Areas/IAs/imagens/Pasted image 20250318154423.png",
     "Areas/IAs/Retrieval-Augmented Generation (RAG).md",
     "Areas/IAs/imagens/Pasted image 20250318140907.png",
@@ -210,11 +212,9 @@
     "Areas/outras imagens/Destinada para todas imagens da pasta.md",
     "Areas/outras imagens/Pasted image 20240323210643.png",
     "Areas/Data Engeneering/imagens/Pasted image 20240123085348.png",
-    "Areas/Data Engeneering/imagens/Pasted image 20240123100217.png",
     "Areas/Arquitetura e Eng. Software/Mensageria.md",
     "Areas/Exceções/NullPointerException (NPE).md",
     "Areas/Data Engeneering/imagens",
-    "Areas/Exceções/Exceções em Java.md",
     "Areas/Exceções/imagens",
     "Areas/Data Engeneering",
     "Untitled",
