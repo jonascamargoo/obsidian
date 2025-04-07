@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6e314b01458ea00a",
+        "id": "495bd626ccacc033",
         "type": "tabs",
         "children": [
           {
-            "id": "38a18f6c65111961",
+            "id": "f5f631fa9848a8e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/Sistemas Operacionais/file system/exercicios.md",
+                "file": "Areas/Otimização/Programação Linear.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "exercicios"
+              "title": "Programação Linear"
             }
           }
         ]
@@ -174,10 +174,14 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "38a18f6c65111961",
+  "active": "f5f631fa9848a8e0",
   "lastOpenFiles": [
-    "Areas/Sistemas Operacionais/memory management/exercicios.md",
+    "Areas/Otimização/Introdução.md",
+    "Areas/Otimização/Programação Linear.md",
+    "Areas/Otimização",
+    "Areas/IAs/Agents.md",
     "Areas/Sistemas Operacionais/file system/exercicios.md",
+    "Areas/Sistemas Operacionais/memory management/exercicios.md",
     "Areas/Sistemas Operacionais/file system",
     "Areas/Sistemas Operacionais/processes and threads/Exercicios.md",
     "Areas/Sistemas Operacionais/processes and threads/Escalonamento.md",
@@ -186,7 +190,6 @@
     "Areas/IAs/Engenharia de prompt/Prompts de follow-up.md",
     "Areas/IAs/Langchain (framework).md",
     "Areas/IAs/AI-powered applications and LLM.md",
-    "Areas/IAs/Agents.md",
     "Areas/IAs/MCP.md",
     "Areas/IAs/imagens/Pasted image 20250319144905.png",
     "Areas/IAs/imagens/Pasted image 20250319132933.png",
@@ -209,9 +212,7 @@
     "Areas/Computer Organization and Architecture/Hierarquia de memória/Princípio da localidade.md",
     "Areas/Computer Organization and Architecture/Hierarquia de memória/Memory Technologies.md",
     "Areas/Computer Organization and Architecture/Hierarquia de memória/Hierarquia de memória.md",
-    "Areas/IAs/Naive Bayes.md",
     "Areas/IAs/imagens",
-    "Areas/Containers/O que é um container.md",
     "Areas/Redes/imagens/Pasted image 20240323205544.png",
     "Areas/outras imagens/Pasted image 20240323210643.png",
     "Areas/Data Engeneering/imagens/Pasted image 20240123085348.png",
@@ -221,7 +222,6 @@
     "Untitled",
     "Areas/Sistemas Operacionais/memory management",
     "Areas/Redes/application layer",
-    "Areas/Sistemas Operacionais/processes and threads/Interprocess Communication/Sync",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
