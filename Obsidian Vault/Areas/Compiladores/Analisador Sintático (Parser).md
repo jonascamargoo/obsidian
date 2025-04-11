@@ -104,4 +104,4 @@ Separar a árvore sintática nessas duas visões ajuda o compilador (e a gente!)
 - Suportar melhor a análise semântica posterior.
 
 
-OBS: Otimizações não acontecem no sintático, pois ele não sabe qual a melhor forma de fazer algo!
+OBS: Otimizações não acontecem no sintático, pois ele não sabe qual a melhor forma de fazer algo! Quanto **mais aberta** (ambígua ou flexível) for uma linguagem, especialmente linguagens naturais, **menos rígida será a análise léxica**, e **mais trabalho será repassado ao analisador sintático**. Isso acontece porque o léxico foca apenas na formação de tokens, enquanto o parser precisa lidar com ambiguidade e estrutura gramatical.

@@ -11,25 +11,14 @@ Mas compilar **vai além** de apenas traduzir código. O processo é dividido em
 #### Por que compiladores são importantes?
 
 - Permitem programar de forma **abstrata**, sem se preocupar com o hardware.
-    
 - Tornam o software **portátil**, funcionando em diferentes plataformas.
-    
 - Realizam **otimizações** que melhoram o desempenho do código.
-    
 - Ajudam a identificar **erros estáticos**, ainda na fase de compilação.
-    
 - São usados **além de linguagens de programação**, como em linguagens naturais.
 
 ## Etapas do Compilador
 
-
-1. lexico
-2. sintático
-	.
-	.
-	.
-
-Quanto **mais aberta** (ambígua ou flexível) for uma linguagem, especialmente linguagens naturais, **menos rígida será a análise léxica**, e **mais trabalho será repassado ao analisador sintático**. Isso acontece porque o léxico foca apenas na formação de tokens, enquanto o parser precisa lidar com ambiguidade e estrutura gramatical.
+![[Pasted image 20250411112002.png]]
 
 
 
@@ -37,20 +26,18 @@ Quanto **mais aberta** (ambígua ou flexível) for uma linguagem, especialmente 
 
 
 ---
-INSERIR AQUI AS FASES
+INSERIR AQUI AS FASES A MEDIDA QUE ESTUDAR CADA UMA
 
 LEMBRAR DE FALAR QUE O INTERPRETADOR JAVA ACEITA UMA ÁRVORE
 
 INSERIR AS FOTOS E UTILIZAR O MESMO EXEMPLO
 
-
+LEMBRAR DE EXPLICAR O QUE É LAZZY ALGUMA COISA E O QUE É JUST INT TIME
 
 
 ## 🆚 Compilação vs Interpretação
 
 Ambos os processos — **compilação** e **interpretação** — têm o objetivo de **executar programas escritos em linguagens de alto nível**, mas eles o fazem de formas bem diferentes.
-
----
 
 ### 🛠️ **Compilação**
 
@@ -75,8 +62,6 @@ A verdade é:
 
 > 🔹 **Linguagens de programação não são compiladas nem interpretadas — elas são apenas especificações de sintaxe e semântica.**  
 > 🔹 O que é compilado ou interpretado é a **implementação do compilador ou interpretador** daquela linguagem.
-
----
 
 ### 📌 Exemplo prático:
 
