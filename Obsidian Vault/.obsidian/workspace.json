@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "495bd626ccacc033",
+        "id": "79841b6dbd3a8d2a",
         "type": "tabs",
         "children": [
           {
-            "id": "f5f631fa9848a8e0",
+            "id": "0b9f2b4b94a27adf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/Otimização/Programação Linear/Método gráfico.md",
+                "file": "Areas/Compiladores/Analisador Sintático (Parser).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Método gráfico"
+              "title": "Analisador Sintático (Parser)"
             }
           }
         ]
@@ -53,10 +53,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "modula",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -174,10 +174,24 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "b0cb0492f835dbe7",
+  "active": "0b9f2b4b94a27adf",
   "lastOpenFiles": [
-    "Areas/Otimização/Programação Linear/Programação Linear.md",
+    "Areas/Compiladores/Analisador Léxico (Scanner).md",
+    "Areas/Compiladores/🚀 Por que o JIT é eficiente.md",
+    "Areas/Compiladores/🌳 O Interpretador do Java e o Ciclo de Árvores.md",
+    "Areas/Compiladores/Compiladores.md",
+    "Areas/Compiladores/Analisador Sintático (Parser).md",
+    "Areas/Compiladores/Untitled",
+    "Areas/Compiladores/imagens/Pasted image 20250411115452.png",
+    "Pasted image 20250411114352.png",
+    "Projetos/Bootcamp - AWS/Modelos de Preços AWS/Recursos Técnicos da AWS e as Opções do AWS Support.md",
+    "Areas/Compiladores/imagens",
+    "Areas/Compiladores/imagens/Pasted image 20250411112002.png",
+    "Areas/Compiladores/Sintático.md",
+    "Untitled.md",
     "Areas/Otimização/Programação Linear/Método gráfico.md",
+    "Areas/Compiladores",
+    "Areas/Otimização/Programação Linear/Programação Linear.md",
     "Areas/Otimização/Programação Linear",
     "Areas/Otimização/Introdução.md",
     "Areas/Otimização",
@@ -203,24 +217,10 @@
     "Areas/IAs/imagens/Pasted image 20250317170634.png",
     "Areas/IAs/imagens/Pasted image 20250314131611.png",
     "Areas/IAs/protocols",
-    "Areas/IAs/analise de sentimentos/analise de sentimentos.md",
-    "Areas/Sistemas Operacionais/memory management/virtual memory - o.s. level.md",
-    "Areas/Computer Organization and Architecture/Hierarquia de memória/virtual memory - low level.md",
-    "Areas/Computer Organization and Architecture/Hierarquia de memória/virtual machine.md",
-    "Areas/Sistemas Operacionais/memory management/page replacement algorithms.md",
-    "Areas/Sistemas Operacionais/memory management/address spaces.md",
-    "Areas/Computer Organization and Architecture/C e asm.md",
     "Areas/Computer Organization and Architecture/images/Pasted image 20250121142503.png",
-    "Areas/Computer Organization and Architecture/Hierarquia de memória/Princípio da localidade.md",
     "Areas/IAs/imagens",
-    "Areas/Redes/imagens/Pasted image 20240323205544.png",
-    "Areas/outras imagens/Pasted image 20240323210643.png",
-    "Areas/Data Engeneering/imagens/Pasted image 20240123085348.png",
     "Areas/Data Engeneering/imagens",
     "Areas/Exceções/imagens",
-    "Areas/Data Engeneering",
-    "Untitled",
-    "Areas/Sistemas Operacionais/memory management",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
