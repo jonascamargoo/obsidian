@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Lógica Fuzzy"
             }
+          },
+          {
+            "id": "b24208c077c89914",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,7 +172,7 @@
       "command-palette:Abrir paleta de comando": false
     }
   },
-  "active": "4d379ffa6ab8f874",
+  "active": "b24208c077c89914",
   "lastOpenFiles": [
     "Pasted image 20250406210536.png",
     "Obsidian Vault/Areas/IAs/imagens/Pasted image 20250406201544.png",
