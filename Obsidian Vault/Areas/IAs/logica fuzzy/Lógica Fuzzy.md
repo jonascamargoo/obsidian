@@ -227,3 +227,6 @@ $$
 1. Se a velocidade for **alta** e o deslizamento for **grande**, então a força de frenagem será **fraca**.
 2. Se a velocidade for **média** e o deslizamento for **médio**, então a força de frenagem será **moderada**.
 3. Se a velocidade for **baixa** e o deslizamento for **pequeno**, então a força de frenagem será **forte**.
+
+
+OBS importantes: na hora de defuzzificar e achar o centro de massa do triângulo/trapézio (achando a desejabilidade), devemos analisar a função (quando o ponto em questão não é horizontal) para saber 
