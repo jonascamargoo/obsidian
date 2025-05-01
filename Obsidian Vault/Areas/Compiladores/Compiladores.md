@@ -21,18 +21,19 @@ Mas compilar **vai além** de apenas traduzir código. O processo é dividido em
 ![[Pasted image 20250411112002.png]]
 
 
+Um compilador típico opera em fases sequenciais (embora possam se sobrepor). As fases principais incluem: 
 
+1. **Análise Léxica (Scanner):** Lê o código fonte e o divide em tokens. 
 
+2. **Análise Sintática (Parser):** Verifica se a sequência de tokens forma uma estrutura gramatical válida, geralmente construindo uma Árvore Sintática Abstrata (AST). 
 
+3. **Análise Semântica:** Verifica o significado do código e a consistência (ex: tipos compatíveis, variáveis declaradas). Utiliza intensamente a Tabela de Símbolos. 
 
----
-INSERIR AQUI AS FASES A MEDIDA QUE ESTUDAR CADA UMA
+4. **Geração de Código Intermediário (Opcional):** Cria uma representação do programa em uma linguagem mais simples e independente de máquina. 
 
-LEMBRAR DE FALAR QUE O INTERPRETADOR JAVA ACEITA UMA ÁRVORE
+5. **Otimização de Código:** Melhora o código intermediário ou final para rodar mais rápido ou usar menos recursos. 
 
-INSERIR AS FOTOS E UTILIZAR O MESMO EXEMPLO
-
-LEMBRAR DE EXPLICAR O QUE É LAZZY ALGUMA COISA E O QUE É JUST INT TIME
+6. **Geração de Código Final:** Traduz o código (intermediário ou direto da análise) para a linguagem de destino (código de máquina, assembly, bytecode).
 
 
 ## 🆚 Compilação vs Interpretação

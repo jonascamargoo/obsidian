@@ -1,6 +1,8 @@
 ## O que é?
 
-Segunda etapa de compilação. O **analisador sintático** recebe a **fila de tokens** produzida pelo léxico e verifica se essa sequência está de acordo com a **gramática da linguagem**. Ele constrói uma **árvore sintática (ou árvore de derivação)**, onde cada subárvore representa uma estrutura do programa, como uma instrução, uma expressão ou um bloco de código.
+Segunda etapa de compilação. O **analisador sintático** (ou *parser*) opera sobre a **saída** do Analisador Léxico. Sua principal entrada é a **Fila de Tokens**, uma sequência linear das unidades léxicas identificadas no código-fonte. A função do parser é verificar se essa sequência de tokens **obedece às regras gramaticais** da linguagem de programação. Ele faz isso tentando construir uma **árvore sintática (ou árvore de derivação / AST - Abstract Syntax Tree)**. 
+
+Essa árvore representa a estrutura hierárquica do código: cada nó ou subárvore corresponde a uma construção da linguagem, como uma declaração, uma expressão, um comando de controle (if, while), etc. Se a sequência de tokens puder ser organizada em uma árvore válida de acordo com a gramática, o código está sintaticamente correto. Caso contrário, se um token não se encaixar na estrutura esperada pela gramática, o parser reporta um **erro de sintaxe**.
 
 A **raiz da árvore sintática** costuma representar o ponto de entrada do programa, como `Programa` ou `Main`, dependendo da gramática. Cada comando ou expressão vira uma subárvore ligada à raiz.
 

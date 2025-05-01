@@ -25,12 +25,14 @@
             "id": "b24208c077c89914",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "Obsidian Vault/Areas/Compiladores/Analisador Léxico (Scanner).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "Analisador Léxico (Scanner)"
             }
           }
         ],
@@ -174,6 +176,19 @@
   },
   "active": "b24208c077c89914",
   "lastOpenFiles": [
+    "Obsidian Vault/Areas/Compiladores/Analisador Sintático (Parser).md",
+    "Obsidian Vault/Areas/Compiladores/Compiladores.md",
+    "Obsidian Vault/Areas/Compiladores/🌳 O Interpretador do Java e o Ciclo de Árvores.md",
+    "Obsidian Vault/Areas/Compiladores/Analisador Léxico (Scanner).md",
+    "Obsidian Vault/Areas/Otimização/Programação Linear/Método gráfico.md",
+    "Obsidian Vault/Areas/Otimização/imagens",
+    "Obsidian Vault/Areas/Otimização/imagens/Pasted image 20250419181410.png",
+    "Obsidian Vault/Areas/Otimização/Programação Linear/Programação Linear.md",
+    "Obsidian Vault/Areas/Compiladores/imagens/Pasted image 20250411115452.png",
+    "Obsidian Vault/Areas/Compiladores/imagens/Pasted image 20250411112002.png",
+    "Obsidian Vault/Areas/Compiladores/🚀 Por que o JIT é eficiente.md",
+    "Obsidian Vault/Areas/Compiladores/imagens",
+    "Obsidian Vault/Areas/Compiladores",
     "Pasted image 20250406210536.png",
     "Obsidian Vault/Areas/IAs/imagens/Pasted image 20250406201544.png",
     "Obsidian Vault/Areas/IAs/imagens/Pasted image 20250406200830.png",
@@ -191,7 +206,6 @@
     "Obsidian Vault/Areas/IAs/Engenharia de prompt/Chain-of-Thought Prompting.md",
     "Obsidian Vault/Areas/IAs/Engenharia de prompt/8 Elementos de um bom prompt.md",
     "Obsidian Vault/Areas/IAs/Preparando conteudo para IA/Preparando o conteúdo para ser utilizado.md",
-    "Obsidian Vault/Areas/IAs/imagens/Pasted image 20250225093250.png",
     "Obsidian Vault/Areas/IAs/Naive Bayes.md",
     "Obsidian Vault/Areas/IAs/analise de sentimentos",
     "Obsidian Vault/Areas/IAs/Criando GPT.md",
@@ -204,19 +218,8 @@
     "Obsidian Vault/Areas/Banco de dados/Álgebra Relacional.md",
     "Obsidian Vault/Areas/Banco de dados/Chave estrangeira x primária.md",
     "Obsidian Vault/Areas/Banco de dados/Join.md",
-    "Obsidian Vault/Areas/Banco de dados/Problema N + 1.md",
-    "Obsidian Vault/Areas/Sistemas Operacionais/memory management/virtual memory - o.s. level.md",
-    "Obsidian Vault/Areas/Sistemas Operacionais/videos de suporte.md",
-    "Obsidian Vault/Areas/Banco de dados/Modelo de entidade relacionamento/Modelo de entidade relacionamento.md",
-    "Obsidian Vault/Areas/Banco de dados/Modelo de entidade relacionamento/Modelo de Entidade-Relacionamento Estendido (EER).md",
-    "Obsidian Vault/Areas/Redes/application layer/network management.md",
-    "Obsidian Vault/Areas/Redes/imagens/Pasted image 20250123093115.png",
-    "Obsidian Vault/Areas/Redes/imagens/Pasted image 20250123091934.png",
-    "Obsidian Vault/Areas/Redes/imagens/Pasted image 20250123084630.png",
-    "Obsidian Vault/Areas/Redes/application layer/ports.md",
     "Obsidian Vault/Areas/Redes/transport layer",
     "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Interprocess Communication/Sync",
-    "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Interprocess Communication",
-    "Obsidian Vault/Areas/Redes/application layer"
+    "Obsidian Vault/Areas/Sistemas Operacionais/Processos e threads/Interprocess Communication"
   ]
 }
