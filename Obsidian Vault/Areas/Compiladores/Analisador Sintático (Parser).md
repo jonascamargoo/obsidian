@@ -106,4 +106,16 @@ Separar a árvore sintática nessas duas visões ajuda o compilador (e a gente!)
 - Suportar melhor a análise semântica posterior.
 
 
-OBS: Otimizações não acontecem no sintático, pois ele não sabe qual a melhor forma de fazer algo! Quanto **mais aberta** (ambígua ou flexível) for uma linguagem, especialmente linguagens naturais, **menos rígida será a análise léxica**, e **mais trabalho será repassado ao analisador sintático**. Isso acontece porque o léxico foca apenas na formação de tokens, enquanto o parser precisa lidar com ambiguidade e estrutura gramatical.
+### Gramática Formal, Ambiguidade e o Desafio da Linguagem Natural
+
+O "dicionário" que o analisador sintático consulta é, na verdade, uma **gramática formal** que define todas as regras estruturais da linguagem. Essa gramática é comumente expressa em uma notação chamada **BNF (Backus-Naur Form)**. Quando a gramática é definida de forma estrita e sem ambiguidades, ferramentas conhecidas como *compiler-compilers* (ex: YACC, ANTLR) conseguem ler o arquivo BNF e gerar o código de um analisador sintático funcional automaticamente.
+
+É na análise sintática que a diferença entre linguagens de programação e linguagens naturais se torna gritante:
+
+* **Linguagens de Programação e Ambiguidade:** São projetadas para serem **livres de ambiguidade**. Uma expressão como `x = a + b;` deve ter apenas uma interpretação estrutural válida. O parser, portanto, gera uma única e determinística Árvore Sintática Abstrata (AST).
+
+* **Linguagens Naturais e Ambiguidade:** A **ambiguidade é a regra**. Uma frase como "Eu vi o homem na montanha com o telescópio" pode gerar múltiplas árvores sintáticas válidas. O desafio do parser de uma LN é ser capaz de reconhecer todas as estruturas possíveis e, em fases posteriores (semântica), tentar determinar a mais provável. Por isso, como regra geral, **quanto mais aberta e flexível for a linguagem, mais complexidade é transferida do analisador léxico para o sintático e semântico**.
+
+* **Paralelismo:** Em linguagens que suportam concorrência, a forma como as subárvores são construídas pode ser adaptada para facilitar a análise e a execução paralela das instruções.
+
+
