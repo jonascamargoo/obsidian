@@ -1,0 +1,18 @@
+
+Nesta aula introdutória, analisaremos os conceitos fundamentais de ética e moral, destacando suas diferenças e implicações na prática da engenharia. A discussão abordará a importância da ética na tomada de decisões, a necessidade de uma conduta profissional responsável e os impactos sociais e ambientais das atividades da engenharia. Serão apresentados casos de condutas antiéticas e suas consequências, tanto do ponto de vista legal quanto moral. Além disso, exploraremos a formação do pensamento ético ao longo da história, desde suas raízes filosóficas na Antiguidade até sua relevância no mundo contemporâneo. Debateremos como normas de ética profissional surgem e por que os engenheiros devem aderir a esses princípios para garantir práticas justas e sustentáveis.  
+
+  
+
+A moral é um conjunto de regras, valores e crenças que orientam o comportamento das pessoas dentro de um determinado grupo ou sociedade. Ela é aprendida ao longo da vida, transmitida pela cultura, pela religião e pelas tradições. A moral dita o que é certo ou errado para um indivíduo ou comunidade com base em princípios herdados e aceitos socialmente. É por isso que o que é moralmente correto para um grupo pode não ser para outro. Em algumas sociedades, determinadas práticas são moralmente aceitáveis, enquanto em outras são condenáveis. A moral tem um caráter normativo, ou seja, define padrões de conduta que regulam como os indivíduos devem agir em diferentes situações.  
+
+  
+
+Já a ética é um campo do conhecimento que busca refletir sobre os princípios que fundamentam a moral. Enquanto a moral estabelece regras e valores, a ética analisa criticamente essas regras e investiga os fundamentos daquilo que se considera correto ou incorreto. A ética não é apenas um conjunto de normas, mas uma disciplina filosófica que questiona, debate e busca justificativas racionais para a conduta humana. No contexto profissional, a ética estabelece diretrizes que vão além das leis e da moral social, orientando práticas que garantam justiça, responsabilidade e integridade. A ética, portanto, não se restringe a um grupo específico, mas busca princípios universais que possam ser aplicados a diferentes contextos.  
+
+  
+
+A principal diferença entre ética e moral está na forma como elas operam. A moral é mais intuitiva e subjetiva, determinada por valores culturais, religiosos ou pessoais, enquanto a ética busca uma fundamentação mais racional e universal. A moral se aprende no dia a dia, na convivência com a família e a sociedade, enquanto a ética exige reflexão e análise. Um engenheiro pode se deparar com um dilema moral em que precisa escolher entre seguir sua consciência ou atender a normas estabelecidas por sua profissão. A ética, nesse caso, entra como um mecanismo de avaliação que permite tomar a melhor decisão, considerando os impactos sociais e ambientais de suas ações.  
+
+  
+
+É importante ressaltar que o comportamento considerado lícito pela lei foge daquilo que a ética e a moral debatem, exceto quando se pretende discutir se uma lei é ética ou se uma lei é moral. O direito estabelece normas jurídicas que regulam a convivência em sociedade, mas nem sempre essas normas são justas do ponto de vista moral ou ético. Há leis que, embora sejam legais, podem ser moralmente condenáveis, como as que permitem a degradação ambiental em nome do progresso econômico. Do mesmo modo, há ações eticamente corretas que podem não estar contempladas em legislações específicas. A lei é uma tentativa de estabelecer um mínimo ético na sociedade, mas não cobre todas as nuances do debate moral e ético, o que exige que o profissional, especialmente na engenharia, vá além da legalidade e reflita sobre as consequências de suas decisões.

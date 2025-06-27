@@ -49,7 +49,7 @@ O Analisador Léxico geralmente produz ou interage com duas estruturas principai
 1. **Fila de Tokens:**
     
     - **Propósito:** Armazena a **sequência ordenada** por chegada de tokens significativos que foram reconhecidos no código-fonte. É a saída principal do analisador léxico e a entrada para o analisador sintático.
-    - **Conteúdo:** Inclui tokens como palavras-chave, identificadores, operadores, literais e delimitadores importantes para a estrutura (como parênteses, chaves, ponto e vírgula). Separadores como espaços geralmente não entram aqui.
+    - **Conteúdo:** Inclui tokens como palavras-chave, identificadores, operadores, literais e delimitadores importantes para a estrutura (como parênteses, chaves, ponto e vírgula). Separadores como espaços geralmente não entram aqui. Comentários entrariam se o compilador fosse especificado para linguagens de programação tradicionais. Mas como é uma linguagem natural, deve ser interessante inserir os comentários também.
     - **Exemplo:** Para `int x = 10;`, a fila seria `[TOKEN_INT, TOKEN_ID(x), TOKEN_ASSIGN, TOKEN_NUMBER(10), TOKEN_SEMICOLON]`. Se a entrada fosse `André André André`, a fila conteria três tokens representando "André".
 2. **Tabela de Símbolos:**
     
