@@ -46,15 +46,3 @@ Esta soma ponderada, que representa o potencial de ativação do neurônio, para
 ![[Pasted image 20250702090929.png]]
 onde cada neurônio tem seu u
 
-### Algoritmo de Treinamento do Perceptron
-
-- **Inicialização:** Antes do início da primeira época, inicialize os pesos $w_i$​ com valores pequenos e randômicos (-0.1 e 0.1).
-    
-- **Épocas de Treinamento:** Enquanto não encontrar uma condição de parada, faça:
-    - Para cada par de treinamento `<x,y>`, onde `x` é o vetor de entrada e `y` é a saída desejada, execute os seguintes passos:
-        
-        1. **Cálculo da Saída:** Execute o vetor `x` na rede neural para encontrar a saída $o_k$, k é a dimensão de saída;
-            
-        2. **Cálculo do Delta:** Para cada peso wi​k, calcule a sua variação (Δwi​k). A regra de atualização é: $Δw_ik​ = η(y_k−o_k)xi$​, tal que η é o coef de aprendizado e $y_k−o_k$ é a saída desejada menos a saída obtida. Teremos um delta por peso
-         
-        3. **Atualização dos Pesos:** Para cada peso w_i​k, calcule seu novo valor$$\overline{\overline{w_ik}} = \overline{\overline{w_ik}} + \overline{\overline{Δw_ik$}}$$
