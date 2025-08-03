@@ -9,6 +9,16 @@ Dentro desse universo não relacional, uma nova categoria de SGBDs tem ganhado d
 
 Um **vetor embedding** é, essencialmente, uma **representação numérica** de dados não estruturados (como uma frase, uma imagem ou um áudio) em um espaço de alta dimensão. Pense nisso como uma lista de números que capta o significado semântico do dado original. A grande sacada é que dados com significados semelhantes terão seus vetores "próximos" uns dos outros nesse espaço multidimensional.
 
+#### Quando gero o embedding de uma frase, tenho um vetor embedding ou o emdbedding são vários vetores?
+
+Ao gerar o embedding de uma frase, o resultado é um **único vetor numérico**. Esse vetor, conhecido como _sentence embedding_, representa o significado semântico da frase inteira em um espaço dimensional.
+
+A principal distinção reside na diferença entre _word embeddings_ (embeddings de palavras) e _sentence embeddings_ (embeddings de frases). Enquanto o primeiro gera um vetor para cada palavra individualmente, o segundo agrega a informação de todas as palavras e sua ordem para criar uma representação vetorial única para a sentença completa.
+
+Modelos de linguagem modernos, como o BERT (Bidirectional Encoder Representations from Transformers) e suas variações otimizadas para similaridade de sentenças (Sentence-BERT), são projetados especificamente para essa tarefa. No caso do BERT, por exemplo, um token especial `[CLS]` (classification) é adicionado no início de cada frase. O vetor de embedding correspondente a este token no final do processamento do modelo é frequentemente utilizado como a representação da frase inteira.
+
+Outras técnicas para a geração de _sentence embeddings_ incluem a média ou o _pooling_ dos vetores de _word embeddings_ de todas as palavras da frase. No entanto, abordagens mais sofisticadas como as do BERT geralmente produzem resultados de maior qualidade, pois conseguem capturar melhor o contexto e as nuances da linguagem.
+
 ---
 
 ### Pinecone: Um SGBD de Vetores em Ação
@@ -52,5 +62,4 @@ A relação é a seguinte:
         
 
 Dessa forma, o LangChain permite que o LLM "aumente" seu conhecimento com informações atualizadas e específicas, respondendo a perguntas com maior precisão e evitando "alucinações". Os bancos de dados vetoriais, como o Pinecone, são a fundação que torna essa busca semântica e recuperação de informações rápidas e eficientes em grande escala.
-
 

@@ -43,3 +43,4 @@ Sua primeira resposta deve ser apenas uma saudação e perguntar sobre o que o p
 4. **Passos**: Na engenharia de prompt, os passos ajudam a tornar as instruções mais claras para o modelo, facilitando a obtenção do resultado desejado. Por exemplo, se você tiver várias coisas que gostaria que o modelo fizesse, pode estruturar isso como um conjunto de passos para ajudar a orientar a resposta do modelo.
 5. **Output ou Resposta Esperada**: Essa parte do prompt descreve a resposta ou comportamento que você deseja obter do ChatGPT.
 6. **Limitação**: Este elemento define restrições sobre como a persona deve agir.
+

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/redes neurais/Fundamentos das RNAs.md",
+                "file": "Areas/Banco de dados/Vector Database/Vector Database.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fundamentos das RNAs"
+              "title": "Vector Database"
             }
           }
         ]
@@ -176,8 +176,17 @@
   },
   "active": "c688ad1fba57cd94",
   "lastOpenFiles": [
-    "Areas/IAs/redes neurais/Perceptron.md",
+    "Recursos/Rascunho para knowledge base.md",
+    "Areas/IAs/Engenharia de prompt/Meta-prompts.md",
+    "Areas/IAs/Engenharia de prompt/Meta-promtp2.md",
+    "Areas/IAs/Engenharia de prompt/Chain-of-Thought Prompting.md",
+    "Areas/IAs/Engenharia de prompt/8 Elementos de um bom prompt.md",
+    "Areas/IAs/Engenharia de prompt/Persona do usuário.md",
+    "Areas/IAs/Engenharia de prompt/Prompt em dois passos.md",
+    "Areas/IAs/Engenharia de prompt/Prompts de follow-up.md",
+    "Areas/IAs/Engenharia de prompt/Verificação cognitiva.md",
     "Areas/IAs/redes neurais/Fundamentos das RNAs.md",
+    "Areas/IAs/redes neurais/Perceptron.md",
     "Areas/outras imagens/Pasted image 20240323210643.png",
     "Areas/outras imagens/Destinada para todas imagens da pasta.md",
     "Areas/Ética/Progresso.md",
@@ -194,19 +203,10 @@
     "Areas/Compiladores/BNF e Documentos.md",
     "Areas/Compiladores/Compiladores.md",
     "Areas/Compiladores/notas.md",
-    "Areas/Compiladores/🌳 O Interpretador do Java e o Ciclo de Árvores.md",
     "Areas/Banco de dados/imagens/Pasted image 20250726155530.png",
-    "Areas/Banco de dados/Relational Database/Chave estrangeira x primária.md",
-    "Areas/Banco de dados/Relational Database/Álgebra Relacional.md",
-    "Areas/Banco de dados/Relational Database/Dependência funcional e normalização/Análise informal - Diretrizes Informais.md",
-    "Areas/Banco de dados/Relational Database/Dependência funcional e normalização/Análise formal - Dependência funcional.md",
-    "Areas/IAs/Building Applications with Vector Databases/What is Vectors Databases.md",
     "Areas/Banco de dados/Relational Database",
     "Areas/Banco de dados/Vector Database",
-    "Areas/Ética/Ética contemporânea.md",
     "Areas/IAs/Building Applications with Vector Databases",
-    "Areas/Ética/Utilitarismo.md",
-    "Areas/Ética/Moral x Ética.md",
     "Areas/IAs/Algoritmos Genéticos",
     "Areas/Otimização/Programação Linear/Método simplex",
     "Areas/Compiladores/Untitled",
