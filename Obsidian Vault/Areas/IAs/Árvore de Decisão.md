@@ -42,3 +42,98 @@ Imagine uma árvore de decisão para aprovação de crédito. Uma árvore muito 
 Essa perda de amostras em nós cada vez mais específicos torna o sistema frágil e pouco robusto. A alta variância do modelo faz com que pequenas alterações nos dados de treinamento possam resultar em uma árvore completamente diferente.
 
 Para combater o overfitting, técnicas como a **poda (pruning)** são empregadas. A poda consiste em remover partes da árvore (ramos e nós) que fornecem pouco poder preditivo, resultando em um modelo mais simples e com melhor capacidade de generalização. Outra abordagem é limitar a profundidade máxima da árvore ou definir um número mínimo de amostras por nó folha.
+
+## Exemplo de código
+
+```python
+
+# %%
+
+# Carregamento dos dados
+
+import pandas as pd
+
+
+df = pd.read_excel("data/dados_frutas.xlsx")
+
+df # pq o df solto aqui? -> Quando a última linha de uma célula é uma variável ou um objeto (sem estar dentro de um print()), o ambiente automaticamente "inspeciona" esse objeto e exibe sua representação visual mais rica como a saída da célula.
+
+# %%
+
+# Preparação dos Dados para o Modelo
+  
+
+from sklearn import tree #scikit-learn é a maior lib de ML em python - im importing its decicion tree and its classifier
+
+  
+
+arvore = tree.DecisionTreeClassifier(random_state=42) # Cria uma "instância" vazia de um modelo de Árvore de Decisão para classificação. random_state=42 é um parâmetro para garantir que, se o algoritmo precisar de alguma aleatoriedade, os resultados sejam sempre os mesmos toda vez que o código for rodado, garantindo a reprodutibilidade.
+
+  
+
+y = df['Fruta'] # Separação da nossa variável-alvo. y é o que queremos que o modelo aprenda a prever. Neste caso, é a coluna "Fruta" da nossa tabela
+
+  
+
+caracteristicas = ["Arredondada","Suculenta",'Vermelha','Doce'] # Separação da nossa variável-alvo. y é o que queremos que o modelo aprenda a prever. Neste caso, é a coluna "Fruta" da nossa tabela.
+
+  
+
+X = df[caracteristicas] # Separação das nossas variáveis preditoras (features). X representa os dados que o modelo usará para fazer a previsão. Aqui, estamos selecionando apenas as colunas com as características da fruta.
+
+  
+
+# Aqui X e Y devem ter o mesmo número de linhas, pois cada linha de X corresponde a uma linha de y. Ou seja, cada fruta tem suas características e seu nome associado.
+
+X
+
+  
+
+# %%
+
+# ISSO AQUI E MACHINE LEARNING!!!!
+
+arvore.fit(X, y) # O método .fit() treina o modelo. Ele analisa os dados X (características) e y (nomes das frutas) e "aprende" as regras e padrões que conectam as características a cada tipo de fruta. Por exemplo, ele pode aprender que "se 'Vermelha' for 1 e 'Arredondada' for 1, a chance de ser uma Maçã é alta".
+
+  
+
+# %%
+
+# Fazendo uma Previsão Simples
+
+arvore.predict([[1,1,1,0]]) # Agora usamos o modelo treinado para fazer uma previsão. Estamos fornecendo um novo dado para o modelo: uma fruta que não é Arredondada (0), não é Suculenta (0), não é Vermelha (0) e não é Doce (0). O modelo usará as regras que aprendeu para classificar essa nova fruta.
+
+  
+
+# %%
+
+  
+
+import matplotlib.pyplot as plt
+
+  
+
+plt.figure(dpi=400, figsize=[4,4])
+
+  
+
+tree.plot_tree(arvore,
+
+feature_names=caracteristicas,
+
+class_names=arvore.classes_,
+
+filled=True)
+
+
+#%%
+
+proba = arvore.predict_proba([[1,1,1,1]])[0]
+pd.Series(proba, index=arvore.classes_)
+
+```
+
+
+![[Pasted image 20250810133628.png]]Representação da árvore de decisão gerada
+
+
