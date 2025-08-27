@@ -135,5 +135,3 @@ pd.Series(proba, index=arvore.classes_)
 
 
 ![[Pasted image 20250810133628.png]]Representação da árvore de decisão gerada
-
-

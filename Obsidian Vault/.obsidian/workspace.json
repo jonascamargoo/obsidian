@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/Árvore de Decisão.md",
+                "file": "Areas/IAs/RAGs/Metadata Filtering In Rag.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Árvore de Decisão"
+              "title": "Metadata Filtering In Rag"
             }
           }
         ]
@@ -174,20 +174,25 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b0cb0492f835dbe7",
+  "active": "c688ad1fba57cd94",
   "lastOpenFiles": [
+    "Areas/IAs/RAGs/Approximate nearest neighbors (ANN).md",
+    "Areas/IAs/RAGs/Metadata Filtering In Rag.md",
+    "Areas/IAs/imagens/Pasted image 20250825083945.png",
+    "Areas/IAs/imagens/Pasted image 20250824223907.png",
+    "Areas/IAs/imagens/Pasted image 20250824223746.png",
+    "Areas/IAs/Árvore de Decisão.md",
+    "Areas/IAs/RAGs",
     "Areas/IAs/imagens/Pasted image 20250810133628.png",
     "Areas/IAs/imagens/Pasted image 20250808225152.png",
     "Areas/IAs/imagens/Pasted image 20250808225025.png",
     "Recursos/Rascunho para knowledge base.md",
-    "Areas/IAs/Árvore de Decisão.md",
-    "Areas/IAs/Untitled",
     "Recursos/Config postgres.md",
     "Recursos/Notas sobre frameworks.md",
     "Recursos/Futurotec.md",
     "Recursos/Bug de Estado Sao Lucas.md",
     "Recursos/Anotações de git.md",
-    "Areas/IAs/Retrieval-Augmented Generation (RAG).md",
+    "Areas/IAs/RAGs/Retrieval-Augmented Generation (RAG).md",
     "Areas/Banco de dados/Vector Database/Vector Database.md",
     "Areas/IAs/Engenharia de prompt/Meta-prompts.md",
     "Areas/IAs/Engenharia de prompt/Meta-promtp2.md",
@@ -204,8 +209,6 @@
     "Areas/Ética/Progresso.md",
     "Areas/Ética/Dilemas éticos.md",
     "Areas/Data Engeneering/Arquitetura de Dados/Data Warehouse.md",
-    "Areas/Data Engeneering/Arquitetura de Dados/Data Lakehouse.md",
-    "Areas/Data Engeneering/Arquitetura de Dados/Data Lake.md",
     "Areas/Banco de dados/imagens/Pasted image 20250726155530.png",
     "Areas/Banco de dados/Relational Database",
     "Areas/Banco de dados/Vector Database",
@@ -216,12 +219,8 @@
     "Areas/Compiladores/imagens/Pasted image 20250411115452.png",
     "Pasted image 20250411114352.png",
     "Areas/Compiladores/imagens",
-    "Areas/Compiladores/imagens/Pasted image 20250411112002.png",
     "Areas/Compiladores",
     "Areas/Otimização/Programação Linear",
-    "Areas/IAs/imagens/Pasted image 20250319144905.png",
-    "Areas/IAs/imagens/Pasted image 20250319132933.png",
-    "Areas/IAs/imagens/Pasted image 20250318154423.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
