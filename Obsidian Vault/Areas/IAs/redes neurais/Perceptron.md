@@ -103,7 +103,7 @@ O objetivo é treinar um Perceptron para aproximar a função $f(x) = 2x - 1$.
 - Atualização de Pesos: $w_i \leftarrow w_i + \Delta w_i$
 
 ---
-## 1ª Época
+#### 1ª Época
 
 **Pesos Iniciais:** $w_0 = 0, w_1 = 0$.
 
@@ -114,7 +114,7 @@ O objetivo é treinar um Perceptron para aproximar a função $f(x) = 2x - 1$.
 - $\Delta w_1 = 0.0$
 - **Novos Pesos:** $w_0 = -0.3, w_1 = 0$
 
-### Amostra 2: (x=1, y=1)
+#### Amostra 2: (x=1, y=1)
 - $u = -0.3, o = -0.3$
 - $\epsilon = 1.3$
 - $\Delta w_0 = 0.39$
@@ -128,51 +128,97 @@ O objetivo é treinar um Perceptron para aproximar a função $f(x) = 2x - 1$.
 - $\Delta w_1 = 1.278$
 - **Novos Pesos:** $w_0 = 0.729, w_1 = 1.668$
 
-### Amostra 4: (x=3, y=5)
+#### Amostra 4: (x=3, y=5)
 - $u = 5.733, o = 5.733$
 - $\epsilon = 0.733$
 - $\Delta w_0 = -0.219$
 - $\Delta w_1 = -0.659$
-### Fim da 1ª Época
+#### Fim da 1ª Época
 
 - **Erro Total da Época ($\epsilon_T$):** 5.163
 
 ---
-## 2ª Época
+#### 2ª Época
 
 **Pesos Iniciais (vindos da época anterior):** $w_0 = 0.509, w_1 = 1.008$.
 
-### Amostra 1: (x=0, y=-1)
+#### Amostra 1: (x=0, y=-1)
 - $u = 0.509, o = 0.509$
 - $\epsilon = 1.509$
 - $\Delta w_0 = -0.452$
 - $\Delta w_1 = 0.0$
 - **Novos Pesos:** $w_0 = 0.056, w_1 = 1.008$
 
-### Amostra 2: (x=1, y=1)
+#### Amostra 2: (x=1, y=1)
 - $u = 1.064, o = 1.064$
 - $\epsilon = 1.064$
 - $\Delta w_0 = -0.019$
 - $\Delta w_1 = 0.037$
 - **Novos Pesos:** $w_0 = 0.037, w_1 = 0.988$
 
-### Amostra 3: (x=2, y=3)
+#### Amostra 3: (x=2, y=3)
 - $u = 2.014, o = 2.014$
 - $\epsilon = 0.985$
 - $\Delta w_0 = 0.295$
 - $\Delta w_1 = 0.591$
 - **Novos Pesos:** $w_0 = 0.332, w_1 = 1.580$
 
-### Amostra 4: (x=3, y=5)
+#### Amostra 4: (x=3, y=5)
 - $u = 5.072, o = 5.072$
 - $\epsilon = 0.072$
 - $\Delta w_0 = -0.021$
 - $\Delta w_1 = -0.065$
 
-
-### Fim da 2ª Época
+#### Fim da 2ª Época
 
 - **Erro Total da Época ($\epsilon_T$):** 2.631
 
+### Descrição do Fluxo de Treinamento do Perceptron
 
+O texto que você forneceu é um exemplo prático e detalhado de como um neurônio Perceptron **aprende** de forma iterativa. O objetivo final é ajustar seus pesos internos para que ele consiga imitar a função matemática f(x)=2x−1.
 
+O fluxo de treinamento pode ser entendido da seguinte forma:
+
+#### 1. Preparação e Início (Pré-Treinamento)
+
+O processo começa com a definição dos parâmetros básicos:
+
+- **Modelo:** Um único neurônio com dois pesos: `$w_1$` (que aprenderá o coeficiente `2` da função) e `$w_0$` (o bias, que aprenderá o intercepto `-1`).
+    
+- **Dados:** Um conjunto de 4 amostras `(x, y)` que servem como "gabarito" para o treinamento.
+    
+- **Estado Inicial:** Na **1ª Época**, o Perceptron começa "sem conhecimento", com seus pesos inicializados em zero (`$w_0 = 0, w_1 = 0$`).
+    
+
+#### 2. O Processo Dentro de uma Época
+
+Uma **época** consiste em apresentar ao Perceptron todo o conjunto de dados, amostra por amostra, de forma sequencial.
+
+- **Para a primeira amostra `(x=0, y=-1)`:**
+    
+    1. O Perceptron calcula o **potencial de ativação `u`** (a soma ponderada), que resulta em `0.0`.
+        
+    2. Ele compara sua saída (`o=0.0`) com a saída esperada (`y=-1`) e calcula um **erro (`ε`)**.
+        
+    3. Usando a **Regra Delta (`Δw`)**, ele calcula o quanto precisa ajustar cada peso. Note que `Δw_1` é zero porque a entrada `x` era zero, então esse peso não teve contribuição para o erro.
+        
+    4. Finalmente, ele **atualiza seus pesos**.
+        
+- **Para as amostras seguintes (2, 3 e 4):** O ponto crucial do aprendizado é que para a segunda amostra, o Perceptron **não usa mais os pesos iniciais**, mas sim os pesos que acabaram de ser ajustados no passo anterior. Esse ciclo de **previsão -> cálculo de erro -> ajuste** se repete para cada amostra. A cada passo, os pesos são refinados, aproximando-se um pouco mais da solução ideal.
+    
+
+#### 3. A Transição Entre Épocas
+
+- **Fim da 1ª Época:** Após o Perceptron ter visto todas as quatro amostras, a primeira época termina. O erro total (`$\epsilon_T$`) é de `5.163`, uma medida de quão "errado" o modelo estava nesse primeiro ciclo completo. Os pesos finais guardam todo o aprendizado adquirido.
+    
+- **Início da 2ª Época:** A segunda época não começa do zero. Ela parte dos **pesos finais da época anterior**. O Perceptron reinicia o processo, passando por todas as quatro amostras novamente, mas agora com um ponto de partida muito melhor.
+    
+
+#### 4. A Evidência do Aprendizado
+
+O sucesso do treinamento é visível ao comparar o final das duas épocas:
+
+- O erro total da 2ª Época (`2.631`) é quase a metade do erro da 1ª Época (`5.163`).
+    
+
+Isso demonstra que o fluxo está funcionando: a cada passagem completa pelos dados (a cada época), o Perceptron se torna progressivamente mais preciso em suas previsões, e seus pesos convergem lentamente para os valores ideais ($w_1 \approx 2$ e $w_0 \approx -1$). Este ciclo se repetiria por centenas ou milhares de épocas até que o erro se torne minimamente pequeno.
