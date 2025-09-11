@@ -6,3 +6,5 @@ Num sistema distruído com arquitetura centralizada, o servidor trabalha enviand
 
 No google drive, ele acessa a réplica e envia uma hash de integridade pro cliente. Se a hash n bater, o cliente pede o documento  atualizado. Eu acho que ele separa o documento em chunks para fazer o versionamento (utilizando os diff), pois a chance de a pessoa ter alterado apenas trecho é maior do que ter alterado todo o documento. Ele analisa os metadados de cada chunk e se perceber que houve muitas alterações, o cliente faz a requisição do documento inteiro.
 
+Fale sobre diferença entre as centralizadas, descentralizadas e híbridas
+
