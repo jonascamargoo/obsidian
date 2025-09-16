@@ -163,3 +163,8 @@ TRABALHO 1
 Ele está mais interessado em como o client e servidor são conectados (parte transacional entre cliente e servidor)
 
 Fazer o chapter solution que o leo postou
+
+
+Qual a diferneça entre SDR, SOR? sei que o SOR garante o desempenho e o SDR garante a disponibilidade, já a rede garante a confiabilidade. Só pra esclarecer, as camadas são SDR  -> middlewhere -> SOR -> Rede, do alto nível para o baixo.
+
+
