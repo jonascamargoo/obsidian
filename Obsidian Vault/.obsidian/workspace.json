@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/Sistemas Distribuidos/IDL - Interface Definition Languages.md",
+                "file": "Areas/Sistemas Distribuidos/Arquitetura em Camadas - SO, SOR e Rede.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IDL - Interface Definition Languages"
+              "title": "Arquitetura em Camadas - SO, SOR e Rede"
             }
           }
         ]
@@ -177,9 +177,14 @@
   },
   "active": "20c41c503263142b",
   "lastOpenFiles": [
-    "Areas/Sistemas Distribuidos/trabalho.md",
+    "Areas/Sistemas Distribuidos/Compartilhamento em Sistemas Distribuídos.md",
     "Areas/Sistemas Distribuidos/IDL - Interface Definition Languages.md",
-    "Areas/Sistemas Distribuidos/Réplicas.md",
+    "Areas/Sistemas Distribuidos/trabalho.md",
+    "Areas/Sistemas Distribuidos/Tipos de arquiteturas em sistemas distribuídos.md",
+    "Areas/Sistemas Distribuidos/Réplicas - Sincronização e Consistência de Dados em um Mundo Desconectado.md",
+    "Areas/Sistemas Distribuidos/Idempotência.md",
+    "Areas/Sistemas Distribuidos/Fale sobre a idepotência (canal do galego fala sobre isso).md",
+    "Areas/Sistemas Distribuidos/Arquitetura em Camadas - SO, SOR e Rede.md",
     "Areas/Sistemas Distribuidos/Transações.md",
     "Areas/IAs/Árvore de Decisão.md",
     "Areas/IAs/Langchain (framework).md",
@@ -199,11 +204,6 @@
     "Projetos/Bootcamp - AWS/Conceitos de nuvem na AWS/AWS well-Architected Framework.md",
     "Areas/Redes/application layer/application layer.md",
     "Projetos/Bootcamp - AWS/Tecnologia e Serviços da AWS/Serviços de Computação e Banco de Dados.md",
-    "Projetos/Bootcamp - AWS/Tecnologia e Serviços da AWS/Serviços de Computaç╞o e Banco de Dados.md",
-    "Projetos/Bootcamp - AWS/Tecnologia e Serviços da AWS/Infraestrutura Global e Conectividade.md",
-    "Projetos/Bootcamp - AWS/Tecnologia e Serviços da AWS/Rede e Armazenamento.md",
-    "Projetos/Bootcamp - AWS/Conceitos de nuvem na AWS/Estratégias de Migração para a Nuvem com AWS CAF.md",
-    "Projetos/Bootcamp - AWS/Conceitos de nuvem na AWS/Estratégias de Migraç╞o para a Nuvem com AWS CAF.md",
     "Areas/Sistemas Distribuidos/imagens/Pasted image 20250910205937.png",
     "Untitled.base",
     "Untitled 2.base",
