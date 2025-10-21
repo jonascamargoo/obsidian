@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "65e2b0c8dcb45bf5",
+        "id": "4ceb2e0e7cffa70f",
         "type": "tabs",
         "children": [
           {
-            "id": "20c41c503263142b",
+            "id": "8bab7bc58e14d53c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/Sistemas Distribuidos/Tipos de arquiteturas em sistemas distribuídos.md",
+                "file": "Areas/Sistemas Distribuidos/Idempotência.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tipos de arquiteturas em sistemas distribuídos"
+              "title": "Idempotência"
+            }
+          },
+          {
+            "id": "4e738a089ffc9795",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Areas/Sistemas Distribuidos/A queda do us-east-1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "A queda do us-east-1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,38 +190,38 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "20c41c503263142b",
+  "active": "4e738a089ffc9795",
   "lastOpenFiles": [
-    "Areas/Sistemas Distribuidos/trabalho.md",
-    "Areas/Sistemas Distribuidos/ddsdsds.md",
     "Areas/Sistemas Distribuidos/Tipos de arquiteturas em sistemas distribuídos.md",
-    "Areas/IAs/redes neurais/Perceptron.md",
-    "Areas/IAs/Árvore de Decisão.md",
-    "Areas/IAs/AI-powered applications and LLM.md",
-    "Areas/IAs/redes neurais/Fundamentos das RNAs.md",
-    "Areas/Sistemas Distribuidos/Réplicas - Sincronização e Consistência de Dados em um Mundo Desconectado.md",
-    "Areas/Sistemas Distribuidos/IDL - Interface Definition Languages.md",
-    "Areas/Sistemas Distribuidos/Idempotência.md",
+    "Areas/Sistemas Distribuidos/A queda do us-east-1.md",
     "Areas/Sistemas Distribuidos/Compartilhamento em Sistemas Distribuídos.md",
     "Areas/Sistemas Distribuidos/Arquitetura em Camadas - SO, SOR e Rede.md",
+    "Areas/Sistemas Distribuidos/Idempotência.md",
+    "Areas/Sistemas Distribuidos/IDL - Interface Definition Languages.md",
+    "Areas/Sistemas Distribuidos/Réplicas - Sincronização e Consistência de Dados em um Mundo Desconectado.md",
+    "Areas/Sistemas Distribuidos/trabalho.md",
+    "Areas/IAs/redes neurais/Perceptron.md",
+    "Areas/Sistemas Distribuidos/ddsdsds.md",
+    "Areas/IAs/redes neurais/MLP.md",
+    "Areas/IAs/roadmap.md",
+    "Areas/IAs/Agents.md",
+    "Areas/IAs/Projeto Interface Success.md",
+    "Areas/IAs/AI-powered applications and LLM.md",
+    "Areas/IAs/redes neurais/Fundamentos das RNAs.md",
+    "Areas/Compiladores/Analisador Léxico (Scanner).md",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Untitled.canvas",
+    "Untitled.base",
+    "Areas/IAs/Árvore de Decisão.md",
     "Recursos/Config postgres.md",
     "Recursos/deploy de app spring com docker.md",
     "Recursos/Notas sobre testes.md",
     "Recursos/Para linkedin.md",
     "Recursos/Rascunho para knowledge base.md",
     "Recursos/Sobre o places-manager.md",
-    "Untitled 2.base",
-    "Untitled 1.base",
-    "Untitled.canvas",
-    "Untitled.base",
     "Areas/Sistemas Distribuidos/Fale sobre a idepotência (canal do galego fala sobre isso).md",
     "Areas/Sistemas Distribuidos/Transações.md",
-    "Areas/IAs/Langchain (framework).md",
-    "Areas/IAs/Agents.md",
-    "Areas/IAs/RAGs/Approximate nearest neighbors (ANN).md",
-    "Areas/IAs/RAGs/Retrieval-Augmented Generation (RAG).md",
-    "Areas/IAs/RAGs/Transformer architecture.md",
-    "Areas/IAs/RAGs/Metadata Filtering In Rag.md",
     "Areas/Sistemas Distribuidos/imagens/Pasted image 20250910205937.png",
     "Areas/Sistemas Distribuidos/imagens",
     "Areas/Otimização/Teoria da decisão",
