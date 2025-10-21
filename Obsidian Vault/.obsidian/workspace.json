@@ -192,11 +192,12 @@
   },
   "active": "4e738a089ffc9795",
   "lastOpenFiles": [
-    "Areas/Sistemas Distribuidos/Tipos de arquiteturas em sistemas distribuídos.md",
-    "Areas/Sistemas Distribuidos/A queda do us-east-1.md",
+    "Areas/Sistemas Distribuidos/Idempotência.md",
     "Areas/Sistemas Distribuidos/Compartilhamento em Sistemas Distribuídos.md",
     "Areas/Sistemas Distribuidos/Arquitetura em Camadas - SO, SOR e Rede.md",
-    "Areas/Sistemas Distribuidos/Idempotência.md",
+    "Areas/Sistemas Distribuidos/A queda do us-east-1.md",
+    "Areas/Sistemas Distribuidos/imagens/multi-region.png",
+    "Areas/Sistemas Distribuidos/Tipos de arquiteturas em sistemas distribuídos.md",
     "Areas/Sistemas Distribuidos/IDL - Interface Definition Languages.md",
     "Areas/Sistemas Distribuidos/Réplicas - Sincronização e Consistência de Dados em um Mundo Desconectado.md",
     "Areas/Sistemas Distribuidos/trabalho.md",
@@ -221,7 +222,6 @@
     "Recursos/Rascunho para knowledge base.md",
     "Recursos/Sobre o places-manager.md",
     "Areas/Sistemas Distribuidos/Fale sobre a idepotência (canal do galego fala sobre isso).md",
-    "Areas/Sistemas Distribuidos/Transações.md",
     "Areas/Sistemas Distribuidos/imagens/Pasted image 20250910205937.png",
     "Areas/Sistemas Distribuidos/imagens",
     "Areas/Otimização/Teoria da decisão",
@@ -238,7 +238,6 @@
     "Areas/IAs/imagens/Pasted image 20250824223746.png",
     "Areas/IAs/RAGs",
     "Areas/IAs/imagens/Pasted image 20250810133628.png",
-    "Areas/IAs/imagens/Pasted image 20250808225152.png",
     "Untitled 1.canvas"
   ]
 }

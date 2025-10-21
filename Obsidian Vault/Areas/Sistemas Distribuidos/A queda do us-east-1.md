@@ -75,7 +75,5 @@ Projetar sistemas distribuídos na nuvem exige mais do que simplesmente "subir i
 
 O verdadeiro aprendizado quando a us-east-1 falha é este: **a nuvem não falhou — sua arquitetura falhou em ser distribuída.**
 
-Enquanto isso... ☕
-
-> Café na mão, lições aprendidas na cabeça e diagramas multi-região no próximo sprint.
+![[multi-region.png]]
 
