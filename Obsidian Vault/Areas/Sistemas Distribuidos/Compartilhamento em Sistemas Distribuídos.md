@@ -1,6 +1,6 @@
 
 ---
-
+Foco: _como recursos são compartilhados e gerenciados entre nós_.
 ## 1. O Conceito de Compartilhamento em Sistemas Distribuídos
 
 Em sistemas distribuídos, o "compartilhamento" é um conceito central que permite que múltiplos processos, possivelmente em máquinas diferentes, acessem ou utilizem um recurso comum. A natureza e os desafios desse compartilhamento variam drasticamente dependendo do que está sendo compartilhado.

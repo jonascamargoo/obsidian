@@ -1,3 +1,4 @@
+Foco: _resiliência e consistência lógica entre múltiplos serviços_.
 ### **O Problema da Duplicidade de Ações e a Solução da Idempotência**
 
 **Cenário do Problema:**

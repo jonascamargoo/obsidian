@@ -1,5 +1,6 @@
 Um dos maiores desafios em sistemas distribuídos é manter os dados consistentes e atualizados entre diferentes locais (servidores, clientes, dispositivos móveis), especialmente quando alguns desses locais podem ficar offline.
 
+Foco: _consistência de dados, resiliência e sincronia entre réplicas_.
 #### **1. O "Mundo Offline" do Google Drive: Consistência Eventual na Prática**
 
 > _"Preciso entender como o Google Drive sincroniza quando usuários offline lidam com idempotência... ele acessa a réplica e envia uma hash de integridade pro cliente... separa o documento em chunks para fazer o versionamento (utilizando os diff)..."_

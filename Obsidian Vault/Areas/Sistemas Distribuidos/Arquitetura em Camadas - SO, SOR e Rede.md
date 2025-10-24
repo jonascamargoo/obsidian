@@ -1,4 +1,7 @@
+
+Foco: _níveis de abstração e comunicação entre componentes_.
 #### **1. Definição dos Componentes**
+
 
 Primeiramente, é necessário definir cada peça do sistema.
 

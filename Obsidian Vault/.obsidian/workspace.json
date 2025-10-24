@@ -11,32 +11,13 @@
             "id": "8bab7bc58e14d53c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Areas/Sistemas Distribuidos/Idempotência.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Idempotência"
-            }
-          },
-          {
-            "id": "4e738a089ffc9795",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Areas/Sistemas Distribuidos/A queda do us-east-1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "A queda do us-east-1"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,16 +171,21 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "4e738a089ffc9795",
+  "active": "b0cb0492f835dbe7",
   "lastOpenFiles": [
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Untitled.canvas",
+    "Untitled.base",
+    "Areas/Sistemas Distribuidos/Tipos de Arquiteturas em Sistemas Distribuídos.md",
+    "Areas/Sistemas Distribuidos/Réplicas - Sincronização e Consistência de Dados em um Mundo Desconectado.md",
+    "Areas/Sistemas Distribuidos/rasc.md",
+    "Areas/Sistemas Distribuidos/IDL - Interface Definition Languages.md",
     "Areas/Sistemas Distribuidos/Idempotência.md",
     "Areas/Sistemas Distribuidos/Compartilhamento em Sistemas Distribuídos.md",
     "Areas/Sistemas Distribuidos/Arquitetura em Camadas - SO, SOR e Rede.md",
     "Areas/Sistemas Distribuidos/A queda do us-east-1.md",
     "Areas/Sistemas Distribuidos/imagens/multi-region.png",
-    "Areas/Sistemas Distribuidos/Tipos de arquiteturas em sistemas distribuídos.md",
-    "Areas/Sistemas Distribuidos/IDL - Interface Definition Languages.md",
-    "Areas/Sistemas Distribuidos/Réplicas - Sincronização e Consistência de Dados em um Mundo Desconectado.md",
     "Areas/Sistemas Distribuidos/trabalho.md",
     "Areas/IAs/redes neurais/Perceptron.md",
     "Areas/Sistemas Distribuidos/ddsdsds.md",
@@ -210,10 +196,6 @@
     "Areas/IAs/AI-powered applications and LLM.md",
     "Areas/IAs/redes neurais/Fundamentos das RNAs.md",
     "Areas/Compiladores/Analisador Léxico (Scanner).md",
-    "Untitled 2.base",
-    "Untitled 1.base",
-    "Untitled.canvas",
-    "Untitled.base",
     "Areas/IAs/Árvore de Decisão.md",
     "Recursos/Config postgres.md",
     "Recursos/deploy de app spring com docker.md",
@@ -221,7 +203,6 @@
     "Recursos/Para linkedin.md",
     "Recursos/Rascunho para knowledge base.md",
     "Recursos/Sobre o places-manager.md",
-    "Areas/Sistemas Distribuidos/Fale sobre a idepotência (canal do galego fala sobre isso).md",
     "Areas/Sistemas Distribuidos/imagens/Pasted image 20250910205937.png",
     "Areas/Sistemas Distribuidos/imagens",
     "Areas/Otimização/Teoria da decisão",
