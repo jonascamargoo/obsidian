@@ -77,7 +77,7 @@ O `k` controla o impacto dos documentos de alto escalão:
 
 ---
 
-### 4. Ajuste Fino (Fine-tuning)
+### 4. Ajuste Fino (Fine-tuning) no RRF
 
 A força da busca híbrida está em sua capacidade de ajuste:
 
@@ -93,9 +93,11 @@ A força da busca híbrida está em sua capacidade de ajuste:
     
 - **Ajuste de `Top_k` (pré-fusão):** Alterar quantos documentos (ex: 50) cada busca (Keyword/Semantic) recupera _antes_ da fusão.
     
-
+	![[Pasted image 20251031150937.png]]
 ### Conclusão
 
 Após a fusão e reclassificação pelo RRF, o retriever simplesmente retorna o `Top_k` (ex: os 10 melhores) da lista híbrida final.
+
+![[Pasted image 20251031151028.png]]
 
 Esta abordagem permite que o sistema se beneficie simultaneamente da **precisão literal** da Keyword Search e da **compreensão de significado** da Semantic Search, enquanto ainda impõe **regras de negócio** através do Metadata Filtering.
