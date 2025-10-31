@@ -11,10 +11,14 @@
             "id": "8bab7bc58e14d53c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Areas/IAs/RAGs/Hybrid Search.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Hybrid Search"
             }
           }
         ]
@@ -173,6 +177,23 @@
   },
   "active": "b0cb0492f835dbe7",
   "lastOpenFiles": [
+    "Areas/IAs/imagens/Pasted image 20251031130452.png",
+    "Areas/IAs/imagens/Pasted image 20251031130339.png",
+    "Areas/IAs/RAGs/Keyword Search.md",
+    "Areas/IAs/RAGs/Hybrid Search.md",
+    "Areas/IAs/RAGs/Semantic Search.md",
+    "Areas/IAs/RAGs/Embedding.md",
+    "Areas/IAs/Pasted image 20251031124520.png",
+    "Areas/IAs/imagens/Pasted image 20251031124203.png",
+    "Areas/IAs/imagens/Pasted image 20251031123512.png",
+    "Areas/IAs/RAGs/Metadata Filtering In Rag.md",
+    "Areas/IAs/RAGs/LLM sampling strategies.md",
+    "Areas/IAs/redes neurais/MLP.md",
+    "Areas/IAs/imagens/Pasted image 20251031114648.png",
+    "Untitled.md",
+    "Areas/IAs/RAGs/Retrieval-Augmented Generation (RAG).md",
+    "Areas/IAs/RAGs/Transformer architecture.md",
+    "Areas/IAs/RAGs/Approximate nearest neighbors (ANN).md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.canvas",
@@ -189,20 +210,9 @@
     "Areas/Sistemas Distribuidos/trabalho.md",
     "Areas/IAs/redes neurais/Perceptron.md",
     "Areas/Sistemas Distribuidos/ddsdsds.md",
-    "Areas/IAs/redes neurais/MLP.md",
     "Areas/IAs/roadmap.md",
     "Areas/IAs/Agents.md",
     "Areas/IAs/Projeto Interface Success.md",
-    "Areas/IAs/AI-powered applications and LLM.md",
-    "Areas/IAs/redes neurais/Fundamentos das RNAs.md",
-    "Areas/Compiladores/Analisador Léxico (Scanner).md",
-    "Areas/IAs/Árvore de Decisão.md",
-    "Recursos/Config postgres.md",
-    "Recursos/deploy de app spring com docker.md",
-    "Recursos/Notas sobre testes.md",
-    "Recursos/Para linkedin.md",
-    "Recursos/Rascunho para knowledge base.md",
-    "Recursos/Sobre o places-manager.md",
     "Areas/Sistemas Distribuidos/imagens/Pasted image 20250910205937.png",
     "Areas/Sistemas Distribuidos/imagens",
     "Areas/Otimização/Teoria da decisão",
@@ -213,12 +223,7 @@
     "Areas/IAs/imagens/Pasted image 20250827111956.png",
     "Areas/IAs/imagens/Pasted image 20250827105924.png",
     "Areas/IAs/imagens/Pasted image 20250827100400.png",
-    "Areas/IAs/imagens/Pasted image 20250827100136.png",
-    "Areas/IAs/imagens/Pasted image 20250825083945.png",
-    "Areas/IAs/imagens/Pasted image 20250824223907.png",
-    "Areas/IAs/imagens/Pasted image 20250824223746.png",
     "Areas/IAs/RAGs",
-    "Areas/IAs/imagens/Pasted image 20250810133628.png",
     "Untitled 1.canvas"
   ]
 }

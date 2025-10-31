@@ -54,7 +54,9 @@ Os dados externos são informações que não fazem parte do treinamento origina
 
 ### 2. Recuperação de informações relevantes
 
-Quando um usuário faz uma consulta, o sistema converte a pergunta em uma representação vetorial e a compara com os dados armazenados no banco de vetores. Assim, ele recupera os documentos mais relevantes para a questão.
+Quando um usuário faz uma consulta, o sistema converte a pergunta em uma representação vetorial e a compara com os dados armazenados no banco de vetores. Assim, ele recupera os documentos mais relevantes para a questão. É importante notar que o prompt também passa pelo modelo de embedding em questão.
+
+![[Pasted image 20251031114648.png]]
 
 ### 3. Enriquecimento do prompt
 

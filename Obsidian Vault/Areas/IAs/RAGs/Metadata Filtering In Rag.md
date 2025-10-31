@@ -1,15 +1,38 @@
+Em sistemas de busca avançada, como o RAG (Retrieval-Augmented Generation), o "metadata filtering" (filtragem por metadados) é um mecanismo crucial de segurança, personalização e relevância.
 
+Como o texto-base indica, a filtragem por metadados **não realiza a recuperação de dados** por si só. Em vez disso, ela **restringe os resultados** que foram obtidos por outras técnicas (como a busca vetorial semântica).
 
+A sua principal característica é que ela opera com base em **atributos (metadados)**, e não no **conteúdo da consulta**.
 
+### Como Funciona na Prática?
 
-In RAG, metadata filtering doesn't permorm retrieval, it narrows down results from other techiques based on user attributes, not query content.
+Pense no metadata filtering como os filtros de um site de e-commerce:
 
+1. **A "Outra Técnica" (Busca Semântica):** Você digita "tênis de corrida" na barra de busca. A busca semântica entende o _significado_ e encontra 500 tênis relevantes.
+    
+2. **O "Metadata Filtering":** Agora, você usa os filtros na lateral: `Marca: [Nike]`, `Tamanho: [42]`, `Cor: [Preto]`.
+    
 
-basic tf scoring treats all words equally, whether they're common filler words or rare, meaningful terms. Solution: weight terms using "inverse document frequency" (IDF). Então, basicamente o problema da TF é que se um documento é mais longo, consequentemente vai haver mais incidências daquele termo no documento, o que não significa que ele seja mais relevante. O IDF resolve isso, com a fórmula de score. score = tf(word, doc) * log(total docs/docs containing word). The result is an idf value for each word that captures how rare it is across the knowledge
+O sistema não fez uma nova busca por "tênis de corrida da Nike tamanho 42". Ele simplesmente pegou os 500 resultados originais e **restringiu** a lista, mostrando apenas aqueles que tinham as "etiquetas" (metadados) correspondentes.
 
+### Aplicado ao RAG
 
-https://satyadeepmaheshwari.medium.com/inverted-index-the-backbone-of-modern-search-engines-8bfd19a9ff75
+Em um sistema RAG, cada "chunk" (pedaço de documento) no banco vetorial possui não apenas o seu conteúdo (o vetor), mas também metadados:
 
-## Completar no final de semana...
+- `"ano": 2023`
+    
+- `"departamento": "RH"`
+    
+- `"nivel_acesso": "Confidencial"`
+    
+- `"autor": "Ana Silva"`
+    
 
+Quando um usuário faz uma pergunta, o processo ocorre em duas etapas:
 
+1. **Recuperação (Baseada no Conteúdo):** A busca vetorial encontra os 250 chunks mais relevantes para o _significado_ da pergunta (ex: "Qual o bônus de performance?").
+    
+2. **Filtragem (Baseada nos Atributos):** O sistema então aplica os filtros com base nos **atributos do usuário**. Se o usuário logado é do time de "Vendas", o sistema restringe os resultados, descartando todos os chunks que não sejam `nivel_acesso: "Público"` ou `departamento: "Vendas"`.
+    
+
+Em resumo, o metadata filtering não é quem _encontra_ a agulha no palheiro. Ele é o "segurança" que verifica o crachá de cada agulha que a busca vetorial encontrou, garantindo que apenas as corretas cheguem ao usuário.
