@@ -1,13 +1,34 @@
 
 
-Basic retrieval -> KNN: K Nearest Neighbors: 1. vectorize all documents and prompt; 2. compute distances to all documents vectores; 3. sort by distance 
+Embora a busca vetorial (semântica) seja fundamental, sua implementação ingênua, conhecida como **k-Nearest Neighbors (k-NN)**, sofre de um grave problema de escalabilidade.
+
+### O Problema do k-NN (Busca Exata)
+
+O k-NN, ou "busca exata", é o algoritmo básico de recuperação vetorial.
+
+1. **Vetorização:** O prompt e todos os documentos são vetorizados.
+    
+2. **Cálculo de Distância:** O vetor do prompt é comparado com **todos os outros vetores** da base de dados.
+    
+3. **Ordenação:** Os resultados são ordenados por distância para encontrar os `k` mais próximos.
+    
+
+
 ![[Pasted image 20250824223907.png]]
 
+**O Problema:** O custo computacional é $O(N)$, crescendo linearmente com o número de documentos ($N$).
 
+- **$10^3$ documentos** = $10^3$ cálculos de distância.
+    
+- **$10^9$ documentos** = $10^9$ cálculos de distância (um milhão de vezes mais lento).
+    
+
+Isso torna a busca exata impraticável em _web scale_, levando a uma latência inaceitável.
 
 Problema: é O(n), se houve 1000 documentos, a cada busca será calculado a distancia com 1000 documentos
 
 ![[Pasted image 20250824223746.png]]
+
 
 
 ## O Approximate Nearest neighbor

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/RAGs/Hybrid Search.md",
+                "file": "Areas/IAs/RAGs/Escalabilidade da Busca Vetorial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hybrid Search"
+              "title": "Escalabilidade da Busca Vetorial"
             }
           }
         ]
@@ -175,16 +175,17 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b0cb0492f835dbe7",
+  "active": "8bab7bc58e14d53c",
   "lastOpenFiles": [
+    "Areas/IAs/RAGs/Embedding.md",
+    "Areas/IAs/RAGs/Retrieval Quality Metrics.md",
+    "Areas/IAs/RAGs/Hybrid Search.md",
     "Areas/IAs/imagens/Pasted image 20251031151028.png",
     "Areas/IAs/imagens/Pasted image 20251031150937.png",
     "Areas/IAs/imagens/Pasted image 20251031130452.png",
     "Areas/IAs/imagens/Pasted image 20251031130339.png",
     "Areas/IAs/RAGs/Keyword Search.md",
-    "Areas/IAs/RAGs/Hybrid Search.md",
     "Areas/IAs/RAGs/Semantic Search.md",
-    "Areas/IAs/RAGs/Embedding.md",
     "Areas/IAs/Pasted image 20251031124520.png",
     "Areas/IAs/imagens/Pasted image 20251031124203.png",
     "Areas/IAs/imagens/Pasted image 20251031123512.png",
@@ -195,7 +196,7 @@
     "Untitled.md",
     "Areas/IAs/RAGs/Retrieval-Augmented Generation (RAG).md",
     "Areas/IAs/RAGs/Transformer architecture.md",
-    "Areas/IAs/RAGs/Approximate nearest neighbors (ANN).md",
+    "Areas/IAs/RAGs/Escalabilidade da Busca Vetorial.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.canvas",
@@ -222,7 +223,6 @@
     "Areas/Sistemas Distribuidos",
     "Untitled",
     "Areas/Segurança",
-    "Areas/IAs/imagens/Pasted image 20250827111956.png",
     "Areas/IAs/RAGs",
     "Untitled 1.canvas"
   ]
