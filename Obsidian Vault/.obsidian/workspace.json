@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/RAGs/Chunking.md",
+                "file": "Areas/IAs/RAGs/Otimização de Consultas (Query Parsing) em RAG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chunking"
+              "title": "Otimização de Consultas (Query Parsing) em RAG"
             }
           }
         ]
@@ -177,8 +177,13 @@
   },
   "active": "8bab7bc58e14d53c",
   "lastOpenFiles": [
-    "Pasted image 20251102160815.png",
+    "Pasted image 20251102173539.png",
+    "Pasted image 20251102173442.png",
+    "Areas/IAs/Langchain (framework).md",
+    "Areas/IAs/RAGs/Otimização de Consultas (Query Parsing) em RAG.md",
+    "Areas/IAs/AI-powered applications and LLM.md",
     "Areas/IAs/RAGs/Chunking.md",
+    "Pasted image 20251102160815.png",
     "Areas/IAs/imagens/Pasted image 20251102160726.png",
     "Areas/IAs/imagens/Pasted image 20251102160433.png",
     "Areas/IAs/imagens/Pasted image 20251102160328.png",
@@ -188,7 +193,6 @@
     "Areas/IAs/imagens/Pasted image 20251102153729.png",
     "Areas/IAs/RAGs/Vector DBs.md",
     "Areas/IAs/imagens/Pasted image 20251102151525.png",
-    "Areas/IAs/imagens/Pasted image 20251102151506.png",
     "Areas/IAs/RAGs/ANN - Escalabilidade da Busca Vetorial.md",
     "Areas/IAs/RAGs/Transformer architecture.md",
     "Areas/IAs/RAGs/Retrieval-Augmented Generation (RAG).md",
@@ -213,9 +217,6 @@
     "Areas/Sistemas Distribuidos/Idempotência.md",
     "Areas/Sistemas Distribuidos/Compartilhamento em Sistemas Distribuídos.md",
     "Areas/Sistemas Distribuidos/Arquitetura em Camadas - SO, SOR e Rede.md",
-    "Areas/Sistemas Distribuidos/A queda do us-east-1.md",
-    "Areas/Sistemas Distribuidos/trabalho.md",
-    "Areas/IAs/redes neurais/Perceptron.md",
     "Areas/Sistemas Distribuidos/imagens",
     "Areas/Otimização/Teoria da decisão",
     "Areas/Untitled",
