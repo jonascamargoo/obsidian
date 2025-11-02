@@ -48,7 +48,7 @@ Embora a reescrita básica seja geralmente suficiente, técnicas mais complexas 
     - `date: "1993"`
         
 - O retriever pode então usar esses dados para filtrar os resultados onde `character == "Harry Potter"` E `year == "1993"`.
-    
+    ![[Pasted image 20251102173849.png]]
 
 #### 2.2. Hypothetical Document Embeddings (HyDE)
 
