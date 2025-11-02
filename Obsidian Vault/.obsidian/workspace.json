@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/RAGs/Chunking - A Otimização Fundamental de Pré-processamento.md",
+                "file": "Areas/IAs/RAGs/Chunking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chunking - A Otimização Fundamental de Pré-processamento"
+              "title": "Chunking"
             }
           }
         ]
@@ -177,16 +177,18 @@
   },
   "active": "8bab7bc58e14d53c",
   "lastOpenFiles": [
+    "Pasted image 20251102160815.png",
+    "Areas/IAs/RAGs/Chunking.md",
+    "Areas/IAs/imagens/Pasted image 20251102160726.png",
+    "Areas/IAs/imagens/Pasted image 20251102160433.png",
+    "Areas/IAs/imagens/Pasted image 20251102160328.png",
     "Areas/IAs/imagens/Pasted image 20251102154025.png",
     "Areas/IAs/imagens/Pasted image 20251102153855.png",
     "Areas/IAs/imagens/Pasted image 20251102153813.png",
     "Areas/IAs/imagens/Pasted image 20251102153729.png",
     "Areas/IAs/RAGs/Vector DBs.md",
-    "Areas/IAs/RAGs/Chunking - A Otimização Fundamental de Pré-processamento.md",
     "Areas/IAs/imagens/Pasted image 20251102151525.png",
     "Areas/IAs/imagens/Pasted image 20251102151506.png",
-    "Areas/IAs/imagens/Pasted image 20251102151359.png",
-    "Areas/IAs/imagens/Pasted image 20251102151250.png",
     "Areas/IAs/RAGs/ANN - Escalabilidade da Busca Vetorial.md",
     "Areas/IAs/RAGs/Transformer architecture.md",
     "Areas/IAs/RAGs/Retrieval-Augmented Generation (RAG).md",
@@ -198,9 +200,6 @@
     "Areas/IAs/RAGs/Hybrid Search.md",
     "Areas/IAs/RAGs/Embedding.md",
     "Areas/IAs/Building Applications with Vector Databases/What is Vectors Databases.md",
-    "Areas/IAs/imagens/Pasted image 20251031124520.png",
-    "Areas/IAs/imagens/Pasted image 20251102150858.png",
-    "Areas/IAs/imagens/Pasted image 20251102150743.png",
     "Areas/IAs/redes neurais/MLP.md",
     "Untitled.md",
     "Untitled 2.base",
