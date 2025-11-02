@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/RAGs/Vector DBs.md",
+                "file": "Areas/IAs/RAGs/Chunking - A Otimização Fundamental de Pré-processamento.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vector DBs"
+              "title": "Chunking - A Otimização Fundamental de Pré-processamento"
             }
           }
         ]
@@ -175,8 +175,14 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b0cb0492f835dbe7",
+  "active": "8bab7bc58e14d53c",
   "lastOpenFiles": [
+    "Areas/IAs/imagens/Pasted image 20251102154025.png",
+    "Areas/IAs/imagens/Pasted image 20251102153855.png",
+    "Areas/IAs/imagens/Pasted image 20251102153813.png",
+    "Areas/IAs/imagens/Pasted image 20251102153729.png",
+    "Areas/IAs/RAGs/Vector DBs.md",
+    "Areas/IAs/RAGs/Chunking - A Otimização Fundamental de Pré-processamento.md",
     "Areas/IAs/imagens/Pasted image 20251102151525.png",
     "Areas/IAs/imagens/Pasted image 20251102151506.png",
     "Areas/IAs/imagens/Pasted image 20251102151359.png",
@@ -193,13 +199,8 @@
     "Areas/IAs/RAGs/Embedding.md",
     "Areas/IAs/Building Applications with Vector Databases/What is Vectors Databases.md",
     "Areas/IAs/imagens/Pasted image 20251031124520.png",
-    "Areas/IAs/RAGs/Vector DBs.md",
     "Areas/IAs/imagens/Pasted image 20251102150858.png",
     "Areas/IAs/imagens/Pasted image 20251102150743.png",
-    "Areas/IAs/imagens/Pasted image 20251102120709.png",
-    "Areas/IAs/imagens/Pasted image 20251102120441.png",
-    "Areas/IAs/imagens/Pasted image 20251102114846.png",
-    "Areas/IAs/imagens/Pasted image 20251102114756.png",
     "Areas/IAs/redes neurais/MLP.md",
     "Untitled.md",
     "Untitled 2.base",
@@ -216,7 +217,6 @@
     "Areas/Sistemas Distribuidos/A queda do us-east-1.md",
     "Areas/Sistemas Distribuidos/trabalho.md",
     "Areas/IAs/redes neurais/Perceptron.md",
-    "Areas/Sistemas Distribuidos/ddsdsds.md",
     "Areas/Sistemas Distribuidos/imagens",
     "Areas/Otimização/Teoria da decisão",
     "Areas/Untitled",
