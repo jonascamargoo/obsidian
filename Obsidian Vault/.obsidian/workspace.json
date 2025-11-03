@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/RAGs/Arquiteturas Avançadas de Busca Semântica - Cross-encoders e ColBERT.md",
+                "file": "Areas/IAs/RAGs/Transformer architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arquiteturas Avançadas de Busca Semântica - Cross-encoders e ColBERT"
+              "title": "Transformer architecture"
             }
           }
         ]
@@ -175,24 +175,25 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "8bab7bc58e14d53c",
+  "active": "b0cb0492f835dbe7",
   "lastOpenFiles": [
-    "Pasted image 20251102180808.png",
-    "Pasted image 20251102180621.png",
-    "Areas/IAs/imagens/Pasted image 20251102175750.png",
-    "Areas/IAs/imagens/Pasted image 20251102175656.png",
+    "Areas/IAs/imagens/Pasted image 20251103115414.png",
+    "Areas/IAs/imagens/Pasted image 20251103113902.png",
+    "Areas/IAs/imagens/Pasted image 20251103113558.png",
+    "Areas/IAs/imagens/Pasted image 20251103111840.png",
+    "Areas/IAs/RAGs/Reranking.md",
+    "Areas/IAs/imagens/Pasted image 20251102183039.png",
     "Areas/IAs/RAGs/Otimização de Consultas (Query Parsing) em RAG.md",
+    "Areas/IAs/imagens/Pasted image 20251102182814.png",
+    "Areas/IAs/imagens/Pasted image 20251102182732.png",
+    "Areas/IAs/imagens/Pasted image 20251102182639.png",
     "Areas/IAs/RAGs/Arquiteturas Avançadas de Busca Semântica - Cross-encoders e ColBERT.md",
-    "Areas/IAs/imagens/Pasted image 20251102173849.png",
-    "Areas/IAs/imagens/Pasted image 20251102173539.png",
-    "Areas/IAs/imagens/Pasted image 20251102173442.png",
+    "Areas/IAs/imagens/Pasted image 20251102180808.png",
+    "Areas/IAs/imagens/Pasted image 20251102180621.png",
+    "Areas/IAs/imagens/Pasted image 20251102175750.png",
     "Areas/IAs/Langchain (framework).md",
     "Areas/IAs/AI-powered applications and LLM.md",
     "Areas/IAs/RAGs/Chunking.md",
-    "Pasted image 20251102160815.png",
-    "Areas/IAs/imagens/Pasted image 20251102160726.png",
-    "Areas/IAs/imagens/Pasted image 20251102160433.png",
-    "Areas/IAs/imagens/Pasted image 20251102160328.png",
     "Areas/IAs/RAGs/Vector DBs.md",
     "Areas/IAs/RAGs/ANN - Escalabilidade da Busca Vetorial.md",
     "Areas/IAs/RAGs/Transformer architecture.md",
@@ -216,7 +217,6 @@
     "Areas/Sistemas Distribuidos/rasc.md",
     "Areas/Sistemas Distribuidos/IDL - Interface Definition Languages.md",
     "Areas/Sistemas Distribuidos/Idempotência.md",
-    "Areas/Sistemas Distribuidos/Compartilhamento em Sistemas Distribuídos.md",
     "Areas/Sistemas Distribuidos/imagens",
     "Areas/Otimização/Teoria da decisão",
     "Areas/Untitled",
