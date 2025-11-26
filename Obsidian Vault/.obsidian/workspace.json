@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/RAGs/Semantic Caching/03 - Building the Semantic Cache.md",
+                "file": "Areas/IAs/RAGs/Semantic Caching/4 - Measuring Cache Effectiveness.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - Building the Semantic Cache"
+              "title": "4 - Measuring Cache Effectiveness"
             }
           }
         ],
@@ -192,8 +192,9 @@
   },
   "active": "be27b1edac949d58",
   "lastOpenFiles": [
-    "Areas/IAs/RAGs/Semantic Caching/02 - Fundamentals And Architecture.md",
     "Areas/IAs/RAGs/Semantic Caching/03 - Building the Semantic Cache.md",
+    "Areas/IAs/RAGs/Semantic Caching/4 - Measuring Cache Effectiveness.md",
+    "Areas/IAs/RAGs/Semantic Caching/02 - Fundamentals And Architecture.md",
     "Areas/IAs/RAGs/Semantic Caching/01 - Introducing To Semantic Caching.md",
     "Areas/IAs/RAGs/Arquiteturas Avançadas de Busca Semântica - Cross-encoders e ColBERT.md",
     "Areas/IAs/RAGs/Alucinações em RAGs.md",
@@ -228,7 +229,6 @@
     "Areas/IAs/imagens/Pasted image 20251103231843.png",
     "Areas/IAs/Engenharia de prompt/Chain-of-Thought Prompting.md",
     "Areas/IAs/Árvore de Decisão.md",
-    "Areas/IAs/Engenharia de prompt/Prompt em dois passos.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.canvas",
