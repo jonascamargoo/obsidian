@@ -24,8 +24,7 @@ Finding the perfect "Distance Threshold" is an optimization problem.
     * The F1 Score peaks at the intersection (intermediate value).
 
 
-
-[Image of precision vs recall diagram]
+![[Pasted image 20251126152609.png]]
 
 
 ---
@@ -33,12 +32,16 @@ Finding the perfect "Distance Threshold" is an optimization problem.
 ## 🔁 Strategy 2: Cross-Encoder (Reranking)
 Embeddings are fast but lose nuance because they compress sentences into single vectors independently.
 * **What is it?** A model that processes two sentences *simultaneously* to output a similarity score.
+	![[Pasted image 20251126152640.png]]
 * **Pros:** Highly accurate; understands context better than embeddings.
 * **Cons:** Slower (computationally expensive).
 * **Workflow:**
-    1.  **Fast Retrieval:** Use standard embedding search to get top-10 candidates.
-    2.  **Rerank:** Pass these 10 candidates + query to the Cross-Encoder.
-    3.  **Select:** Pick the highest-scoring match.
+    1.  Query the 10 closest cache hits
+    2.  Run the query and the cache hits through the cross encoder
+	    1. You obtain a new scores, hence reranking
+    3.  Return the entry with the highest cross-encoder score
+
+![[Pasted image 20251126152952.png]]
 
 > [!EXAMPLE] Nuance Check
 > *Sentence A:* "The bank raised interest rates."
@@ -50,6 +53,7 @@ Embeddings are fast but lose nuance because they compress sentences into single 
 
 ## 🤖 Strategy 3: LLM Check (Validator)
 Using a lightweight LLM to verify the match before returning it to the user.
+![[Pasted image 20251126153123.png]]
 * **Method:** Ask an LLM: *"Are these two sentences semantically equivalent? Yes/No."*
 * **Use Case:** Can be used as a final "Gatekeeper" to eliminate False Positives (Incorrect Hits).
 * **Trade-off:** Increases latency significantly compared to pure vector search, but guarantees near 100% precision.
@@ -58,6 +62,7 @@ Using a lightweight LLM to verify the match before returning it to the user.
 
 ## ⌨️ Strategy 4: Fuzzy Matching (Typos)
 Handling simple errors before they even reach the embedding model.
+![[Pasted image 20251126153849.png]]
 * **Technique:** Measures **Edit Distance** (Deletions, Substitutions, Insertions).
 * **Why?** Embeddings can sometimes be confused by severe typos. Fuzzy matching catches "refudn" -> "refund".
 * **Placement:** Placed **in front** of the semantic cache. If a fuzzy match is found (high confidence), we short-circuit the vector search.
