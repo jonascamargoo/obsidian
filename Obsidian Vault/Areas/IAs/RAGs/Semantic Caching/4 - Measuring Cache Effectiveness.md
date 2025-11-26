@@ -18,12 +18,39 @@ In this lesson, we learn how to evaluate a semantic cache using standard Machine
 
 To measure quality, we treat the cache like a classification model. We look at **Precision** and **Recall**, derived from a Confusion Matrix.
 
+### Precision vs Recall
+
+#### 1. Precision (The Quality) 
+
+**"When the cache says 'I found a match', is it actually correct?"** 
+
+**Definition:** The percentage of retrieved instances (Cache Hits) that were actually relevant (Correct). 
+
+**The Risk:** Low precision means your system is generating **False Positives**. * *Example:* User asks "How do I return a shirt?", and the cache returns an answer for "How do I buy a shirt?". The user gets the wrong info. 
+
+**Formula:** $$Precision = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}}$$
+> [!TIP] Memory Aid
+> High Precision = **"I trust you."** . The system rarely makes mistakes when it speaks
+
+![[Pasted image 20251126122200.png]]
+
+![[Pasted image 20251126124027.png]]
+## 2. Recall (The Quantity) 
+
+**"Of all the correct answers that exist in the cache, how many did we find?"** 
+
+**Definition:** The percentage of relevant instances that were successfully retrieved. 
+
+ **The Risk:** Low recall means your system is generating **False Negatives**. * *Example:* The answer for "Refunds" was in the cache, but the system didn't think it was similar enough to the user's question, so it treated it as a miss and called the expensive LLM. 
+
+**Formula:** $$Recall = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}$$
 
 
-[Image of confusion matrix precision recall]
+> [!TIP] Memory Aid
+> High Recall = **"I hear you."** (The system catches most opportunities to save money).
 
 
-### The Confusion Matrix in Caching
+#### The Confusion Matrix in Caching
 * **True Positive (TP):** The query matched a cached entry, and it was a *correct* match.
 * **True Negative (TN):** The query did *not* match anything, and there was indeed nothing relevant in the cache.
 * **False Positive (FP):** The query matched a cached entry, but it was **wrong** (bad answer).
@@ -31,13 +58,25 @@ To measure quality, we treat the cache like a classification model. We look at *
 * **False Negative (FN):** The query did *not* match, but it **should have**.
     * *Risk:* Unnecessary cost (cache miss) when we had the answer.
 
-### The Trade-off: Precision vs. Recall
+### The Trade-off: Precision vs. Recall (The Threshold)
+
+You cannot usually maximize both simultaneously; there is a "tug-of-war" controlled by your **Distance Threshold**. 
+
+**Stricter Threshold** (e.g., Distance < 0.1) | "Only accept if it's almost identical." > **Result:** High Precision (very accurate), but Low Recall (you miss slightly phrased variations).
+
+**Loose Threshold** (e.g., Distance < 0.5) | "Accept if it seems vaguely similar" >  **Low Precision** (Risk of wrong answers). **High Recall** (Catches everything) 
+
+The F1 Score To find the "sweet spot" between Precision and Recall, we use the F1 Score (the harmonic mean of the two). $$F1 = 2 \times \frac{Precision \times Recall}{Precision + Recall}$$
+
 The **Distance Threshold** controls this balance:
 
 | Action | Effect on Precision | Effect on Recall |
 | :--- | :--- | :--- |
 | **Lower Threshold** (Stricter) | ⬆️ Increases | ⬇️ Decreases (More Misses) |
 | **Raise Threshold** (Looser) | ⬇️ Decreases (Risk of FP) | ⬆️ Increases |
+
+![[Pasted image 20251126124158.png]]
+
 
 > [!TIP] F1 Score
 > To find the "sweet spot" (best threshold), we often use the **F1 Score**, which is the harmonic mean of Precision and Recall.
@@ -49,13 +88,13 @@ The **Distance Threshold** controls this balance:
 We need to prove that the cache actually speeds up the system. We calculate the **Expected System Latency**.
 
 ### The Formula
-$$L_{sys} = (L_{cache} \times R) + (L_{llm} \times (1 - R))$$
+$$L_{sys} = (L_{cache} \times R) + (L_{llm} + L_{cache}) \times (1 - R)$$
 
 Where:
 * $L_{sys}$: Average Latency of the whole system.
-* $L_{cache}$: Average Latency of a Cache Hit.
+* $L_{cache}$: Average cache latency.
 * $L_{llm}$: Average Latency of an LLM Call.
-* $R$: Cache Hit Rate (percentage).
+* $R$: Cache Hit Ratio (percentage).
 
 **Example:**
 * Cache Latency: 11ms

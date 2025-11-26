@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/RAGs/Semantic Caching/4 - Measuring Cache Effectiveness.md",
+                "file": "Areas/IAs/RAGs/Semantic Caching/05 - Enhancing Cache Effectiveness.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 - Measuring Cache Effectiveness"
+              "title": "05 - Enhancing Cache Effectiveness"
             }
           }
         ],
@@ -192,8 +192,13 @@
   },
   "active": "be27b1edac949d58",
   "lastOpenFiles": [
-    "Areas/IAs/RAGs/Semantic Caching/03 - Building the Semantic Cache.md",
     "Areas/IAs/RAGs/Semantic Caching/4 - Measuring Cache Effectiveness.md",
+    "Areas/IAs/RAGs/Semantic Caching/05 - Enhancing Cache Effectiveness.md",
+    "Pasted image 20251126124158.png",
+    "Pasted image 20251126124027.png",
+    "Pasted image 20251126122200.png",
+    "Pasted image 20251126122027.png",
+    "Areas/IAs/RAGs/Semantic Caching/03 - Building the Semantic Cache.md",
     "Areas/IAs/RAGs/Semantic Caching/02 - Fundamentals And Architecture.md",
     "Areas/IAs/RAGs/Semantic Caching/01 - Introducing To Semantic Caching.md",
     "Areas/IAs/RAGs/Arquiteturas Avançadas de Busca Semântica - Cross-encoders e ColBERT.md",
@@ -223,12 +228,7 @@
     "Areas/IAs/imagens/Pasted image 20251103232523.png",
     "Areas/IAs/Context Window e lost in the middle.md",
     "Areas/IAs/imagens/Pasted image 20251103232448.png",
-    "Areas/IAs/imagens/Pasted image 20251103232322.png",
-    "Areas/IAs/imagens/Pasted image 20251103232101.png",
-    "Areas/IAs/imagens/Pasted image 20251103232007.png",
-    "Areas/IAs/imagens/Pasted image 20251103231843.png",
     "Areas/IAs/Engenharia de prompt/Chain-of-Thought Prompting.md",
-    "Areas/IAs/Árvore de Decisão.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.canvas",
