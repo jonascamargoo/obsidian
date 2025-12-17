@@ -25,12 +25,14 @@
             "id": "be27b1edac949d58",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Areas/IAs/imagens/Pasted image 20251216171552.png"
+                "file": "Areas/IAs/redes neurais/Redes Neurais Não-Lineares (função de ativação).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251216171552"
+              "icon": "lucide-file",
+              "title": "Redes Neurais Não-Lineares (função de ativação)"
             }
           }
         ],
@@ -188,21 +190,27 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b0cb0492f835dbe7",
+  "active": "be27b1edac949d58",
   "lastOpenFiles": [
-    "Areas/IAs/imagens/Pasted image 20251216171552.png",
+    "Areas/IAs/redes neurais/Perceptron.md",
+    "Areas/IAs/redes neurais/Fundamentos das RNAs.md",
+    "Areas/IAs/redes neurais/Redes Neurais Não-Lineares (função de ativação).md",
+    "Areas/IAs/imagens/Pasted image 20251217122320.png",
+    "Areas/IAs/redes neurais/Estrutura de Projetos em Machine Learning (Framework).md",
+    "Areas/IAs/redes neurais/PyTorch/Implementação de Regressão Linear.md",
+    "Areas/IAs/imagens/Pasted image 20251217012714.png",
+    "Areas/IAs/redes neurais/Duvidas Comuns.md",
+    "Areas/IAs/redes neurais/the ml pipeline/Forward Pass e Backpropagation.md",
+    "Areas/IAs/PyTorch/Untitled.md",
     "Areas/IAs/imagens/Pasted image 20251216171637.png",
-    "Areas/IAs/redes neurais/the ml pipeline/Estrutura de Projetos em Machine Learning (Framework).md",
+    "Areas/IAs/imagens/Pasted image 20251216171552.png",
     "Areas/IAs/imagens/Pasted image 20251216171349.png",
     "Areas/IAs/imagens/Pasted image 20251216171247.png",
     "Areas/IAs/imagens/Pasted image 20251216164659.png",
     "Areas/IAs/imagens/Pasted image 20251216170819.png",
-    "Areas/IAs/redes neurais/Fundamentos das RNAs.md",
-    "Areas/IAs/redes neurais/the ml pipeline",
+    "Areas/IAs/redes neurais/PyTorch",
     "Areas/IAs/Agents.md",
     "Areas/IAs/logica fuzzy/Lógica Fuzzy.md",
-    "Areas/IAs/PyTorch/Untitled.md",
-    "Areas/IAs/redes neurais/Perceptron.md",
     "Areas/IAs/PyTorch",
     "Areas/IAs/redes neurais/MLP.md",
     "Areas/IAs/RAGs/Semantic Caching/05 - Enhancing Cache Effectiveness.md",
@@ -215,8 +223,6 @@
     "Areas/IAs/RAGs/Semantic Caching/06 - Fast AI Agents with a Semantic Cache.md",
     "Areas/IAs/imagens/Pasted image 20251126155011.png",
     "Areas/IAs/imagens/Pasted image 20251126154716.png",
-    "Areas/IAs/imagens/Pasted image 20251126153849.png",
-    "Areas/IAs/imagens/Pasted image 20251126153123.png",
     "Areas/IAs/RAGs/Semantic Caching/01 - Introducing To Semantic Caching.md",
     "Areas/IAs/RAGs/Arquiteturas Avançadas de Busca Semântica - Cross-encoders e ColBERT.md",
     "Areas/IAs/RAGs/Alucinações em RAGs.md",
@@ -224,10 +230,6 @@
     "Areas/IAs/RAGs/Semantic Caching",
     "Areas/Sistemas Distribuidos/Idempotência.md",
     "Areas/Sistemas Distribuidos/Compartilhamento em Sistemas Distribuídos.md",
-    "Areas/Sistemas Distribuidos/Tipos de Arquiteturas em Sistemas Distribuídos.md",
-    "Areas/Sistemas Distribuidos/Réplicas - Sincronização e Consistência de Dados em um Mundo Desconectado.md",
-    "Areas/Sistemas Distribuidos/Arquitetura em Camadas - SO, SOR e Rede.md",
-    "Areas/Sistemas Distribuidos/A queda do us-east-1.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.canvas",
