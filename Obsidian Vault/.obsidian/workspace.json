@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/RAGs/Semantic Caching/02 - Fundamentals And Architecture.md",
+                "file": "Areas/IAs/redes neurais/Estrutura de Projetos em Machine Learning (Framework).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 - Fundamentals And Architecture"
-            }
-          },
-          {
-            "id": "be27b1edac949d58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Areas/IAs/redes neurais/Redes Neurais Não-Lineares (função de ativação).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Redes Neurais Não-Lineares (função de ativação)"
+              "title": "Estrutura de Projetos em Machine Learning (Framework)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,24 +175,38 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "be27b1edac949d58",
+  "active": "84ed368e63f2edc4",
   "lastOpenFiles": [
-    "Areas/IAs/redes neurais/Perceptron.md",
     "Areas/IAs/redes neurais/Fundamentos das RNAs.md",
     "Areas/IAs/redes neurais/Redes Neurais Não-Lineares (função de ativação).md",
-    "Areas/IAs/imagens/Pasted image 20251217122320.png",
+    "Areas/IAs/redes neurais/Perceptron.md",
     "Areas/IAs/redes neurais/Estrutura de Projetos em Machine Learning (Framework).md",
     "Areas/IAs/redes neurais/PyTorch/Implementação de Regressão Linear.md",
+    "Recursos/Fazer hoje.md",
+    "Recursos/How to use AI in development.md",
+    "Recursos/Github Documentation via Code Wiki.md",
+    "Recursos/Config postgres.md",
+    "Recursos/Vibe Coding.md",
+    "Recursos/RAG Local.md",
+    "Recursos/Notas sobre testes.md",
+    "Areas/IAs/RAGs/Semantic Caching/02 - Fundamentals And Architecture.md",
+    "Recursos/Sobre o places-manager.md",
+    "Recursos/Rascunho para knowledge base.md",
+    "Recursos/Para linkedin.md",
+    "Areas/Sistemas Distribuidos/pq se utiliza http.md",
+    "Areas/IAs/imagens/Pasted image 20251217180015.png",
+    "Pasted image 20251217174516.png",
+    "Areas/IAs/imagens/Pasted image 20251217174702.png",
+    "Areas/IAs/imagens/Pasted image 20251217162937.png",
+    "Areas/IAs/imagens/Pasted image 20251217162453.png",
+    "Areas/IAs/imagens/Pasted image 20251217162357.png",
+    "Areas/IAs/imagens/Pasted image 20251217162240.png",
+    "Areas/IAs/imagens/Pasted image 20251217122320.png",
     "Areas/IAs/imagens/Pasted image 20251217012714.png",
     "Areas/IAs/redes neurais/Duvidas Comuns.md",
     "Areas/IAs/redes neurais/the ml pipeline/Forward Pass e Backpropagation.md",
     "Areas/IAs/PyTorch/Untitled.md",
     "Areas/IAs/imagens/Pasted image 20251216171637.png",
-    "Areas/IAs/imagens/Pasted image 20251216171552.png",
-    "Areas/IAs/imagens/Pasted image 20251216171349.png",
-    "Areas/IAs/imagens/Pasted image 20251216171247.png",
-    "Areas/IAs/imagens/Pasted image 20251216164659.png",
-    "Areas/IAs/imagens/Pasted image 20251216170819.png",
     "Areas/IAs/redes neurais/PyTorch",
     "Areas/IAs/Agents.md",
     "Areas/IAs/logica fuzzy/Lógica Fuzzy.md",
@@ -215,21 +214,8 @@
     "Areas/IAs/redes neurais/MLP.md",
     "Areas/IAs/RAGs/Semantic Caching/05 - Enhancing Cache Effectiveness.md",
     "Areas/IAs/RAGs/Semantic Caching/04 - Measuring Cache Effectiveness.md",
-    "Areas/IAs/RAGs/Semantic Caching/02 - Fundamentals And Architecture.md",
     "Areas/IAs/RAGs/Semantic Caching/03 - Building the Semantic Cache.md",
-    "Areas/Sistemas Distribuidos/IDL - Interface Definition Languages.md",
-    "Areas/Sistemas Distribuidos/pq se utiliza http.md",
-    "Areas/IAs/ANN - Escalabilidade da Busca Vetorial.md",
-    "Areas/IAs/RAGs/Semantic Caching/06 - Fast AI Agents with a Semantic Cache.md",
-    "Areas/IAs/imagens/Pasted image 20251126155011.png",
-    "Areas/IAs/imagens/Pasted image 20251126154716.png",
-    "Areas/IAs/RAGs/Semantic Caching/01 - Introducing To Semantic Caching.md",
-    "Areas/IAs/RAGs/Arquiteturas Avançadas de Busca Semântica - Cross-encoders e ColBERT.md",
-    "Areas/IAs/RAGs/Alucinações em RAGs.md",
-    "Areas/IAs/RAGs/Semantic Caching/Introduction to Semantic Caching.md",
     "Areas/IAs/RAGs/Semantic Caching",
-    "Areas/Sistemas Distribuidos/Idempotência.md",
-    "Areas/Sistemas Distribuidos/Compartilhamento em Sistemas Distribuídos.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.canvas",

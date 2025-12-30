@@ -30,13 +30,14 @@ Podemos redefinir $W' = W_2 W_1$ e $b' = W_2 b_1 + b_2$. Logo:
 $$\hat{y} = W' x + b'$$
 
 **Conclusão:** Sem uma função não-linear entre as camadas, a rede colapsa matematicamente em uma regressão linear simples, independentemente da profundidade.
+![[Pasted image 20251217162240.png]]
 
 ---
 
 ## 2. A Solução: Funções de Ativação
 
 Para que a rede neural aprenda curvas e padrões complexos, precisamos introduzir uma não-linearidade após cada transformação linear.
-
+![[Pasted image 20251217162357.png]]
 ### ReLU (Rectified Linear Unit)
 
 A função **ReLU** é o padrão da indústria ("workhorse") para Deep Learning moderno devido à sua eficiência computacional e capacidade de mitigar o problema do desaparecimento de gradiente (vanishing gradient).
@@ -48,6 +49,7 @@ $$f(x) = \max(0, x) = \begin{cases} 0 & \text{se } x < 0 \\ x & \text{se } x \ge
 Interpretação Geométrica:
 
 A ReLU introduz uma "dobra" (bend) ou articulação na função. Ela desativa o neurônio (saída 0) para valores negativos e o mantém linear para positivos.
+![[Pasted image 20251217162453.png]]
 
 ### O Ponto de Inflexão (The Bend Point)
 
@@ -56,7 +58,13 @@ Quando aplicamos ReLU à saída de um neurônio ($z = wx + b$), o ponto onde a f
 $$wx + b = 0 \implies x = -\frac{b}{w}$$
 
 Este valor de $x$ é o limiar de ativação. Abaixo dele, o neurônio está "morto"; acima, ele contribui linearmente.
+![[Pasted image 20251217162937.png]]
 
+É bom notar que um neurônio tem um bend, mas vários neurônios têm vários bends,  formando uma curva não lineear
+
+### Por que a função tem o nome "Ativação"?
+No seu cérebro real, um neurônio não fica enviando sinais o tempo todo. Ele acumula eletricidade vinda de outros neurônios. Se essa eletricidade passar de um certo limite (limiar), o neurônio dispara um pulso elétrico (chamado potencial de ação). Se não passar do limite, ele fica quieto. 
+![[Pasted image 20251217174702.png]]
 ---
 
 ## 3. Arquitetura de Aproximação Universal
@@ -80,6 +88,10 @@ A camada de saída realiza uma combinação linear dessas ativações:
 $$\hat{y} = v_1 \cdot \text{ReLU}(z_1) + v_2 \cdot \text{ReLU}(z_2) + v_3 \cdot \text{ReLU}(z_3) + b_{out}$$
 
 A soma dessas funções "dobradas" resulta em uma função linear por partes que pode aproximar qualquer curva contínua suave (Teorema da Aproximação Universal). Quanto mais neurônios na camada oculta, mais suave é a aproximação.
+
+
+### Algumas  outras funções de ativação
+![[Pasted image 20251217180015.png]]
 
 ## 4. Implementação em PyTorch (`nn.Sequential`)
 
