@@ -4,24 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "924c8a6c33f53ba1",
+        "id": "c3a7eb2be0bdd53e",
         "type": "tabs",
         "children": [
           {
-            "id": "84ed368e63f2edc4",
+            "id": "3bc41c60b239fecf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/redes neurais/Estrutura de Projetos em Machine Learning (Framework).md",
+                "file": "Recursos/Waldemar Neto - como lidar com context window.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estrutura de Projetos em Machine Learning (Framework)"
+              "title": "Waldemar Neto - como lidar com context window"
+            }
+          },
+          {
+            "id": "1dfc678096c454e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Daily.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily"
+            }
+          },
+          {
+            "id": "5212e0ffe5d03291",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Daily.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily"
+            }
+          },
+          {
+            "id": "46a1b5c799d4a3e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Daily.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -175,20 +218,22 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "84ed368e63f2edc4",
+  "active": "46a1b5c799d4a3e2",
   "lastOpenFiles": [
-    "Areas/IAs/redes neurais/Fundamentos das RNAs.md",
-    "Areas/IAs/redes neurais/Redes Neurais Não-Lineares (função de ativação).md",
-    "Areas/IAs/redes neurais/Perceptron.md",
-    "Areas/IAs/redes neurais/Estrutura de Projetos em Machine Learning (Framework).md",
-    "Areas/IAs/redes neurais/PyTorch/Implementação de Regressão Linear.md",
-    "Recursos/Fazer hoje.md",
     "Recursos/How to use AI in development.md",
-    "Recursos/Github Documentation via Code Wiki.md",
+    "Recursos/Waldemar Neto - como lidar com context window.md",
     "Recursos/Config postgres.md",
     "Recursos/Vibe Coding.md",
     "Recursos/RAG Local.md",
-    "Recursos/Notas sobre testes.md",
+    "Recursos/Daily.md",
+    "Recursos/Fazer hoje.md",
+    "Recursos/Github Documentation via Code Wiki.md",
+    "Areas/IAs/redes neurais/Tensores.md",
+    "Areas/IAs/redes neurais/Redes Neurais Não-Lineares (função de ativação).md",
+    "Areas/IAs/redes neurais/PyTorch/Implementação de Regressão Linear.md",
+    "Areas/IAs/redes neurais/Perceptron.md",
+    "Areas/IAs/redes neurais/Fundamentos das RNAs.md",
+    "Areas/IAs/redes neurais/Estrutura de Projetos em Machine Learning (Framework).md",
     "Areas/IAs/RAGs/Semantic Caching/02 - Fundamentals And Architecture.md",
     "Recursos/Sobre o places-manager.md",
     "Recursos/Rascunho para knowledge base.md",
@@ -213,8 +258,6 @@
     "Areas/IAs/PyTorch",
     "Areas/IAs/redes neurais/MLP.md",
     "Areas/IAs/RAGs/Semantic Caching/05 - Enhancing Cache Effectiveness.md",
-    "Areas/IAs/RAGs/Semantic Caching/04 - Measuring Cache Effectiveness.md",
-    "Areas/IAs/RAGs/Semantic Caching/03 - Building the Semantic Cache.md",
     "Areas/IAs/RAGs/Semantic Caching",
     "Untitled 2.base",
     "Untitled 1.base",
