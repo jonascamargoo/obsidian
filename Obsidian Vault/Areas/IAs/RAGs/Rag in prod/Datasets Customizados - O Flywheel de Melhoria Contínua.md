@@ -56,7 +56,7 @@ Ao filtrar logs por tópicos (ex: "reembolsos" vs "atrasos de produto"), você p
 - **Solução:** Ingestão de novos dados na Base de Conhecimento.
     
 
-### Detecção de Erros de Roteamento
+### Detecção de Erros de Roteamento - exemplo real
 
 Um sistema robusto de logs permite identificar falhas lógicas em fluxos multimodais.
 
@@ -68,6 +68,41 @@ Um sistema robusto de logs permite identificar falhas lógicas em fluxos multimo
 >     
 > - **Correção:** Ajuste do _system prompt_ do roteador baseado nos logs de falha.
 >     
+
+
+
+#### 1. O Sintoma (A Reclamação do Usuário)
+
+O sistema foi projetado para ser multimodal, gerando texto, imagens e diagramas técnicos via **Mermaid.js** (uma biblioteca que transforma código em gráficos). No entanto, os usuários começaram a relatar que a qualidade dos gráficos e fluxogramas era péssima, apresentando distorções ou informações ilegíveis.
+
+### 2. O Erro de Roteamento (A Causa Raiz)
+
+Ao analisar os logs detalhados (traces), a equipe descobriu uma falha na **Lógica de Roteamento** do sistema:
+
+- **O Prompt**: O usuário pedia algo como "Desenhe um diagrama do ciclo da água".
+    
+- **A Falha**: O **Router LLM** (o modelo responsável por decidir qual ferramenta usar) interpretava a palavra "desenhe" como um pedido de arte visual.
+    
+- **O Caminho Errado**: Em vez de enviar o pedido para o componente de código (Mermaid.js), o roteador enviava para o modelo de **Geração de Imagens** (como DALL-E ou Midjourney).
+    
+- **O Resultado**: Modelos de imagem são excelentes para arte, mas péssimos para renderizar texto preciso e estruturas lógicas em diagramas, resultando em imagens confusas.
+    
+
+#### 3. A Importância dos Logs de Componentes
+
+Este problema só pôde ser resolvido porque o sistema não salvava apenas o "input" e o "output" final. Se a equipe olhasse apenas para a pergunta e a imagem final, poderia achar que o modelo de imagem precisava de melhoria. Graças aos **logs de nível de componente**, eles puderam ver exatamente o que aconteceu no "meio" do caminho:
+
+- **Log do Roteador**: Revelou que a decisão tomada foi "Tipo: Imagem" em vez de "Tipo: Código/Diagrama".
+    
+
+#### 4. A Solução e o Dataset de Regressão
+
+Uma vez identificado que o culpado era o Roteador, a correção foi direta:
+
+1. **Ajuste de Prompt**: O _system prompt_ do Router LLM foi atualizado para reconhecer que pedidos de "gráficos", "diagramas" ou "fluxogramas" devem ser encaminhados obrigatoriamente para o fluxo de Mermaid.js.
+    
+2. **Dataset de Teste**: Esses prompts que falharam foram salvos em um **Dataset Customizado**. Agora, sempre que a equipe faz uma alteração no sistema, eles rodam esses mesmos prompts para garantir que o roteador nunca mais confunda um diagrama técnico com uma ilustração artística.
+
 
 ### Visualização e Tendências
 
