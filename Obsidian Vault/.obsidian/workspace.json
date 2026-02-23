@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/RAGs/Rag in prod/Datasets Customizados - O Flywheel de Melhoria Contínua.md",
+                "file": "Areas/IAs/RAGs/Rag in prod/Custo vs. Performance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Datasets Customizados - O Flywheel de Melhoria Contínua"
+              "title": "Custo vs. Performance"
             }
           }
         ]
@@ -177,8 +177,11 @@
   },
   "active": "c5d56546b0b430fc",
   "lastOpenFiles": [
-    "Areas/IAs/RAGs/Rag in prod/Hands-on - Guia de Implementação (Tracing & Telemetria).md",
+    "Areas/IAs/RAGs/Rag in prod/Quantização -  Otimizando Custo, Velocidade e Memória.md",
+    "Areas/IAs/RAGs/Rag in prod/Custo vs. Performance.md",
+    "Pasted image 20260223155122.png",
     "Areas/IAs/RAGs/Rag in prod/Datasets Customizados - O Flywheel de Melhoria Contínua.md",
+    "Areas/IAs/RAGs/Rag in prod/Hands-on - Guia de Implementação (Tracing & Telemetria).md",
     "Areas/IAs/RAGs/Rag in prod/Observabilidade em RAG - Métricas, Escopo e Avaliadores.md",
     "Recursos/Waldemar Neto - como lidar com context window.md",
     "Untitled 3.base",
@@ -206,8 +209,6 @@
     "Recursos/Github Documentation via Code Wiki.md",
     "Areas/IAs/redes neurais/Tensores.md",
     "Areas/IAs/redes neurais/Redes Neurais Não-Lineares (função de ativação).md",
-    "Areas/IAs/redes neurais/PyTorch/Implementação de Regressão Linear.md",
-    "Areas/IAs/redes neurais/Perceptron.md",
     "Areas/IAs/imagens/Pasted image 20251217180015.png",
     "Pasted image 20251217174516.png",
     "Areas/IAs/imagens/Pasted image 20251217174702.png",
@@ -217,7 +218,6 @@
     "Areas/IAs/imagens/Pasted image 20251217162240.png",
     "Areas/IAs/imagens/Pasted image 20251217122320.png",
     "Areas/IAs/imagens/Pasted image 20251217012714.png",
-    "Areas/IAs/imagens/Pasted image 20251216171637.png",
     "Areas/IAs/redes neurais/PyTorch",
     "Areas/IAs/PyTorch",
     "Areas/IAs/RAGs/Semantic Caching",
