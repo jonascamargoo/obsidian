@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c3a7eb2be0bdd53e",
+        "id": "1e2dcf4c3955f525",
         "type": "tabs",
         "children": [
           {
-            "id": "3bc41c60b239fecf",
+            "id": "c5d56546b0b430fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Waldemar Neto - como lidar com context window.md",
+                "file": "Areas/IAs/RAGs/Rag in prod/Hands-on - Guia de Implementação (Tracing & Telemetria).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Waldemar Neto - como lidar com context window"
-            }
-          },
-          {
-            "id": "1dfc678096c454e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Recursos/Daily.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Daily"
-            }
-          },
-          {
-            "id": "5212e0ffe5d03291",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Recursos/Daily.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Daily"
-            }
-          },
-          {
-            "id": "46a1b5c799d4a3e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Recursos/Daily.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Daily"
+              "title": "Hands-on - Guia de Implementação (Tracing & Telemetria)"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,14 +175,32 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "46a1b5c799d4a3e2",
+  "active": "c5d56546b0b430fc",
   "lastOpenFiles": [
-    "Recursos/How to use AI in development.md",
+    "Areas/IAs/RAGs/Rag in prod/Observabilidade em RAG - Métricas, Escopo e Avaliadores.md",
+    "Areas/IAs/RAGs/Rag in prod/Hands-on - Guia de Implementação (Tracing & Telemetria).md",
     "Recursos/Waldemar Neto - como lidar com context window.md",
+    "Untitled 3.base",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Untitled.base",
+    "Areas/IAs/RAGs/Rag in prod/Intro.md",
+    "Areas/IAs/RAGs/Rag in prod",
+    "Areas/IAs/RAGs/LLM sampling strategies.md",
+    "Areas/IAs/RAGs/Keyword Search.md",
+    "Areas/IAs/RAGs/Hybrid Search.md",
+    "Areas/IAs/RAGs/Engenharia de prompt em RAGs.md",
+    "Areas/IAs/RAGs/Embedding.md",
+    "Areas/IAs/RAGs/Chunking.md",
+    "Areas/IAs/RAGs/Choosing model to RAG system.md",
+    "Areas/IAs/RAGs/Avaliando a LLM no RAG.md",
+    "Areas/IAs/RAGs/Arquiteturas Avançadas de Busca Semântica - Cross-encoders e ColBERT.md",
+    "Areas/IAs/RAGs/Alucinações em RAGs.md",
+    "Recursos/Notes.md",
+    "Recursos/How to use AI in development.md",
     "Recursos/Config postgres.md",
     "Recursos/Vibe Coding.md",
     "Recursos/RAG Local.md",
-    "Recursos/Daily.md",
     "Recursos/Fazer hoje.md",
     "Recursos/Github Documentation via Code Wiki.md",
     "Areas/IAs/redes neurais/Tensores.md",
@@ -233,12 +208,6 @@
     "Areas/IAs/redes neurais/PyTorch/Implementação de Regressão Linear.md",
     "Areas/IAs/redes neurais/Perceptron.md",
     "Areas/IAs/redes neurais/Fundamentos das RNAs.md",
-    "Areas/IAs/redes neurais/Estrutura de Projetos em Machine Learning (Framework).md",
-    "Areas/IAs/RAGs/Semantic Caching/02 - Fundamentals And Architecture.md",
-    "Recursos/Sobre o places-manager.md",
-    "Recursos/Rascunho para knowledge base.md",
-    "Recursos/Para linkedin.md",
-    "Areas/Sistemas Distribuidos/pq se utiliza http.md",
     "Areas/IAs/imagens/Pasted image 20251217180015.png",
     "Pasted image 20251217174516.png",
     "Areas/IAs/imagens/Pasted image 20251217174702.png",
@@ -248,25 +217,13 @@
     "Areas/IAs/imagens/Pasted image 20251217162240.png",
     "Areas/IAs/imagens/Pasted image 20251217122320.png",
     "Areas/IAs/imagens/Pasted image 20251217012714.png",
-    "Areas/IAs/redes neurais/Duvidas Comuns.md",
-    "Areas/IAs/redes neurais/the ml pipeline/Forward Pass e Backpropagation.md",
-    "Areas/IAs/PyTorch/Untitled.md",
     "Areas/IAs/imagens/Pasted image 20251216171637.png",
     "Areas/IAs/redes neurais/PyTorch",
-    "Areas/IAs/Agents.md",
-    "Areas/IAs/logica fuzzy/Lógica Fuzzy.md",
     "Areas/IAs/PyTorch",
-    "Areas/IAs/redes neurais/MLP.md",
-    "Areas/IAs/RAGs/Semantic Caching/05 - Enhancing Cache Effectiveness.md",
     "Areas/IAs/RAGs/Semantic Caching",
-    "Untitled 2.base",
-    "Untitled 1.base",
     "Untitled.canvas",
-    "Untitled.base",
     "Areas/Sistemas Distribuidos/imagens",
     "Areas/Otimização/Teoria da decisão",
-    "Areas/Untitled",
-    "Areas/Sistemas Distribuidos",
     "Untitled 1.canvas"
   ]
 }
