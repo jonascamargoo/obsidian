@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/RAGs/Agentic RAG.md",
+                "file": "Areas/IAs/RAGs/RAG vs. Fine-Tuning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agentic RAG"
+              "title": "RAG vs. Fine-Tuning"
             }
           }
         ]
@@ -177,15 +177,18 @@
   },
   "active": "c5d56546b0b430fc",
   "lastOpenFiles": [
-    "Pasted image 20260224020650.png",
-    "Pasted image 20260224020624.png",
-    "Pasted image 20260224020603.png",
-    "Pasted image 20260224020455.png",
-    "Pasted image 20260224020431.png",
+    "Pasted image 20260224022826.png",
+    "Pasted image 20260224022630.png",
     "Areas/IAs/RAGs/Agentic RAG.md",
+    "Areas/IAs/RAGs/RAG vs. Fine-Tuning.md",
+    "Areas/IAs/imagens/Pasted image 20260224020650.png",
+    "Areas/IAs/imagens/Pasted image 20260224020624.png",
+    "Areas/IAs/imagens/Pasted image 20260224020603.png",
+    "Areas/IAs/imagens/Pasted image 20260224020455.png",
+    "Pasted image 20260224020431.png",
     "Pasted image 20260224020316.png",
-    "Pasted image 20260224014228.png",
-    "Pasted image 20260224013425.png",
+    "Areas/IAs/imagens/Pasted image 20260224014228.png",
+    "Areas/IAs/imagens/Pasted image 20260224013425.png",
     "Areas/IAs/RAGs/Engenharia de prompt em RAGs.md",
     "Areas/IAs/RAGs/Alucinações em RAGs.md",
     "Areas/IAs/RAGs/Arquiteturas Avançadas de Busca Semântica - Cross-encoders e ColBERT.md",
@@ -196,10 +199,8 @@
     "Areas/IAs/RAGs/Rag in prod/Observabilidade em RAG - Métricas, Escopo e Avaliadores.md",
     "Areas/IAs/RAGs/Rag in prod/Quantização -  Otimizando Custo, Velocidade e Memória.md",
     "Areas/IAs/RAGs/Rag in prod/Multi Modal RAG.md",
-    "Pasted image 20260224003904.png",
-    "Pasted image 20260224003629.png",
+    "Areas/IAs/imagens/Pasted image 20260224003904.png",
     "Areas/IAs/RAGs/Rag in prod/Security.md",
-    "Pasted image 20260224002659.png",
     "Areas/IAs/RAGs/Rag in prod/Latência vs. Qualidade - Otimizando o Pipeline RAG.md",
     "Untitled 3.base",
     "Untitled 2.base",
@@ -217,7 +218,6 @@
     "Recursos/Notes.md",
     "Recursos/How to use AI in development.md",
     "Recursos/Config postgres.md",
-    "Recursos/Vibe Coding.md",
     "Areas/IAs/redes neurais/PyTorch",
     "Areas/IAs/PyTorch",
     "Areas/IAs/RAGs/Semantic Caching",
