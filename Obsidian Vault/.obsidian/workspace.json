@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/RAGs/Rag in prod/Custo vs. Performance.md",
+                "file": "Areas/IAs/RAGs/Rag in prod/Latência vs. Qualidade - Otimizando o Pipeline RAG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Custo vs. Performance"
+              "title": "Latência vs. Qualidade - Otimizando o Pipeline RAG"
             }
           }
         ]
@@ -177,18 +177,21 @@
   },
   "active": "c5d56546b0b430fc",
   "lastOpenFiles": [
+    "Pasted image 20260223234902.png",
+    "Areas/IAs/RAGs/Rag in prod/Intro.md",
     "Areas/IAs/RAGs/Rag in prod/Quantização -  Otimizando Custo, Velocidade e Memória.md",
-    "Areas/IAs/RAGs/Rag in prod/Custo vs. Performance.md",
-    "Pasted image 20260223155122.png",
-    "Areas/IAs/RAGs/Rag in prod/Datasets Customizados - O Flywheel de Melhoria Contínua.md",
-    "Areas/IAs/RAGs/Rag in prod/Hands-on - Guia de Implementação (Tracing & Telemetria).md",
     "Areas/IAs/RAGs/Rag in prod/Observabilidade em RAG - Métricas, Escopo e Avaliadores.md",
-    "Recursos/Waldemar Neto - como lidar com context window.md",
+    "Areas/IAs/RAGs/Rag in prod/Latência vs. Qualidade - Otimizando o Pipeline RAG.md",
+    "Areas/IAs/RAGs/Rag in prod/Hands-on - Guia de Implementação (Tracing & Telemetria).md",
+    "Areas/IAs/RAGs/Rag in prod/Datasets Customizados - O Flywheel de Melhoria Contínua.md",
+    "Areas/IAs/RAGs/Rag in prod/Custo vs. Performance.md",
     "Untitled 3.base",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",
-    "Areas/IAs/RAGs/Rag in prod/Intro.md",
+    "Areas/IAs/imagens/Pasted image 20260223172609.png",
+    "Areas/IAs/imagens/Pasted image 20260223155122.png",
+    "Recursos/Waldemar Neto - como lidar com context window.md",
     "Areas/IAs/RAGs/Rag in prod",
     "Areas/IAs/RAGs/LLM sampling strategies.md",
     "Areas/IAs/RAGs/Keyword Search.md",
@@ -207,8 +210,6 @@
     "Recursos/RAG Local.md",
     "Recursos/Fazer hoje.md",
     "Recursos/Github Documentation via Code Wiki.md",
-    "Areas/IAs/redes neurais/Tensores.md",
-    "Areas/IAs/redes neurais/Redes Neurais Não-Lineares (função de ativação).md",
     "Areas/IAs/imagens/Pasted image 20251217180015.png",
     "Pasted image 20251217174516.png",
     "Areas/IAs/imagens/Pasted image 20251217174702.png",
@@ -217,7 +218,6 @@
     "Areas/IAs/imagens/Pasted image 20251217162357.png",
     "Areas/IAs/imagens/Pasted image 20251217162240.png",
     "Areas/IAs/imagens/Pasted image 20251217122320.png",
-    "Areas/IAs/imagens/Pasted image 20251217012714.png",
     "Areas/IAs/redes neurais/PyTorch",
     "Areas/IAs/PyTorch",
     "Areas/IAs/RAGs/Semantic Caching",
