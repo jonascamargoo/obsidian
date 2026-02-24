@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/RAGs/Rag in prod/Security.md",
+                "file": "Areas/IAs/RAGs/Rag in prod/Multi Modal RAG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Security"
+              "title": "Multi Modal RAG"
             }
           }
         ]
@@ -177,9 +177,12 @@
   },
   "active": "c5d56546b0b430fc",
   "lastOpenFiles": [
+    "Pasted image 20260224003904.png",
+    "Pasted image 20260224003629.png",
+    "Areas/IAs/RAGs/Rag in prod/Security.md",
+    "Areas/IAs/RAGs/Rag in prod/Multi Modal RAG.md",
     "Pasted image 20260224002659.png",
     "Areas/IAs/RAGs/Rag in prod/Latência vs. Qualidade - Otimizando o Pipeline RAG.md",
-    "Areas/IAs/RAGs/Rag in prod/Security.md",
     "Pasted image 20260223234902.png",
     "Areas/IAs/RAGs/Rag in prod/Intro.md",
     "Areas/IAs/RAGs/Rag in prod/Quantização -  Otimizando Custo, Velocidade e Memória.md",
@@ -210,14 +213,11 @@
     "Recursos/Config postgres.md",
     "Recursos/Vibe Coding.md",
     "Recursos/RAG Local.md",
-    "Recursos/Fazer hoje.md",
     "Areas/IAs/imagens/Pasted image 20251217180015.png",
     "Pasted image 20251217174516.png",
     "Areas/IAs/imagens/Pasted image 20251217174702.png",
     "Areas/IAs/imagens/Pasted image 20251217162937.png",
     "Areas/IAs/imagens/Pasted image 20251217162453.png",
-    "Areas/IAs/imagens/Pasted image 20251217162357.png",
-    "Areas/IAs/imagens/Pasted image 20251217162240.png",
     "Areas/IAs/redes neurais/PyTorch",
     "Areas/IAs/PyTorch",
     "Areas/IAs/RAGs/Semantic Caching",
