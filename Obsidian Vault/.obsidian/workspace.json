@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "1e2dcf4c3955f525",
+        "id": "fc8b384f5af36a64",
         "type": "tabs",
         "children": [
           {
-            "id": "c5d56546b0b430fc",
+            "id": "d27e16de997f4d20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/Banco de dados/Vector Database/Vector Database.md",
+                "file": "Areas/IAs/Árvore de Decisão.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vector Database"
+              "title": "Árvore de Decisão"
+            }
+          },
+          {
+            "id": "f2edc4c77858429e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Areas/IAs/RAGs/Knowledge Graph/7 - Geo-RAG e Geração Automatizada de Cypher.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7 - Geo-RAG e Geração Automatizada de Cypher"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Reciprocal Rank Fusion (RRF)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -61,7 +76,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Procurar"
             }
           },
           {
@@ -165,18 +180,45 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "canvas:Create new canvas": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "c5d56546b0b430fc",
+  "active": "f2edc4c77858429e",
   "lastOpenFiles": [
+    "Pasted image 20260316002123.png",
+    "Pasted image 20260316002023.png",
+    "Pasted image 20260316000710.png",
+    "Areas/IAs/imagens/Pasted image 20260316000455.png",
+    "Areas/IAs/imagens/Pasted image 20260316000429.png",
+    "Areas/IAs/imagens/Pasted image 20260316000202.png",
+    "Areas/IAs/RAGs/Knowledge Graph/6 - Expansão Contextual com Dados de Investimento (SEC Form 13).md",
+    "Areas/IAs/RAGs/Knowledge Graph/7 - Geo-RAG e Geração Automatizada de Cypher.md",
+    "Areas/IAs/RAGs/Knowledge Graph/5 - Adding Relationships to the SEC Knowledge Graph.md",
+    "Areas/IAs/imagens/Pasted image 20260315232849.png",
+    "Areas/IAs/imagens/Pasted image 20260315232418.png",
+    "Areas/IAs/RAGs/Knowledge Graph/4 - Pipeline RAG com Documentos Financeiros (SEC 10-K).md",
+    "Areas/IAs/RAGs/Knowledge Graph/3 - Integração de Vetores em Knowledge Graphs.md",
+    "Areas/IAs/RAGs/Knowledge Graph/2 - Implementação e Manipulação de Grafos com Cypher e LangChain.md",
+    "Areas/IAs/imagens/Pasted image 20260315213505.png",
+    "Areas/IAs/RAGs/Knowledge Graph/1 - Deep Dive -> Knowledge Graphs para GraphRAG.md",
+    "Areas/IAs/imagens/Pasted image 20260315212059.png",
+    "Recursos/Notes.md",
+    "Areas/IAs/RAGs/Knowledge Graph",
+    "Recursos/How to use AI in development.md",
+    "Areas/Redes/DNS",
+    "Recursos/RAG Local.md",
+    "Recursos/Vibe Coding.md",
+    "Areas/IAs/Árvore de Decisão.md",
+    "Areas/IAs/Agentic AI/Agents.md",
+    "Areas/IAs/Agentic AI",
+    "Areas/Banco de dados/Vector Database/Vector Database.md",
     "Areas/Compiladores/Por que o JIT é eficiente.md",
     "Areas/Compiladores/Otimizador.md",
     "Areas/Compiladores/O Interpretador do Java e o Ciclo de Árvores.md",
@@ -188,31 +230,7 @@
     "Areas/Sistemas Distribuidos/Arquitetura em Camadas - SO, SOR e Rede.md",
     "Areas/Sistemas Distribuidos/Compartilhamento em Sistemas Distribuídos.md",
     "Areas/Sistemas Distribuidos/Criptografia ponta-a-ponta.md",
-    "Areas/Sistemas Distribuidos/A queda do us-east-1.md",
-    "Areas/Sistemas Distribuidos/Tipos de Arquiteturas em Sistemas Distribuídos.md",
-    "Areas/Sistemas Distribuidos/Réplicas - Sincronização e Consistência de Dados em um Mundo Desconectado.md",
-    "Areas/Sistemas Distribuidos/IDL - Interface Definition Languages.md",
-    "Areas/Sistemas Distribuidos/pq se utiliza http.md",
-    "Areas/Sistemas Distribuidos/Idempotência.md",
-    "Areas/Produtos/Priorizar bklog/Metodo MoSCoW.md",
-    "Areas/Produtos/Priorizar bklog/Metodo ICE.md",
-    "Areas/Linguagens/Javascript/Sobre o JS.md",
-    "Areas/Linguagens/Javascript/JS Assíncrono.md",
-    "Areas/Linguagens/Java/Spring/@ControllerAdvice.md",
-    "Areas/Linguagens/Java/Spring/@Controller vs @RestController.md",
-    "Areas/Exceções/NullPointerException (NPE).md",
-    "Areas/Exceções/Exceções em Java.md",
-    "Areas/Exceções/Erro Vs Exceção.md",
     "Areas/IAs/imagens/Pasted image 20260224022826.png",
-    "Areas/IAs/imagens/Pasted image 20260224022630.png",
-    "Areas/IAs/imagens/Pasted image 20260224020650.png",
-    "Areas/IAs/imagens/Pasted image 20260224020624.png",
-    "Areas/IAs/imagens/Pasted image 20260224020603.png",
-    "Areas/IAs/imagens/Pasted image 20260224020455.png",
-    "Pasted image 20260224020431.png",
-    "Pasted image 20260224020316.png",
-    "Areas/IAs/imagens/Pasted image 20260224014228.png",
-    "Areas/IAs/imagens/Pasted image 20260224013425.png",
     "Untitled 3.base",
     "Untitled 2.base",
     "Untitled 1.base",
@@ -220,10 +238,7 @@
     "Areas/IAs/RAGs/Rag in prod",
     "Areas/IAs/redes neurais/PyTorch",
     "Areas/IAs/PyTorch",
-    "Areas/IAs/RAGs/Semantic Caching",
     "Untitled.canvas",
-    "Areas/Sistemas Distribuidos/imagens",
-    "Areas/Otimização/Teoria da decisão",
     "Untitled 1.canvas"
   ]
 }

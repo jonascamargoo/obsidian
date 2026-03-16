@@ -103,10 +103,21 @@ A marca atual é esta: "mas money", seu link é [mas.money]. A marcas de possív
 
 
 
+--------------------
+
+Notas reuniao dia 10
+
+O motivo real é: Em qual company a IA cadastra o sinal? O mesmo caso as vezes pode cair para um e pode cair para outro 
 
 
-NOTES - COPILOT - CAROL
+Notas para a reunião dia 12
 
 
 
 
+
+
+ESTUDAR  KNOWLEDGE GRAPH RAGS -> pode ser útil para a área comercial. Já comecei o curso no deeplearning
+
+
+O website serve para não dar um imperssonation high da própria marca
