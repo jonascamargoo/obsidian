@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projetos/Plano de Migração - Axur Sales Copilot -> Aegra Architecture.md",
+                "file": "Projetos/Migration Agentic Copilot/prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Plano de Migração - Axur Sales Copilot -> Aegra Architecture"
+              "title": "prompt"
             }
           }
         ]
@@ -177,8 +177,10 @@
   },
   "active": "4a205a9e4d06ab14",
   "lastOpenFiles": [
+    "Projetos/Migration Agentic Copilot/Plano de Migração - Axur Sales Copilot -> Aegra Architecture.md",
+    "Projetos/Migration Agentic Copilot/prompt.md",
+    "Projetos/Migration Agentic Copilot",
     "Projetos/Lista 2 pt 2 - questoes fechadas.md",
-    "Projetos/Plano de Migração - Axur Sales Copilot -> Aegra Architecture.md",
     "Projetos/Nextjs/Data fetching & Rendering.md",
     "Projetos/IA que identifica expressΣes e determina gatilhos mentais MVP.md",
     "Projetos/Devops/CI.md",
@@ -215,14 +217,12 @@
     "Recursos/Vibe Coding.md",
     "Areas/IAs/Agentic AI/Agents.md",
     "Areas/IAs/Agentic AI",
-    "Areas/Banco de dados/Vector Database/Vector Database.md",
     "Untitled 3.base",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",
     "Areas/IAs/RAGs/Rag in prod",
     "Areas/IAs/redes neurais/PyTorch",
-    "Areas/IAs/PyTorch",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

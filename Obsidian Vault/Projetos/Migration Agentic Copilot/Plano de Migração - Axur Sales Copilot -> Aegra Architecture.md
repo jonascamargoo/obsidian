@@ -175,3 +175,5 @@
 ### Dica de Ouro para a Transição:
 
 Não tente fazer a Fase 5 (Frontend) sem antes garantir que a Fase 3 e 4 estão perfeitas. O fluxo ideal é montar o backend, validá-lo via API/Postman e, só então, plugar a interface Next.js. Isso isola problemas visuais de problemas de roteamento do agente.
+
+
