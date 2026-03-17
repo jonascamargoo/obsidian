@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "fc8b384f5af36a64",
+        "id": "1648ddf82875c14f",
         "type": "tabs",
         "children": [
           {
-            "id": "d27e16de997f4d20",
+            "id": "4a205a9e4d06ab14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/IAs/Árvore de Decisão.md",
+                "file": "Projetos/Plano de Migração - Axur Sales Copilot -> Aegra Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Árvore de Decisão"
-            }
-          },
-          {
-            "id": "f2edc4c77858429e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Areas/IAs/RAGs/Knowledge Graph/7 - Geo-RAG e Geração Automatizada de Cypher.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7 - Geo-RAG e Geração Automatizada de Cypher"
+              "title": "Plano de Migração - Axur Sales Copilot -> Aegra Architecture"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Reciprocal Rank Fusion (RRF)",
+                "query": "recall",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -190,16 +175,29 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "f2edc4c77858429e",
+  "active": "4a205a9e4d06ab14",
   "lastOpenFiles": [
-    "Pasted image 20260316002123.png",
-    "Pasted image 20260316002023.png",
-    "Pasted image 20260316000710.png",
+    "Projetos/Lista 2 pt 2 - questoes fechadas.md",
+    "Projetos/Plano de Migração - Axur Sales Copilot -> Aegra Architecture.md",
+    "Projetos/Nextjs/Data fetching & Rendering.md",
+    "Projetos/IA que identifica expressΣes e determina gatilhos mentais MVP.md",
+    "Projetos/Devops/CI.md",
+    "Projetos/Devops/Dockerfile.md",
+    "Projetos/Devops/Migrations.md",
+    "Areas/Redes/Bootcamp - AWS/Tecnologia e Serviços da AWS/Métodos de Implantaç╞o e Operaç╞o na AWS.md",
+    "Areas/Redes/Bootcamp - AWS/Tecnologia e Serviços da AWS/Infraestrutura Global e Conectividade.md",
+    "Areas/IAs/Árvore de Decisão.md",
+    "Areas/IAs/RAGs/Semantic Caching/04 - Measuring Cache Effectiveness.md",
+    "Areas/IAs/RAGs/Semantic Caching/02 - Fundamentals And Architecture.md",
+    "Areas/IAs/RAGs/Semantic Caching/01 - Introducing To Semantic Caching.md",
+    "Areas/IAs/RAGs/Knowledge Graph/7 - Geo-RAG e Geração Automatizada de Cypher.md",
+    "Areas/IAs/imagens/Pasted image 20260316002123.png",
+    "Areas/IAs/imagens/Pasted image 20260316002023.png",
+    "Areas/IAs/imagens/Pasted image 20260316000710.png",
     "Areas/IAs/imagens/Pasted image 20260316000455.png",
     "Areas/IAs/imagens/Pasted image 20260316000429.png",
     "Areas/IAs/imagens/Pasted image 20260316000202.png",
     "Areas/IAs/RAGs/Knowledge Graph/6 - Expansão Contextual com Dados de Investimento (SEC Form 13).md",
-    "Areas/IAs/RAGs/Knowledge Graph/7 - Geo-RAG e Geração Automatizada de Cypher.md",
     "Areas/IAs/RAGs/Knowledge Graph/5 - Adding Relationships to the SEC Knowledge Graph.md",
     "Areas/IAs/imagens/Pasted image 20260315232849.png",
     "Areas/IAs/imagens/Pasted image 20260315232418.png",
@@ -215,22 +213,9 @@
     "Areas/Redes/DNS",
     "Recursos/RAG Local.md",
     "Recursos/Vibe Coding.md",
-    "Areas/IAs/Árvore de Decisão.md",
     "Areas/IAs/Agentic AI/Agents.md",
     "Areas/IAs/Agentic AI",
     "Areas/Banco de dados/Vector Database/Vector Database.md",
-    "Areas/Compiladores/Por que o JIT é eficiente.md",
-    "Areas/Compiladores/Otimizador.md",
-    "Areas/Compiladores/O Interpretador do Java e o Ciclo de Árvores.md",
-    "Areas/Compiladores/Exemplo de regras gramaticais.md",
-    "Areas/Compiladores/notas.md",
-    "Areas/Compiladores/Compiladores.md",
-    "Areas/Compiladores/BNF e Documentos.md",
-    "Areas/Containers/O que é um container.md",
-    "Areas/Sistemas Distribuidos/Arquitetura em Camadas - SO, SOR e Rede.md",
-    "Areas/Sistemas Distribuidos/Compartilhamento em Sistemas Distribuídos.md",
-    "Areas/Sistemas Distribuidos/Criptografia ponta-a-ponta.md",
-    "Areas/IAs/imagens/Pasted image 20260224022826.png",
     "Untitled 3.base",
     "Untitled 2.base",
     "Untitled 1.base",
