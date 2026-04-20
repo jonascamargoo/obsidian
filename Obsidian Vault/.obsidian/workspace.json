@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projetos/Claude Code/5 - custom commands.md",
+                "file": "Projetos/Claude Code/6 - MCP servers with Claude Code.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 - custom commands"
+              "title": "6 - MCP servers with Claude Code"
             }
           }
         ]
@@ -177,8 +177,9 @@
   },
   "active": "4a205a9e4d06ab14",
   "lastOpenFiles": [
-    "Projetos/Claude Code/4 - controlling context.md",
     "Projetos/Claude Code/5 - custom commands.md",
+    "Projetos/Claude Code/6 - MCP servers with Claude Code.md",
+    "Projetos/Claude Code/4 - controlling context.md",
     "Projetos/Claude Code/images",
     "Projetos/Claude Code/images/Pasted image 20260420152819.png",
     "Projetos/Claude Code/3 - making changes.md",
@@ -216,7 +217,6 @@
     "Recursos/How to use AI in development.md",
     "Recursos/Config postgres.md",
     "Recursos/Github Documentation via Code Wiki.md",
-    "Projetos/Migration Agentic Copilot/prompt.md",
     "Areas/IAs/computer vision",
     "Projetos/TCC",
     "Projetos/otimizacao atual",
