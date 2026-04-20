@@ -61,3 +61,11 @@ Para garantir que não nos percamos, dividimos a refatoração no seguinte Plano
 
 Responda apenas com: "Contexto carregado com sucesso. Por favor, informe em qual Fase/Passo estamos e envie o código relevante para começarmos."
 
+
+Apresentar  Problema (não solução)
+
+Slides sem textos com dados
+
+Exemplificar o problema / validação
+
+Justificativa
