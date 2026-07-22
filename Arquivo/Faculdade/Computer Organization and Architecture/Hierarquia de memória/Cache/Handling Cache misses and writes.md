@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Computer Organization and Architecture
+tags:
+- hardware
+criada: '2024-10-14'
+---
 
 ## Handling cache misses (data and instruction)
 

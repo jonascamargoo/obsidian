@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2025-01-23'
+---
+
 #### **Áreas Funcionais de Gerenciamento de Redes**
 
 A **OSI** dividiu o gerenciamento de redes em cinco áreas principais:

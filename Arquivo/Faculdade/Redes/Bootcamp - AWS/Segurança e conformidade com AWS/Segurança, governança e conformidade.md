@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ### Iniciando com AWS Artifact
 
 AWS Artifact não é apenas um portal; é um recurso indispensável para qualquer organização que opera na nuvem AWS e precisa cumprir com regulamentações globais e setoriais. Oferecendo acesso direto a uma vasta biblioteca de relatórios de conformidade e acordos de associados, o AWS Artifact facilita o caminho para entender e demonstrar a conformidade. **[AWS Artifact](https://aws.amazon.com/artifact/)** se destaca por:

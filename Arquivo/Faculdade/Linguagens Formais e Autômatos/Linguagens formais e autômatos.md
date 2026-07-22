@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Linguagens Formais e Autômatos
+tags:
+- compiladores/linguagens-formais
+criada: '2024-10-14'
+---
 
 ## Conceitos básicos de linguagens
 ### Palavras

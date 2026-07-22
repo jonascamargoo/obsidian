@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ## Qual a função?
 
 Sua função é transportar dados na forma de sinais eletromagnéticos por um meio físico de transmissão. Para isso, os dados devem ser transformados em sinais magnéticos. Tanto dados quanto sinais podem ser analógicos ou digitais.

@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2025-01-10'
+---
+
 ## O que é?
 
 O FTP (File Transfer Protocol) é um protocolo utilizado para transferir arquivos entre computadores em uma rede, utilizando uma estrutura cliente-servidor. O fluxo descrito envolve várias etapas que garantem a comunicação, autenticação e transferência de dados. Vamos detalhar cada ponto do fluxo de dados mencionado:

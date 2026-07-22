@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-27'
+---
+
 ### 1. Todo host de uma mesma rede tem a mesma máscara e o mesmo endereço de rede
 
 - **Máscara de sub-rede**: Todos os hosts em uma rede compartilham a mesma máscara de sub-rede, que define quais bits do endereço IP representam a rede e quais representam o host. Essa máscara garante que todos os dispositivos possam entender a parte "de rede" do endereço e, assim, identificar que pertencem ao mesmo segmento de rede.

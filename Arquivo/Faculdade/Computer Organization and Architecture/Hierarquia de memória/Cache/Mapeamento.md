@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Computer Organization and Architecture
+tags:
+- hardware
+criada: '2024-10-14'
+---
+
 ### Mapeamento direto
 
 A memória é endereçada por bytes, ou seja, cada célula de memória carrega um byte. A maneira mais simples de atribuir um local na cache para cada palavra na memória é basear-se no endereço da palavra na memória. Essa estrutura de cache é chamada de "mapeamento direto", pois cada local de memória é mapeado diretamente para exatamente um local na cache. A correspondência típica entre endereços e locais de cache para uma cache de mapeamento direto é geralmente simples e direta. Nesse tipo de cache, o endereço de uma palavra na memória é usado para determinar sua posição correspondente na cache. Quando é necessário acessar essa palavra novamente, a cache pode ser consultada diretamente usando o mesmo cálculo do endereço. Portanto, encontrar um item na cache é eficiente, mas o mapeamento direto pode ser limitante, uma vez que cada local de memória só pode ser armazenado em uma localização específica da cache. Isso pode levar a problemas de desempenho quando há muitos acessos simultâneos a diferentes localizações da memória que mapeiam para o mesmo local na cache.

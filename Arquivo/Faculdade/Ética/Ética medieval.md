@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Ética
+tags:
+- etica
+criada: '2025-06-26'
+---
+
 Depois dos gregos, o mundo mudou. A filosofia mergulhou na teologia. A razão encontrou a fé. E a ética passou a dialogar com algo ainda maior que a cidade ou o indivíduo: o divino. Durante a Idade Média, pensar sobre o certo e o errado era, em grande medida, pensar sobre o bem e o mal à luz de Deus. Mas esse caminho, como veremos, não eliminou a razão — apenas a colocou em outro enquadramento. E com o tempo, a razão voltou ao centro. A ética evoluiu. Mudou de forma. Mas a pergunta original permaneceu: como devemos agir?
 
   

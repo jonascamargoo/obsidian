@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
+
 ## Definição
 
 Em computação, listas são estruturas de dados que organizam elementos de forma sequencial, permitindo o armazenamento, acesso e manipulação de informações. As listas podem ser usadas para representar uma coleção ordenada de itens, onde cada item pode conter dados ou referências a outros elementos.

@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
 
 Aqui analiso como os dados percorrem seu caminho. Os caminhos são compartilhados por mais de um nó. Hoje em dia os dispositivos conectáveis são se restringem a computadores, portanto, chamamos de "nó". Cada nó compete para enviar seus dados através de um caminho, gerando um grande trafego  que precisa ser gerenciado - trabalho feito por um roteador. Os dados são divididor em pacotes para evitar gargalos. Seria inviável enviar 1 GB de uma vez, enquanto outros dados de outros nós, ou até mesmo do próprio nó, espera o envio.
 ## LAN

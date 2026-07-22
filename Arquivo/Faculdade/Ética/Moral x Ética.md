@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Ética
+tags:
+- etica
+criada: '2025-06-26'
+---
 
 Nesta aula introdutória, analisaremos os conceitos fundamentais de ética e moral, destacando suas diferenças e implicações na prática da engenharia. A discussão abordará a importância da ética na tomada de decisões, a necessidade de uma conduta profissional responsável e os impactos sociais e ambientais das atividades da engenharia. Serão apresentados casos de condutas antiéticas e suas consequências, tanto do ponto de vista legal quanto moral. Além disso, exploraremos a formação do pensamento ético ao longo da história, desde suas raízes filosóficas na Antiguidade até sua relevância no mundo contemporâneo. Debateremos como normas de ética profissional surgem e por que os engenheiros devem aderir a esses princípios para garantir práticas justas e sustentáveis.  
 

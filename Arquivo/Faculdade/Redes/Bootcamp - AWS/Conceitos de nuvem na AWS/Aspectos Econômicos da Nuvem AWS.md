@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ## Custos Fixos vs Custos Variáveis
 
 O primeiro conceito que você precisa entender sobre os custos na nuvem é a diferença entre custos fixos e custos variáveis. Custos fixos são aqueles que não mudam independente do uso ou da demanda. Por exemplo, se você tem um servidor físico na sua empresa, você vai ter que pagar pelo seu hardware, pela sua manutenção, pela sua energia elétrica, pelo seu espaço físico, etc. Esses são custos fixos, porque você vai ter que pagar por eles mesmo que o seu servidor esteja ocioso ou subutilizado.

@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ### Rede na AWS: Virtual Private Cloud (VPC)
 
 Uma [Virtual Private Cloud (VPC)](https://aws.amazon.com/vpc/) oferece um ambiente isolado dentro da nuvem da AWS, onde você pode lançar recursos em uma rede virtual definida por você. Este ambiente é completamente isolado de outros usuários da AWS, o que proporciona um nível de segurança e controle similar ao que uma rede corporativa on-premises ofereceria, mas com a flexibilidade e a escala da nuvem.

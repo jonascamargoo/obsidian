@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Ética
+tags:
+- etica
+criada: '2025-06-26'
+---
+
 Falar de progresso é falar de uma ideia poderosa — talvez a mais poderosa do projeto moderno. Progresso justifica, organiza, empurra a humanidade para frente, mesmo quando ela tropeça.
 
   

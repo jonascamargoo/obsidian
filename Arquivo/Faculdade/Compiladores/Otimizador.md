@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Compiladores
+tags:
+- compiladores
+criada: '2025-06-12'
+---
+
 # O Otimizador: A Arte da Eficiência
 
 A fase de **otimização de código** é uma das mais complexas e importantes de um compilador. Seu objetivo é transformar o código intermediário (ou final) em uma versão que seja mais eficiente — seja em tempo de execução, uso de memória ou consumo de energia — **sem alterar o comportamento observável do programa original**.

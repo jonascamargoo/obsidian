@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Ética
+tags:
+- etica
+criada: '2025-06-26'
+---
+
 Jeremy Bentham, e depois John Stuart Mill, vieram com outra proposta para o pensamento ético: o utilitarismo. Para eles, o valor de uma ação não está na intenção, mas nos seus efeitos. O que importa é gerar o maior bem para o maior número de pessoas. É uma ética do cálculo. Uma tentativa de objetivar o bem. Na prática: se uma decisão beneficia muita gente e prejudica poucos, ela tende a ser moralmente aceitável.
 
   

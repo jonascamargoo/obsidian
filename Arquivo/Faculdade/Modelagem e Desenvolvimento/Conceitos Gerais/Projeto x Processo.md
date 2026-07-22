@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Modelagem e Desenvolvimento
+tags:
+- dev/modelagem
+criada: '2024-10-14'
+---
+
 ### Processo
 
 **Definição:** Um processo é uma sequência recorrente e contínua de atividades, projetada para ser replicável e geralmente realizada de maneira repetitiva e regular.

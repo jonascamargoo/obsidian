@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-11-07'
+---
+
 ## O que é? 
 
  DNS com uma estrutura de banco de dados hierárquica e distribuída para facilitar uma abordagem mais dinâmica para a resolução de nomes de domínio, capaz de acompanhar o ritmo de uma rede de computadores em rápida expansão. A hierarquia começa com o nível raiz, indicado por um ponto (.) e se ramifica em domínios de nível superior (TLDs) como “.com”, “.org”, “.net” ou TLDs com código de país (ccTLDs). ) como “.uk” e “.jp” e domínios de segundo nível.

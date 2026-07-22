@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Computer Organization and Architecture
+tags:
+- hardware
+criada: '2024-10-14'
+---
+
 O melhoramento na performance pode ser feito de duas formas: reduzindo a taxa de miss ou reduzindo a punição por miss. Primeiramente, vamos discutir a performance em si e como ela pode ser medida.
 Aqui, apenas adicionamos os ciclos os quais são desperdiçados enquanto buscamos informações na memória:
 

@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ## O que é?
 
 O AWS Well-Architected Framework, ou simplesmente WAF, é um conjunto de práticas recomendadas para projetar e operar sistemas na nuvem AWS. Ele foi criado pela AWS com base na experiência de arquitetar soluções para uma ampla variedade de cenários e casos de uso. O AWS Well-Architected Framework ajuda você a entender os prós e os contras das decisões que você toma ao criar sistemas na AWS, e a aprender as melhores práticas de arquitetura para sistemas confiáveis, seguros, eficientes, econômicos e sustentáveis na nuvem.

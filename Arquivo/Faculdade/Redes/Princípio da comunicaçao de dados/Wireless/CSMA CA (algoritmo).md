@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ## O que é?
 
 O algoritmo CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) é um protocolo de controle de acesso ao meio usado em redes de comunicação sem fio, como as redes IEEE 802.11 (Wi-Fi). Ele foi projetado para minimizar colisões de dados e aumentar a eficiência da comunicação em redes onde múltiplos dispositivos compartilham o mesmo canal de comunicação.

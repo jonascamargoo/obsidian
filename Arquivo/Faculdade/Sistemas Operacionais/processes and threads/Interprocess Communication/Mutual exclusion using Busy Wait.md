@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Sistemas Operacionais
+tags:
+- so
+criada: '2025-01-10'
+---
+
 ## O que é?
 
 ## Soluções utilizando exclusão mútua

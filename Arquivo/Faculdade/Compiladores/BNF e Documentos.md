@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Compiladores
+tags:
+- compiladores
+criada: '2025-06-26'
+---
+
 ## O que são documentos no contexto computacional
 
 **Um documento, no contexto da computação, é uma coleção nomeada de dados digitais, tratada como uma unidade lógica pelo sistema computacional, e que é obrigatoriamente associada a um conjunto de metadados descritivos e de gerenciamento. Esses metadados incluem, no mínimo:**

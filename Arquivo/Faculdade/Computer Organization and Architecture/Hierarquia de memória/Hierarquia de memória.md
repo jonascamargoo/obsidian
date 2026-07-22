@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Computer Organization and Architecture
+tags:
+- hardware
+criada: '2024-10-14'
+---
+
 Conhecimento baseado no livro *computer organization and design the hardware/software interface*
 
 A structure that uses multiple levels of memories; as the distance from the processor increases, the size of the memories and the access time both increase.

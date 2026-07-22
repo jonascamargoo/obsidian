@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Ética
+tags:
+- etica
+criada: '2025-06-26'
+---
+
 Antes de escrever código, levantar pontes ou projetar cidades, a humanidade tentou responder uma pergunta muito mais básica: o que significa viver bem? E mais: como tomar decisões justas?
 
   

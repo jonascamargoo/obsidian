@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ## O que é?
 
 As Redes de Sensores Sem Fio (RSSF) são sistemas compostos por um grande número de nós sensores distribuídos em uma área geográfica para monitorar ou coletar dados de interesse. Cada nó sensor é equipado com capacidades de sensoriamento, processamento, comunicação e energia limitada. Esses nós sensoriais colaboram entre si para coletar e transmitir dados para um nó central, conhecido como sink node, que é responsável por coletar, processar e transmitir as informações para a estação base ou ponto de monitoramento.

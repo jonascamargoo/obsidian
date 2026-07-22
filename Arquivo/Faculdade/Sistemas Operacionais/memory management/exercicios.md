@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Sistemas Operacionais
+tags:
+- so
+criada: '2025-03-25'
+---
+
 # Sistemas Operacionais - Memória Virtual
 
 ## Retirados do livro -> Sistemas Operacionais Modernos (Andrew S. Tanenbaum, Herbert Bos) 4ª

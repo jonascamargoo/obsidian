@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2025-01-10'
+---
+
 ## Cookie
 
 Cookies são pequenos arquivos de texto armazenados pelo navegador que contêm informações associadas a uma interação específica entre o cliente e o servidor. Seu principal propósito é **manter o estado de uma sessão ou identificar o usuário** em requisições futuras.

@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Compiladores
+tags:
+- compiladores
+criada: '2025-04-10'
+---
 
 Primeira etapa de compilação. O **analisador léxico** é responsável por ler o código-fonte caractere por caractere e agrupar esses caracteres em **lexemas**, formando **tokens** válidos segundo a linguagem de programação. Cada token representa uma unidade sintática básica, como palavras-chave (`if`, `while`), identificadores (`x`, `nome`), operadores (`+`, `==`), delimitadores (`;`, `{`, `}`), entre outros.
 

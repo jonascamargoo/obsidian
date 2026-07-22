@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Modelagem e Desenvolvimento
+tags:
+- dev/modelagem
+criada: '2024-10-14'
+---
+
 -  Divide o desenvolvimento de um produto de software em ciclos;
 - Neste modelo, o desenvolvimento é dividido em iterações ou incrementos, onde cada iteração produz uma versão parcialmente funcional do produto;
 - Em cada ciclo de desenvolvimento, podem ser identificadas as fases de análise, projeto, implementação e testes;

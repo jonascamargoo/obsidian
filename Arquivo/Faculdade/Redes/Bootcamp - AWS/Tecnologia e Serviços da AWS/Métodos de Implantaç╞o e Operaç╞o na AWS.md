@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
 
 ### Diferentes Formas de Provisionamento e Operação na AWS
 

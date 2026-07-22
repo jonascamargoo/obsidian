@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
+
 O Shell Sort é um algoritmo de ordenação eficiente que melhora o desempenho do Insertion Sort. Ele divide a lista em subgrupos menores e, em seguida, aplica o Insertion Sort em cada um desses subgrupos. A principal ideia do Shell Sort é reduzir o número de comparações e movimentos de elementos ao realizar inserções em grupos maiores.
 
 Aqui está uma descrição passo a passo do algoritmo de ordenação Shell Sort:

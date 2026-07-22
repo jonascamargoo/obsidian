@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Compiladores
+tags:
+- compiladores
+criada: '2025-04-10'
+---
+
 ## O que é?
 
 Segunda etapa de compilação. O **analisador sintático** (ou *parser*) opera sobre a **saída** do Analisador Léxico. Sua principal entrada é a **Fila de Tokens**, uma sequência linear das unidades léxicas identificadas no código-fonte. A função do parser é verificar se essa sequência de tokens **obedece às regras gramaticais** da linguagem de programação. Ele faz isso tentando construir uma **árvore sintática (ou árvore de derivação / AST - Abstract Syntax Tree)**. 

@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Computer Organization and Architecture
+tags:
+- hardware
+criada: '2024-10-14'
+---
 
 Uma máquina virtual (VM) é um ambiente computacional completamente isolado e independente, criado por meio de software de virtualização. Essa tecnologia permite a execução de sistemas operacionais e aplicativos dentro de um ambiente virtualizado, isolado do sistema operacional hospedeiro. As VMs possibilitam a consolidação de recursos, permitindo que várias instâncias de sistemas operacionais coexistam em um único servidor físico. Isso oferece flexibilidade, eficiência e gerenciamento simplificado de recursos computacionais.
 

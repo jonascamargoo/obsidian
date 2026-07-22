@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2025-01-10'
+---
+
 O Telnet foi um dos primeiros protocolos usados para acessar sistemas remotamente. Ele permite que um cliente interaja com um servidor como se estivesse utilizando um terminal local. No entanto, o Telnet não oferece qualquer segurança, transmitindo dados, incluindo senhas, em texto puro. O SSH (Secure Shell) surgiu como uma alternativa segura ao Telnet, utilizando criptografia para proteger as comunicações. Além de oferecer os mesmos recursos do Telnet, o SSH permite criar túneis criptografados para comunicação segura entre sistemas. Ele é amplamente utilizado para administração remota de servidores e transferência segura de arquivos.
 
 ## O que é o SSH

@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Sistemas Distribuidos
+tags:
+- dev/sistemas-distribuidos
+criada: '2025-10-21'
+---
+
 ## Resiliência e Arquiteturas Multi-Região na AWS
 
 Um problema de resolução de DNS causou a instabilidade em 1/3 da internet no dia  20/10/2024. Quando a região **us-east-1 (N. Virginia)** da AWS sofre uma queda, muitos usuários relatam que "a AWS caiu". No entanto, essa percepção é incorreta — o problema, em geral, está na **concentração de workloads em uma única região**. Esse cenário revela importantes lições sobre **resiliência, custo e design arquitetural** em sistemas distribuídos na nuvem.

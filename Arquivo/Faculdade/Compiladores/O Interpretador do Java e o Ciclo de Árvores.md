@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Compiladores
+tags:
+- compiladores
+criada: '2025-04-11'
+---
 
 Ao rodar um programa Java, o que acontece **não é uma simples execução direta de texto-fonte**, mas sim um **processo estruturado em várias representações intermediárias**, que envolvem árvores e transformações.
 

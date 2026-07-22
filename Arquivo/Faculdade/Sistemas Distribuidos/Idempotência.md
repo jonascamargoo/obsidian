@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Sistemas Distribuidos
+tags:
+- dev/sistemas-distribuidos
+criada: '2025-09-21'
+---
+
 Foco: _resiliência e consistência lógica entre múltiplos serviços_.
 ### **O Problema da Duplicidade de Ações e a Solução da Idempotência**
 

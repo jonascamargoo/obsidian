@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
+
 #### O que são?
 
 	- É uma lista linear em que todas as inserções são realizadas em um extremo da lista, e todas as retiradas e, geralmente, os acessos são realizados no outro extremo da lista.

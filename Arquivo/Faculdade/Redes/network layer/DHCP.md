@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-11-13'
+---
+
 O **DHCP (Dynamic Host Configuration Protocol)** é um protocolo de rede que facilita a configuração automática de endereços IP e outros parâmetros de rede para dispositivos conectados. Ele permite que os dispositivos (clientes) recebam automaticamente um endereço IP e configurações adicionais de um servidor DHCP, sem a necessidade de configuração manual em cada dispositivo.
 
 ### Como funciona o DHCP

@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
 
 	Pesquisas em memória primária referem-se a operações de busca e acesso a dados armazenados na memória principal de um computador. A memória principal, também conhecida como memória RAM (Random Access Memory), é um tipo de memória de acesso aleatório e volátil, que é utilizada para armazenar dados temporariamente enquanto um programa está em execução.
 

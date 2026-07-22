@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Sistemas Distribuidos
+tags:
+- dev/sistemas-distribuidos
+criada: '2025-09-21'
+---
+
 Um dos maiores desafios em sistemas distribuídos é manter os dados consistentes e atualizados entre diferentes locais (servidores, clientes, dispositivos móveis), especialmente quando alguns desses locais podem ficar offline.
 
 Foco: _consistência de dados, resiliência e sincronia entre réplicas_.

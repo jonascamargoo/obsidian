@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ### Recursos e Serviços de Segurança da AWS
 
 #### Grupos de Segurança e ACLs de Rede: Seus Guardiões Digitais

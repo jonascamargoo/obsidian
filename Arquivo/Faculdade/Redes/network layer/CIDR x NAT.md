@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-27'
+---
+
 Podemos dizer que CIDR é uma solução baseada em NAT, utilizando de suas faixas.
 
 ---

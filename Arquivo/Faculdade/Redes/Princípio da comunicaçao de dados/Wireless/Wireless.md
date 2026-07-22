@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ## O que é?
 
 Wireless refere-se a qualquer tipo de comunicação ou transmissão de dados sem a utilização de cabos físicos. Em vez de fios, a comunicação sem fio utiliza ondas de rádio, micro-ondas, infravermelho, ou outras formas de ondas eletromagnéticas para transferir informações entre dispositivos. Tecnologias wireless são amplamente usadas em uma variedade de aplicações, incluindo redes de computadores (Wi-Fi), comunicações móveis (celulares), dispositivos Bluetooth, satélites e redes de sensores sem fio, entre outras. A comunicação sem fio oferece a vantagem da mobilidade e flexibilidade, permitindo conexões rápidas e eficientes sem a necessidade de infraestrutura física extensa.

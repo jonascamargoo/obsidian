@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Sistemas Operacionais
+tags:
+- so
+criada: '2025-01-14'
+---
+
 ## Troca de processos (Swapping) - não atende aos dias de hoje, rara utilização
 
 O **swapping de processos** é uma técnica de gerenciamento de memória que envolve mover processos entre a memória principal e o disco para otimizar o uso de recursos. No início, apenas um processo (como o A) pode estar na memória. À medida que novos processos (B e C) são criados ou trazidos do disco, eles ocupam mais espaço na memória. Quando a memória fica cheia, processos podem ser movidos de volta para o disco (swap out), liberando espaço para outros, como o processo D. Quando um processo retorna à memória (swap in), ele pode ser carregado em uma posição diferente, exigindo a realocação de seus endereços, tarefa geralmente realizada pelo hardware, com o uso de registradores base e limite - registradores base e limite são responsáveis por demarcar o início e fim do endereço, possibilitando a mágica do **endereçamento de memória**.

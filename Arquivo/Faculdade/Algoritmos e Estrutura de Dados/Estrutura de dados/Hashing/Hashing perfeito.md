@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
 
 ![[Pasted image 20230706220716.png]]
 

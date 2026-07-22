@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Modelagem e Desenvolvimento
+tags:
+- dev/modelagem
+criada: '2024-10-14'
+---
+
 ## O que é?
   
 O Processo de Desenvolvimento de Software (PDS) é uma abordagem sistemática para planejar, criar, testar e manter sistemas de software. Ele fornece uma estrutura para guiar as atividades envolvidas no desenvolvimento de software, desde a concepção até a entrega e manutenção do produto final. O objetivo principal do PDS é garantir que o software seja desenvolvido de maneira eficiente, com alta qualidade e dentro do prazo e do orçamento previstos.

@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
+
 ## O que é?
 
 Quando duas ou mais chaves geram o mesmo

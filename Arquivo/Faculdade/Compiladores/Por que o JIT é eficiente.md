@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Compiladores
+tags:
+- compiladores
+criada: '2025-04-11'
+---
 
 ### 🔁 1. Ele aprende com a execução
 

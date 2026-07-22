@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Ética
+tags:
+- etica
+criada: '2025-06-26'
+---
+
 A ética contemporânea não tem tempo para monumentos. Ela está na prática, no código, no orçamento, na escolha da matéria-prima. Está na política pública e no plano de negócios. O foco não é mais só pensar o certo e o errado em um plano abstrato, mas decidir como agir quando o tempo é curto, os recursos são limitados e os impactos são profundos. A ética aplicada surge assim: direto do mundo real, cheia de conflitos, cheia de nuances. É ela que orienta decisões no hospital, na engenharia, na educação, na ciência. Não tem manual pronto. Tem dilema, tem escolha.
 
   

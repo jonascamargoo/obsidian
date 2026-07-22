@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2025-01-10'
+---
+
 O HTTP (Hypertext Transfer Protocol) é o protocolo base para a transferência de páginas web. Ele opera de maneira simples, solicitando e enviando objetos como texto, imagens e vídeos. Contudo, é um protocolo stateless, o que significa que ele não mantém informações sobre conexões anteriores, tornando-o menos eficiente em certas aplicações. Já o HTTPS (HTTP Secure) é uma versão segura do HTTP, que adiciona uma camada de criptografia às comunicações. Essa criptografia garante a confidencialidade e a integridade dos dados transmitidos, protegendo contra interceptações e ataques de terceiros. A principal diferença técnica entre eles está no uso de certificados digitais e da porta 443 para o HTTPS, enquanto o HTTP utiliza a porta 80.
 
 

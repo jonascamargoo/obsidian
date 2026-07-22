@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Modelagem e Desenvolvimento
+tags:
+- dev/modelagem
+criada: '2024-10-14'
+---
+
 A prototipagem é uma técnica utilizada no desenvolvimento de software para criar modelos ou representações preliminares de um sistema ou parte dele, com o objetivo de validar requisitos, explorar funcionalidades, testar conceitos e obter feedback dos usuários ou clientes. Esses modelos, conhecidos como protótipos, podem variar em complexidade, desde simples esboços até versões mais detalhadas e interativas do sistema.
 
 ### Quando é utilizada?

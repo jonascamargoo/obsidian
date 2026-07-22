@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Computer Organization and Architecture
+tags:
+- hardware/assembly
+criada: '2024-10-14'
+---
 
 **Montagem (Assembly):**
 

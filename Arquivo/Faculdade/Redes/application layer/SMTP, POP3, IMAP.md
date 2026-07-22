@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2025-01-10'
+---
 
 ### **SMTP (Simple Mail Transfer Protocol)**:
 

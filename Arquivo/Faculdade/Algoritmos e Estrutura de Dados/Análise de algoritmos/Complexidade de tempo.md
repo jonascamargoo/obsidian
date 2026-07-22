@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
+
 #### Dois if's ou if/else?
 
 Em termos de desempenho, a diferença é insignificante. A JVM (Java Virtual Machine) é otimizada para realizar branch prediction (previsão de ramificação) e outras otimizações de código, tornando a diferença de desempenho negligível.

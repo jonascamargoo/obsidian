@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
 
 **1 - Uma árvore pode se degenerar com o tempo, após muitas inclusões ou exclusões, o que a torna ineficiente no tempo de acesso para a busca. A reconstrução de toda a árvore é um meio de torná-la mais eficiente. Um segundo meio é a adoção de uma árvore autobalanceada, que se reconfigura sempre que ela se torna desbalanceada. Explique uma vantagem e uma desvantagem de cada uma dessas duas formas de manter as árvores balanceadas. A vantagem e a desvantagem deve ser de uma forma sobre a outra forma. Dê um exemplo de árvore autobalanceada.**
 

@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Sistemas Operacionais
+tags:
+- so
+criada: '2025-03-25'
+---
+
 ## Retirados do livro -> Sistemas Operacionais Modernos (Andrew S. Tanenbaum, Herbert Bos) 4ª
 
 ### 11. A alocação contígua de arquivos leva à fragmentação de disco

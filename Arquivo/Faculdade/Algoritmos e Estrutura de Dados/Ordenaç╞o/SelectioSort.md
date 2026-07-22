@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
+
 	O Selection Sort é um algoritmo de ordenação simples que divide a lista em duas partes: uma parte ordenada e uma parte não ordenada. A cada iteração, o algoritmo seleciona o elemento mínimo da parte não ordenada e o move para a posição correta na parte ordenada.
 
 

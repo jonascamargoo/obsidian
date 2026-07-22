@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Modelagem e Desenvolvimento
+tags:
+- dev/modelagem
+criada: '2024-10-14'
+---
+
 ### Agilidade
 
 **Trem-bala:**

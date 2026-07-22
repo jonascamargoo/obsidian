@@ -1,5 +1,10 @@
-
-
+---
+tipo: conceito
+area: Sistemas Distribuidos
+tags:
+- dev/sistemas-distribuidos
+criada: '2025-09-04'
+---
 
 Como funciona a criptografia?
 

@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Sistemas Distribuidos
+tags:
+- dev/sistemas-distribuidos
+criada: '2024-10-14'
+---
 
 Foco: _interface e comunicação remota entre processos heterogêneos_.
 

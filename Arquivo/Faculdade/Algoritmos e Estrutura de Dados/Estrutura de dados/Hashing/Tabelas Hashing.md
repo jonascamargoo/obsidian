@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
+
 ### Motivação
 
 Até agora estudamos pesquisas sequenciais. Arranjos não fornecem mecanismos para calcular o índice a partir de uma informação armazenada. A pesquisa não é O(1). Exemplo, supondo um array em que há um string "maria" na posição 3. Eu não consigo, em O(1), saber onde ela está, sem varrer o array antes.

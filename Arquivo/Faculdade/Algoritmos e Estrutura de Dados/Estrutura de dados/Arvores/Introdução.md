@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
+
 ## Definição inicial de árvores
 
 Árvores, sendo um tipo abstrato de dados, podem ser definidas de várias maneiras. Uma definição comum é considerar uma árvore como uma coleção hierárquica de nós conectados por arestas. Se a coleção não estiver vazia, ela inclui um nó distinto chamado raiz, além de zero ou mais subárvores não vazias, denotadas como 𝑇, 𝑇2, ..., 𝑇𝑘. Cada raiz dessas subárvores está ligada à raiz principal por uma aresta. Os termos "raiz" e "subárvore" são derivados do inglês "root" e "tree", respectivamente. As raízes das subárvores são chamadas de filhas da raiz principal, enquanto a raiz principal é o pai de cada uma das subárvores.

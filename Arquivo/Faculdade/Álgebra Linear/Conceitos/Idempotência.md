@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Álgebra Linear
+tags:
+- matematica/algebra-linear
+criada: '2024-10-14'
+---
 
 O conceito vem da ideia de um valor ter sempre, como resultado, a mesma potência. Como é o caso do 1^n=1. O conceito pode ser interpretado através de funções também: "Uma função é idempotente se aplicar ela 2 vezes retorna sempre o mesmo resultado que aplicar ela uma vez só" . Um exemplo é f(x) = x*1.
 

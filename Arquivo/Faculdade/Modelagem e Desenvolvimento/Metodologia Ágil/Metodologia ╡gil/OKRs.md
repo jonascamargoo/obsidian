@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Modelagem e Desenvolvimento
+tags:
+- dev/agil
+criada: '2024-10-14'
+---
+
 OKR (Objectives and Key Results) é um método de gestão ágil criado pelo ex-CEO da Intel, Andrew Grove, que visa simplificar e focar a forma como as empresas encaram e alcançam seus principais objetivos estratégicos. OKR é uma ferramenta poderosa para definir metas claras (Objectives) e mensuráveis (Key Results), facilitando o alinhamento, o engajamento e a medição de resultados dentro de uma organização.
 
 ### Características Principais dos OKRs:

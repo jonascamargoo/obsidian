@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ### Serviços de IA/ML da AWS
 
 A AWS oferece uma gama robusta de serviços de Inteligência Artificial (IA) e Machine Learning (ML), projetados para democratizar a IA e o ML, tornando-os acessíveis a qualquer desenvolvedor, sem necessidade de expertise profunda. Amazon SageMaker, Amazon Lex e Amazon Kendra são exemplos de como a AWS está na vanguarda da inovação, permitindo a criação, o treinamento e a implantação de modelos de ML com mais facilidade, a construção de interfaces conversacionais baseadas em IA e o desenvolvimento de soluções de busca empresarial poderosas, respectivamente. Nesse sentido, segue uma definição individualizada desses serviços, que possibilitam a inovação em uma ampla gama de indústrias:

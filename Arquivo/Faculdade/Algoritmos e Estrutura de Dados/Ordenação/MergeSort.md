@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
+
 O Merge Sort é um algoritmo de ordenação eficiente e estável que utiliza a estratégia "dividir para conquistar". Ele divide a lista em partes menores, ordena cada parte separadamente e, em seguida, combina as partes ordenadas para obter a lista final ordenada. Esse processo de divisão e combinação é repetido recursivamente até que a lista esteja completamente ordenada.
 
 Aqui está uma descrição passo a passo do algoritmo de ordenação Merge Sort:

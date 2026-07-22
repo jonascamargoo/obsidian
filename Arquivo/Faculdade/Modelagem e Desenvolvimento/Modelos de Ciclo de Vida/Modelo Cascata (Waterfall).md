@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Modelagem e Desenvolvimento
+tags:
+- dev/modelagem
+criada: '2024-10-14'
+---
 
 Nesse contexto temos a metodologia tradicional, possuindo como técnica ou modelo mais conhecido o modelo clássico ou cascata (waterfall), que também é conhecido como abordagem “top-down”. O modelo foi proposto por Royce em 1970, derivado de modelos industriais de diversos segmentos de engenharias; seu principal objetivo era de estabelecer ordem e padrão em desenvolvimento de software. Foi chamado de desenvolvimento tradicional, pois é a base para diversos modelos utilizados há décadas pela indústria de software e é considerado um modelo rígido de pouca flexibilidade, adaptabilidade e versatilidade, sendo utilizado em projetos de pequeno, médio e grande porte.
 

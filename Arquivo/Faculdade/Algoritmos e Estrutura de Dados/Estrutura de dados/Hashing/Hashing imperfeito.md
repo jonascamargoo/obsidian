@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
 
 Hashing imperfeito, também conhecido como colisões de hashing, ocorre quando duas ou mais chaves diferentes são mapeadas para a mesma posição na tabela hash. Isso pode acontecer devido a vários fatores, como o tamanho limitado da tabela hash em relação ao número de chaves a serem armazenadas ou a natureza das funções de hashing utilizadas. Quando ocorrem colisões, é necessário adotar estratégias para lidar com elas. As principais abordagens para tratar colisões em hashing imperfeito incluem:
 

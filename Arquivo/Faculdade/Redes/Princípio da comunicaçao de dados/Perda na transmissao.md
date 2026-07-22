@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
 
 Os meios de transmissão não são perfeitos, portanto, perda de sinal acontece. Ou seja, o sinal enviado não é o mesmo recebido. Causas da perda: Atenuação, distorção e ruído
 

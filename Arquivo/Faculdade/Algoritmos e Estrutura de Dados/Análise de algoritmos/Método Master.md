@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
 
 * O método Máster provê uma “receita” para resolver recorrências do tipo T(n) = a T(n/b) + f(n) com a ≥1, b>1 constantes e f(n) função assintoticamente positiva.
 

@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Compiladores
+tags:
+- compiladores
+criada: '2025-04-10'
+---
+
 ## O que é um compilador?
 
 Um **compilador** é um **tradutor automático** que converte um código-fonte escrito em uma **linguagem de alto nível** (como C, Java, Python) para uma **linguagem de baixo nível**, como **linguagem de máquina** ou **bytecode**. O objetivo é permitir que o código seja **executado por um computador**. Também é possível realizar o processo inverso, informalmente chamado de "decompilação". 

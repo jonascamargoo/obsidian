@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Sistemas Operacionais
+tags:
+- so
+criada: '2025-01-14'
+---
+
 ## **Ideia básica**
 
 cada programa possui seu próprio **espaço de endereçamento**, dividido em blocos chamados **páginas**. As **páginas** correspondem a partes do espaço de **memória virtual** que são mapeadas para quadros (frames) na **memória física**. Essas páginas são mapeadas na memória física, mas nem todas precisam estar carregadas simultaneamente para que o programa seja executado.  

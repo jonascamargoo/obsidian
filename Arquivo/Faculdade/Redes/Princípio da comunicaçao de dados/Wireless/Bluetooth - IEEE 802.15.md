@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ## O que é?
 
 Bluetooth é uma tecnologia de comunicação sem fio de curto alcance que permite a transferência de dados entre dispositivos eletrônicos, como smartphones, computadores, alto-falantes, fones de ouvido, teclados e outros dispositivos habilitados para Bluetooth. Utilizando ondas de rádio na faixa de frequência de 2,4 GHz, o Bluetooth permite a conexão e a troca de informações de forma rápida e conveniente, geralmente em um raio de até 10 metros, dependendo da classe do dispositivo. Essa tecnologia é amplamente empregada em dispositivos móveis e periféricos, possibilitando a transmissão de áudio, vídeo, dados e comandos de controle de maneira sem fio, facilitando a interconexão e a integração entre diferentes dispositivos eletrônicos.

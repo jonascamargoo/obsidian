@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ## Direcionais
 
 Focam em apenas uma direção.  São utilizadas para longas distâncias, como links ponto-a-ponto entre prédios ou em aplicações de redes de telecomunicações.

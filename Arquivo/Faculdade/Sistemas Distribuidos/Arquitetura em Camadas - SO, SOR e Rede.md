@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Sistemas Distribuidos
+tags:
+- dev/sistemas-distribuidos
+criada: '2025-09-21'
+---
 
 Foco: _níveis de abstração e comunicação entre componentes_.
 #### **1. Definição dos Componentes**

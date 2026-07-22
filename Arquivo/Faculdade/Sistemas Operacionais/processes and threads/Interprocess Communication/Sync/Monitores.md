@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Sistemas Operacionais
+tags:
+- so
+criada: '2025-01-10'
+---
 
 Com semáforos e mutexes, a comunicação entre processos parece fácil, certo? Errado. Observe de perto a ordem dos downs antes de inserir ou remover itens do buffer na Figura 2.28. Suponha que os dois downs no código do produtor fossem invertidos, de maneira que mutex tenha sido decrescido antes de empty em vez de depois dele. Se o buffer estivesse completamente cheio, o produtor seria bloqueado, com mutex configurado para 0. Em consequência, da próxima vez que o consumidor tentasse acessar o buffer, ele faria um down em mutex, agora 0, e seria bloqueado também. Ambos os processos ficariam bloqueados para sempre e nenhum trabalho seria mais realizado. Essa situação infeliz é chamada de **impasse** (_deadlock_). Estudaremos impasses detalhadamente no Capítulo 6.
 

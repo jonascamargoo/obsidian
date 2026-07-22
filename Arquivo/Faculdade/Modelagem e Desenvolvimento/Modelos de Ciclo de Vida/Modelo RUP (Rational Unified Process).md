@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Modelagem e Desenvolvimento
+tags:
+- dev/modelagem
+criada: '2024-10-14'
+---
 
 1. **Dirigido por Casos de Uso**:
     

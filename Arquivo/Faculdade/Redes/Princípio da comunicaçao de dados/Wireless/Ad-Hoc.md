@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ## O que é?
 
 Uma rede Ad-Hoc pessoal é um tipo de rede sem fio onde dispositivos se comunicam diretamente uns com os outros sem a necessidade de um ponto de acesso central ou qualquer infraestrutura preexistente. Em uma rede Ad-Hoc, cada dispositivo (ou estação) participa ativamente na transmissão de dados, roteando pacotes para outros dispositivos na rede.

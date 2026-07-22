@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2025-01-23'
+---
+
 A camada de rede é uma das mais importantes nos modelos de comunicação em redes de computadores, como o modelo OSI (Open Systems Interconnection) e o modelo TCP/IP. Ela é responsável por endereçar, rotear e entregar pacotes de dados entre dispositivos, mesmo que estejam em redes diferentes.
 
 ---

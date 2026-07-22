@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
 
 O método de inserção (Insertion Sort) é um algoritmo simples de ordenação que constrói uma lista ordenada um elemento de cada vez. Ele percorre a lista original e, a cada iteração, insere o elemento atual em sua posição correta na parte já ordenada da lista.
 

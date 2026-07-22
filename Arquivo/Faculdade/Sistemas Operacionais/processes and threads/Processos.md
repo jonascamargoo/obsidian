@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Sistemas Operacionais
+tags:
+- so
+criada: '2024-11-01'
+---
 
 ## O que é um processo?
 

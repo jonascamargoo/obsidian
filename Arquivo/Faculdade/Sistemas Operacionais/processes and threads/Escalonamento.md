@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Sistemas Operacionais
+tags:
+- so
+criada: '2025-01-10'
+---
+
 ## Categorias de Algoritmos de Escalonamento
 Existem diferentes algoritmos de escalonamento dependendo do ambiente e das metas específicas de cada tipo de sistema operacional. Três ambientes principais são:
 ### Lote

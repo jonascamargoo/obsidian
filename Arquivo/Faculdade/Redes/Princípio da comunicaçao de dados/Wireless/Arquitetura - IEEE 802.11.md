@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ### Stations (Unidades Móveis – UMs)
 
 As estações, ou unidades móveis (UMs), são dispositivos que se conectam à rede sem fio. Esses dispositivos podem ser laptops, smartphones, tablets, ou qualquer outro dispositivo com capacidade Wi-Fi. Eles são responsáveis por se comunicar com os pontos de acesso para enviar e receber dados.

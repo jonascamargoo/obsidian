@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ## O que é?
 
 Antes de falarmos sobre as estratégias de migração, vamos entender o que é o AWS Cloud Adoption Framework, ou AWS CAF. O AWS CAF é um modelo que ajuda os clientes da AWS a identificar e priorizar oportunidades de transformação digital, avaliar e aumentar a prontidão para a nuvem e desenvolver um roteiro para guiar a transição dos negócios para a nuvem. O AWS CAF se baseia na experiência e nas melhores práticas da AWS para ajudar você a transformar e acelerar seus resultados de negócios por meio do uso inovador da AWS.

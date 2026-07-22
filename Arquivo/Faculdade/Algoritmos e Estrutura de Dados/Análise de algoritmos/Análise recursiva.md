@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
+
 ### Como analisar problemas através de uma recursão
 
 Para cada procedimento recursivo, associar uma

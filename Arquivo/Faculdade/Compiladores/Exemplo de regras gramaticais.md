@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Compiladores
+tags:
+- compiladores
+criada: '2025-06-26'
+---
+
 ## Contexto
 
 Forneça para a disciplina de Compiladores a sua definição gramatical (em gramática formal BNF, por qualquer notação) da linguagem natural mobilizada pelo usuário para envio a um search engine que aceite linguagem natural.

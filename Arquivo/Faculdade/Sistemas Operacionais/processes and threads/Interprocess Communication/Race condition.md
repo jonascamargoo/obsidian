@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Sistemas Operacionais
+tags:
+- so
+criada: '2025-01-10'
+---
+
 ## Memory sharing
 
 **Explicação:** Em alguns sistemas operacionais, processos que estão trabalhando juntos podem compartilhar uma memória comum, que cada um pode ler e escrever. Essa memória compartilhada pode estar localizada na memória principal ou ser um arquivo compartilhado, e o local não altera a natureza da comunicação ou os problemas que surgem.

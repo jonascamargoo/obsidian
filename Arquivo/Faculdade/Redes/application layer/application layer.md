@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2025-01-10'
+---
+
 ## O que é?
 
 A camada de aplicação no modelo de redes [TCP](obsidian://open?vault=obsidian&file=Obsidian%20Vault%2FAreas%2FRedes%2Ftransport%20layer%2Ftransport%20layer)/[IP](obsidian://open?vault=obsidian&file=Obsidian%20Vault%2FAreas%2FRedes%2Fnetwork%20layer%2Fnetwork%20layer) é onde ocorre a interação entre os usuários e a rede, proporcionando os serviços necessários para as aplicações que utilizamos diariamente, como navegação na web, envio de e-mails e compartilhamento de arquivos. Essa camada atua como um ponto de entrada para os dados, traduzindo solicitações e respostas para que possam ser compreendidas pelos usuários e pela infraestrutura de rede. Sua relevância está no fato de que ela abrange os protocolos que tornam possíveis serviços essenciais, como HTTP, FTP e SMTP, além de permitir a comunicação entre sistemas heterogêneos.

@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
 
 ### Compreensão das Chaves de Acesso, das Políticas de Senha e do Armazenamento de Credenciais
 

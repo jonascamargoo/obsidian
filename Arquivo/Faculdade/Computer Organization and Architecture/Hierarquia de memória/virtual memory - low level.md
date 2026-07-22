@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Computer Organization and Architecture
+tags:
+- hardware
+criada: '2024-10-14'
+---
+
 "A technique that uses main memory as a “cache” for secondary storage." Uma espaço (swap space) de disco rídigo utilizado como se fosse parte da memória principal
 
 ### Para que? 

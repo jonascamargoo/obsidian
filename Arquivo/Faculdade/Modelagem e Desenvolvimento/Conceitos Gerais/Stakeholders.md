@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Modelagem e Desenvolvimento
+tags:
+- dev/modelagem
+criada: '2024-10-14'
+---
 
 são partes interessadas ou envolvidas em um projeto, processo ou organização. Eles podem ser indivíduos, grupos ou entidades que têm interesse direto ou indireto no resultado ou desempenho do projeto.
 

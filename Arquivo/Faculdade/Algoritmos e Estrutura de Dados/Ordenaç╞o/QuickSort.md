@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Algoritmos e Estrutura de Dados
+tags:
+- algoritmos
+criada: '2024-10-14'
+---
 
 O Quick Sort é um algoritmo de ordenação eficiente e amplamente utilizado que também utiliza a estratégia "dividir para conquistar". Ele seleciona um elemento como pivô e rearranja os elementos em torno do pivô, de forma que os elementos menores fiquem à esquerda e os elementos maiores fiquem à direita. Em seguida, o Quick Sort é aplicado recursivamente nas duas partes resultantes do pivô até que toda a lista esteja ordenada.
 

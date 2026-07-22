@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-11-13'
+---
 
 Lista 1 - pt1
 

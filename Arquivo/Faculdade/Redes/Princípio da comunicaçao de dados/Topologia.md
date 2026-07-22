@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Redes
+tags:
+- redes
+criada: '2024-10-14'
+---
+
 ## O que é
 
 Uma [rede de computadores](https://blog.xpeducacao.com.br/rede-mundial-de-computadores/) é composta por uma série de máquinas interligadas. Quando essas máquinas se comunicam, elas compartilham dados, arquivos e informações no geral. Para que essas comunicações ocorram de maneira saudável, segura e funcional, é preciso haver uma estrutura.

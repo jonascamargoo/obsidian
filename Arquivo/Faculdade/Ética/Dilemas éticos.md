@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Ética
+tags:
+- etica
+criada: '2025-06-26'
+---
+
 A ética não nasce nos tratados filosóficos. Ela nasce no chão da vida real. Quando uma escolha custa caro. Quando nenhuma opção é boa o suficiente. Quando fazer nada já é uma forma de agir. Os dilemas éticos não são enigmas abstratos; são campos de batalha entre valores em conflito. E cada época da história teve seus próprios dilemas, tão difíceis quanto os nossos. Estudar esses casos não é apenas olhar para o passado — é treinar o olhar para o presente. Porque em cada grande escolha coletiva ou individual, a ética sempre volta para nos perguntar: e agora, o que você vai fazer?
 
   
