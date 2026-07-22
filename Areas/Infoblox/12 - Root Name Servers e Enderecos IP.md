@@ -94,7 +94,7 @@ Os root servers são responsáveis por **todos os Top-Level Domains (TLDs)**, in
 
 ## 🔗 Notas relacionadas
 
-- [[DDI Associate - Índice]]
+- [[DDI Associate]]
 - Aula anterior: [[11 - Dados Autoritativos]]
 - Próxima aula: _(a definir conforme você enviar)_
 - Relacionado: [[01 - Historia do DNS]] (árvore invertida, TLDs/ccTLDs) · [[03 - Terminologia e Definicoes do DNS]] (recursivo vs. autoritativo)

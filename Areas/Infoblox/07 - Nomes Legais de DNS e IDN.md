@@ -103,6 +103,6 @@ dificuldade: Intermediate
 
 ## 🔗 Notas relacionadas
 
-- [[DDI Associate - Índice]]
+- [[DDI Associate]]
 - Aula anterior: [[06 - Anatomia de uma Mensagem DNS]]
 - Próxima aula: _(a definir conforme você enviar)_

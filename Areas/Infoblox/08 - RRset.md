@@ -91,7 +91,7 @@ graph TD
 
 ## 🔗 Notas relacionadas
 
-- [[DDI Associate - Índice]]
+- [[DDI Associate]]
 - Aula anterior: [[07 - Nomes Legais de DNS e IDN]]
 - Próxima aula: _(a definir conforme você enviar)_
 - Relacionado: [[03 - Terminologia e Definicoes do DNS]] (Resource Records, cache, recursivo/autoritativo)

@@ -118,6 +118,6 @@ Um software cliente de DNS pode:
 
 ## 🔗 Notas relacionadas
 
-- [[DDI Associate - Índice]]
+- [[DDI Associate]]
 - Aula anterior: [[03 - Terminologia e Definicoes do DNS]]
 - Próxima aula: _(a definir conforme você enviar)_

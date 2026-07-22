@@ -93,7 +93,7 @@ Não é um livro de regras rígidas, mas um conjunto de **boas práticas** focad
 
 ## 🔗 Notas relacionadas
 
-- [[DDI Associate - Índice]]
+- [[DDI Associate]]
 - Aula anterior: [[08 - RRset]]
 - Próxima aula: _(a definir conforme você enviar)_
 - Relacionado: [[07 - Nomes Legais de DNS e IDN]] (caracteres válidos, case-insensitive)

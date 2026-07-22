@@ -136,5 +136,5 @@ graph TD
 
 ## 🔗 Notas relacionadas
 
-- [[DDI Associate - Índice]]
+- [[DDI Associate]]
 - Próxima aula: _(a definir conforme você enviar)_

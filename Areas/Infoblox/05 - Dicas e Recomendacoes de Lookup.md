@@ -101,6 +101,6 @@ O `dig` é a recomendação para DNS porque:
 
 ## 🔗 Notas relacionadas
 
-- [[DDI Associate - Índice]]
+- [[DDI Associate]]
 - Aula anterior: [[04 - Softwares Cliente de DNS Comuns]]
 - Próxima aula: _(a definir conforme você enviar)_

@@ -81,7 +81,7 @@ graph TD
 
 ## 🔗 Notas relacionadas
 
-- [[DDI Associate - Índice]]
+- [[DDI Associate]]
 - Aula anterior: [[05 - Dicas e Recomendacoes de Lookup]]
 - Próxima aula: [[07 - Nomes Legais de DNS e IDN]]
 - Relacionado: [[03 - Terminologia e Definicoes do DNS]] (Resource Records)

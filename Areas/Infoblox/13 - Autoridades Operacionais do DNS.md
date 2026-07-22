@@ -104,7 +104,7 @@ graph TD
 
 ## 🔗 Notas relacionadas
 
-- [[DDI Associate - Índice]]
+- [[DDI Associate]]
 - Aula anterior: [[12 - Root Name Servers e Enderecos IP]]
 - Próxima aula: _(a definir conforme você enviar)_
 - Relacionado: [[11 - Dados Autoritativos]] (delegação) · [[12 - Root Name Servers e Enderecos IP]] (operadores dos root servers, TLDs)

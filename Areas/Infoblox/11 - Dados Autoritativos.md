@@ -76,7 +76,7 @@ graph TD
 
 ## 🔗 Notas relacionadas
 
-- [[DDI Associate - Índice]]
+- [[DDI Associate]]
 - Aula anterior: [[10 - Formato de Endereco IPv6 e Importancia do DNS]]
 - Próxima aula: _(a definir conforme você enviar)_
 - Relacionado: [[01 - Historia do DNS]] (base de dados distribuída) · [[03 - Terminologia e Definicoes do DNS]] (servidor autoritativo, zona)

@@ -176,10 +176,10 @@ Um bom agente:
 
 ## 🔗 Links relacionados
 
-- [[Janela de Contexto]]
-- [[RAG - Retrieval Augmented Generation]]
-- [[Vector Databases]]
-- [[Knowledge Graphs]]
+- [[Context Window e lost in the middle|Janela de Contexto]]
+- [[Retrieval-Augmented Generation (RAG)|RAG - Retrieval Augmented Generation]]
+- [[Vector DBs|Vector Databases]]
+- [[1 - Deep Dive -> Knowledge Graphs para GraphRAG|Knowledge Graphs]]
 - [[Claude Code]]
 - [[Agent Skills]]
 - [[Progressive Disclosure]]

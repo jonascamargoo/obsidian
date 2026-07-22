@@ -184,6 +184,6 @@ graph LR
 
 ## 🔗 Notas relacionadas
 
-- [[DDI Associate - Índice]]
+- [[DDI Associate]]
 - Aula anterior: [[02 - Importancia do DNS]]
 - Próxima aula: _(a definir conforme você enviar)_

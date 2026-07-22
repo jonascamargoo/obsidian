@@ -116,6 +116,6 @@ Serviços que dependem fortemente de DNS:
 
 ## 🔗 Notas relacionadas
 
-- [[DDI Associate - Índice]]
+- [[DDI Associate]]
 - Aula anterior: [[01 - Historia do DNS]]
 - Próxima aula: _(a definir conforme você enviar)_

@@ -92,7 +92,7 @@ fe80::ac7b:35ff:fe44:6c0c
 
 ## 🔗 Notas relacionadas
 
-- [[DDI Associate - Índice]]
+- [[DDI Associate]]
 - Aula anterior: [[09 - Dicas para Nomear seus Computadores]]
 - Próxima aula: _(a definir conforme você enviar)_
 - Relacionado: [[02 - Importancia do DNS]] (por que nomes > IPs) · [[03 - Terminologia e Definicoes do DNS]] (registro AAAA = IPv6)

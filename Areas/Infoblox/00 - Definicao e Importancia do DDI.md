@@ -113,5 +113,5 @@ graph TD
 
 ## 🔗 Notas relacionadas
 
-- [[DDI Associate - Índice]]
+- [[DDI Associate]]
 - Próxima aula: [[01 - Historia do DNS]]
