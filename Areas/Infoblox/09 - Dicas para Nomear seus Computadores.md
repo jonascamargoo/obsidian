@@ -1,18 +1,20 @@
 ---
+tipo: aula
+area: Infoblox
+tags:
+- redes/ddi
+- redes/dns
+- hostname
+- boas-praticas
+- rfc1178
+- explore-more
+criada: '2026-05-28'
 curso: DDI Associate
 aula: 9
-titulo: "Explore More: Dicas para Nomear seus Computadores"
+titulo: 'Explore More: Dicas para Nomear seus Computadores'
 fonte: Infoblox Education
 duracao: 1m
 dificuldade: Beginner
-tags:
-  - DDI
-  - DNS
-  - hostname
-  - boas-praticas
-  - RFC1178
-  - explore-more
-data: 2026-05-28
 ---
 
 # Aula 9 — Explore More: Dicas para Nomear seus Computadores

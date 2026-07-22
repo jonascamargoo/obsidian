@@ -1,17 +1,19 @@
 ---
+tipo: aula
+area: Infoblox
+tags:
+- redes/ddi
+- redes/dns
+- protocolo
+- mensagens
+- rfc1035
+criada: '2026-05-28'
 curso: DDI Associate
 aula: 6
 titulo: Anatomia de uma Mensagem DNS
 fonte: Infoblox Education
 duracao: 1m
 dificuldade: Intermediate
-tags:
-  - DDI
-  - DNS
-  - protocolo
-  - mensagens
-  - RFC1035
-data: 2026-05-28
 ---
 
 # Aula 6 — Anatomia de uma Mensagem DNS

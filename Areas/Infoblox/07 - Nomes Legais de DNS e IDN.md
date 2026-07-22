@@ -1,18 +1,20 @@
 ---
+tipo: aula
+area: Infoblox
+tags:
+- redes/ddi
+- redes/dns
+- nomes
+- idn
+- punycode
+- rfc1123
+criada: '2026-05-28'
 curso: DDI Associate
 aula: 7
 titulo: Nomes Legais de DNS e IDN
 fonte: Infoblox Education
 duracao: 2m
 dificuldade: Intermediate
-tags:
-  - DDI
-  - DNS
-  - nomes
-  - IDN
-  - punycode
-  - RFC1123
-data: 2026-05-28
 ---
 
 # Aula 7 — Nomes Legais de DNS e IDN

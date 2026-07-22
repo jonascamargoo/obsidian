@@ -1,17 +1,19 @@
 ---
+tipo: aula
+area: Infoblox
+tags:
+- redes/ddi
+- redes/dns
+- networking
+- fundamentos
+- terminologia
+criada: '2026-05-28'
 curso: DDI Associate
 aula: 3
 titulo: Terminologia e Definições do DNS
 fonte: Infoblox Education
 duracao: 7m
 dificuldade: Intermediate
-tags:
-  - DDI
-  - DNS
-  - networking
-  - fundamentos
-  - terminologia
-data: 2026-05-28
 ---
 
 # Aula 3 — Terminologia e Definições do DNS

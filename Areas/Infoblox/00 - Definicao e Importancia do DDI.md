@@ -1,18 +1,20 @@
 ---
+tipo: aula
+area: Infoblox
+tags:
+- redes/ddi
+- redes/dns
+- redes/dhcp
+- redes/ipam
+- fundamentos
+- introducao
+criada: '2026-05-28'
 curso: DDI Associate
 aula: 0
 titulo: Definição e Importância do DDI
 fonte: Infoblox Education
 duracao: 2m
 dificuldade: Intermediate
-tags:
-  - DDI
-  - DNS
-  - DHCP
-  - IPAM
-  - fundamentos
-  - introducao
-data: 2026-05-28
 ---
 
 # Aula 0 — Definição e Importância do DDI

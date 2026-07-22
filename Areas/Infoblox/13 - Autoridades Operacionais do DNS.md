@@ -1,18 +1,20 @@
 ---
+tipo: aula
+area: Infoblox
+tags:
+- redes/ddi
+- redes/dns
+- governanca
+- iana
+- icann
+- rir
+criada: '2026-05-28'
 curso: DDI Associate
 aula: 13
 titulo: Autoridades Operacionais do DNS
 fonte: Infoblox Education
 duracao: 1m
 dificuldade: Intermediate
-tags:
-  - DDI
-  - DNS
-  - governanca
-  - IANA
-  - ICANN
-  - RIR
-data: 2026-05-28
 ---
 
 # Aula 13 — Autoridades Operacionais do DNS

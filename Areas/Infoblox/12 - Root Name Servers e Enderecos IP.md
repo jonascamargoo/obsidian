@@ -1,18 +1,20 @@
 ---
+tipo: aula
+area: Infoblox
+tags:
+- redes/ddi
+- redes/dns
+- root-servers
+- anycast
+- tld
+- infraestrutura
+criada: '2026-05-28'
 curso: DDI Associate
 aula: 12
 titulo: Root Name Servers e Endereços IP
 fonte: Infoblox Education
 duracao: 1m
 dificuldade: Intermediate
-tags:
-  - DDI
-  - DNS
-  - root-servers
-  - anycast
-  - TLD
-  - infraestrutura
-data: 2026-05-28
 ---
 
 # Aula 12 — Root Name Servers e Endereços IP

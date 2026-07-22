@@ -1,17 +1,19 @@
 ---
+tipo: aula
+area: Infoblox
+tags:
+- redes/ddi
+- redes/dns
+- autoritativo
+- delegacao
+- zonas
+criada: '2026-05-28'
 curso: DDI Associate
 aula: 11
 titulo: Dados Autoritativos (Authoritative Data)
 fonte: Infoblox Education
 duracao: 1m
 dificuldade: Intermediate
-tags:
-  - DDI
-  - DNS
-  - autoritativo
-  - delegacao
-  - zonas
-data: 2026-05-28
 ---
 
 # Aula 11 — Dados Autoritativos (Authoritative Data)

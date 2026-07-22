@@ -1,17 +1,19 @@
 ---
+tipo: aula
+area: Infoblox
+tags:
+- redes/ddi
+- redes/dns
+- resource-records
+- cache
+- ttl
+criada: '2026-05-28'
 curso: DDI Associate
 aula: 8
 titulo: RRset (Resource Record Set)
 fonte: Infoblox Education
 duracao: 2m
 dificuldade: Intermediate
-tags:
-  - DDI
-  - DNS
-  - resource-records
-  - cache
-  - TTL
-data: 2026-05-28
 ---
 
 # Aula 8 — RRset (Resource Record Set)

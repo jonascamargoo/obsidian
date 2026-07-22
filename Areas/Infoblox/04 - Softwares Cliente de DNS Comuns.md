@@ -1,17 +1,19 @@
 ---
+tipo: aula
+area: Infoblox
+tags:
+- redes/ddi
+- redes/dns
+- networking
+- ferramentas
+- troubleshooting
+criada: '2026-05-28'
 curso: DDI Associate
 aula: 4
 titulo: Softwares Cliente de DNS Comuns
 fonte: Infoblox Education
 duracao: 3m
 dificuldade: Intermediate
-tags:
-  - DDI
-  - DNS
-  - networking
-  - ferramentas
-  - troubleshooting
-data: 2026-05-28
 ---
 
 # Aula 4 — Softwares Cliente de DNS Comuns

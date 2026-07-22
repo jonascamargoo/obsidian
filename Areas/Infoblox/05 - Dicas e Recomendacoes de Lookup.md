@@ -1,17 +1,19 @@
 ---
+tipo: aula
+area: Infoblox
+tags:
+- redes/ddi
+- redes/dns
+- ferramentas
+- troubleshooting
+- dig
+criada: '2026-05-28'
 curso: DDI Associate
 aula: 5
 titulo: Dicas e Recomendações de Lookup
 fonte: Infoblox Education
 duracao: 2m
 dificuldade: Intermediate
-tags:
-  - DDI
-  - DNS
-  - ferramentas
-  - troubleshooting
-  - dig
-data: 2026-05-28
 ---
 
 # Aula 5 — Dicas e Recomendações de Lookup

@@ -1,17 +1,19 @@
 ---
+tipo: aula
+area: Infoblox
+tags:
+- redes/ddi
+- redes/dns
+- networking
+- fundamentos
+- seguranca
+criada: '2026-05-28'
 curso: DDI Associate
 aula: 2
 titulo: Importância do DNS
 fonte: Infoblox Education
 duracao: 3m
 dificuldade: Intermediate
-tags:
-  - DDI
-  - DNS
-  - networking
-  - fundamentos
-  - seguranca
-data: 2026-05-28
 ---
 
 # Aula 2 — Importância do DNS

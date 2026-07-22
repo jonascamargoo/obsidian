@@ -1,16 +1,18 @@
 ---
+tipo: aula
+area: Infoblox
+tags:
+- redes/ddi
+- redes/dns
+- ipv6
+- enderecamento
+- rfc8200
+criada: '2026-05-28'
 curso: DDI Associate
 aula: 10
 titulo: Formato de Endereço IPv6 e a Importância Crescente do DNS
 fonte: Infoblox Education
 dificuldade: Intermediate
-tags:
-  - DDI
-  - DNS
-  - IPv6
-  - enderecamento
-  - RFC8200
-data: 2026-05-28
 ---
 
 # Aula 10 — Formato de Endereço IPv6 e a Importância Crescente do DNS

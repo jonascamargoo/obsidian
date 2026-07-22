@@ -1,13 +1,15 @@
 ---
+tipo: aula
+area: Infoblox
+tags:
+- redes/ddi
+- redes/dns
+- networking
+- fundamentos
+criada: '2026-05-28'
 curso: DDI Associate
 aula: 1
 titulo: História do Domain Name System (DNS)
-tags:
-  - DDI
-  - DNS
-  - networking
-  - fundamentos
-data: 2026-05-28
 ---
 
 # Aula 1 — História do Domain Name System (DNS)
