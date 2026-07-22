@@ -24,9 +24,16 @@ Ponto de entrada do second brain. Convenções: ver `CLAUDE.md`.
 ## Projetos
 
 - [[TCC - secundário|TCC]]
-- [[Plano de Migração - Axur Sales Copilot -> Aegra Architecture|Migration Agentic Copilot]]
-- [[1 - what is claude code|Curso Claude Code]]
-- [[plano de ação|Otimização atual]] · [[Analise dos logos|Logos]]
+- [[Plano de Migração - Axur Sales Copilot -> Aegra Architecture|Migration Agentic Copilot]] ([[Projetos/Migration Agentic Copilot/prompt|prompt]])
+- Curso Claude Code: [[1 - what is claude code]] · [[2 - adding context]] · [[3 - making changes]] · [[4 - controlling context]] · [[5 - custom commands]] · [[6 - MCP servers with Claude Code]] · [[Refs]]
+- [[plano de ação|Otimização atual]] ([[Projetos/otimizacao atual/prompt|prompt]]) · [[Analise dos logos|Logos]] ([[Annotation]])
+- Avulsos: [[Internship program]] · [[Decoupling - master]] · [[Loading - Slite]] · [[ismr]] · [[personal]]
+
+## Recursos
+
+- IA no desenvolvimento: [[How to use AI in development]] · [[Vibe Coding]] · [[Waldemar Neto - como lidar com context window]]
+- [[RAG Local]] — ideia de RAG sobre o vault
+- [[Github Documentation via Code Wiki]] · [[Config postgres]] · [[Parte 2 pishdog]] · [[Notes|English Notes]]
 
 ## Sistema
 
