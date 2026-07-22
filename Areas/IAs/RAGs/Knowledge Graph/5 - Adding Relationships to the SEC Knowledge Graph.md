@@ -1,4 +1,11 @@
-
+---
+tipo: aula
+area: IAs
+tags:
+- ia/rag
+- ia/knowledge-graph
+criada: '2026-03-16'
+---
 
 Nesta aula, o objetivo é replicar a estrutura lógica de um documento financeiro (Form 10-K) dentro do grafo, conectando os fragmentos (_chunks_) de texto para refletir a hierarquia original do relatório.
 

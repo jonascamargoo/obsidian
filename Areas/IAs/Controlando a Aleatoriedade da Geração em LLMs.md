@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia
+criada: '2025-11-03'
+---
+
 A geração de texto em LLMs não é um processo determinístico; é uma **escolha aleatória ponderada** executada token por token. Em cada etapa, a LLM gera uma distribuição de probabilidade sobre todo o seu vocabulário (ex: 100.000 tokens) para prever o próximo token.
 
 A forma dessa distribuição de probabilidade indica a "certeza" do modelo:

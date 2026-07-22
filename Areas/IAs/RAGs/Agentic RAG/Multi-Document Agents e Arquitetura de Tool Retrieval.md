@@ -1,3 +1,12 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+- ia/agentes
+criada: '2026-04-20'
+---
+
 ## 1. Escalonamento Inicial: Agentes Multi-Documento (Small Scale)
 
 Para expandir um agente RAG de um único documento para múltiplos documentos, a abordagem inicial (ingênua) consiste em instanciar o par de ferramentas padrão (`VectorTool` e `SummaryTool`) para cada documento e injetar todas em uma lista plana no prompt do agente.

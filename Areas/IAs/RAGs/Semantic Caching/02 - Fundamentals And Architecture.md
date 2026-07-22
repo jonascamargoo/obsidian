@@ -1,11 +1,14 @@
 ---
+tipo: aula
+area: IAs
 tags:
-  - AI
-  - Caching
-  - VectorSearch
-  - Architecture
-  - CaseStudy/Walmart
-  - Metrics
+- ai
+- caching
+- ia/rag
+- architecture
+- casestudy/walmart
+- metrics
+criada: '2025-11-26'
 source: Semantic Caching for AI Agents (Lesson 2)
 ---
 

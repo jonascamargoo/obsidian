@@ -1,3 +1,11 @@
+---
+tipo: aula
+area: IAs
+tags:
+- ia/agentes
+criada: '2026-04-20'
+---
+
 ## 1. A Evolução do Ecossistema Agentic
 
 Há cerca de um ano, construir agentes confiáveis era um desafio de engenharia significativo, muitas vezes resultando em loops infinitos ou falhas de _parsing_. A consolidação de arquiteturas _agentic_ recentes foi viabilizada por dois fatores cruciais:

@@ -1,4 +1,10 @@
-
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-08-27'
+---
 
 A etapa final do RAG é injetar o contexto recuperado em um prompt e enviá-lo a uma LLM. Mas _por que_ isso funciona? Como a LLM consegue "dar sentido" a essa informação? A resposta está na arquitetura **Transformer**, especificamente no componente **Decoder**.
 

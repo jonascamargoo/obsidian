@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-03-18'
+---
+
 ## O que é RAG?
 
 Retrieval-Augmented Generation (RAG) é um processo que melhora a saída de um grande modelo de linguagem (LLM), permitindo que ele acesse bases de conhecimento externas antes de gerar uma resposta. Os LLMs são treinados em grandes volumes de dados e utilizam bilhões de parâmetros para realizar tarefas como responder perguntas, traduzir idiomas e gerar textos.

@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/redes-neurais
+criada: '2025-12-17'
+---
 
 Este documento detalha a implementação de um modelo de _Single Neuron_ (Regressão Linear Simples) utilizando PyTorch. O foco é mapear os conceitos teóricos do pipeline de Machine Learning para estruturas de dados tensoriais e operações de cálculo diferencial automático. 
 

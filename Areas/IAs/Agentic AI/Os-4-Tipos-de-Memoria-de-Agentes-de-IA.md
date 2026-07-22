@@ -1,12 +1,16 @@
 ---
-title: Os 4 Tipos de Memória de Agentes de IA
+tipo: conceito
+area: IAs
 tags:
-  - IA
-  - agentes
-  - memória
-  - CoALA
-  - LLM
-  - arquitetura-cognitiva
+- ia
+- agentes
+- memória
+- coala
+- llm
+- arquitetura-cognitiva
+- ia/agentes
+criada: '2026-05-26'
+title: Os 4 Tipos de Memória de Agentes de IA
 created: 2026-05-26
 source: Vídeo educacional
 framework: CoALA (Cognitive Architectures for Language Agents)

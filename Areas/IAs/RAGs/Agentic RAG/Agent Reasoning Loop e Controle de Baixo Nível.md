@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+- ia/agentes
+criada: '2026-04-20'
+---
 
 Para garantir escalabilidade e separação de responsabilidades, o LlamaIndex divide a entidade "Agente" em dois componentes fundamentais:
 

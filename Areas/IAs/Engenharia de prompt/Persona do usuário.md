@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/prompt-engineering
+criada: '2024-10-14'
+---
 
 A persona pode influenciar o comportamento do modelo, a forma como fala, sua formalidade e o tipo de informação oferece.
 

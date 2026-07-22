@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-11-04'
+---
+
 Avaliar um sistema RAG exige isolar seus componentes. A performance do **Retriever** (avaliada com métricas como Precision/Recall/MAP) é distinta da performance da **LLM**.
 
 Quando se avalia a LLM, assume-se que o Retriever funcionou (ou seja, entregou documentos maioritariamente relevantes, talvez com algum ruído).

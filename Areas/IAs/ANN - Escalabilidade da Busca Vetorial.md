@@ -1,4 +1,10 @@
-
+---
+tipo: conceito
+area: IAs
+tags:
+- ia
+criada: '2025-11-02'
+---
 
 > [!info] Veja também
 > Este arquivo trata da **escalabilidade** do KNN em produção (busca vetorial / RAG / embeddings). Para o KNN como **algoritmo de classificação supervisionada** (com K vizinhos, distâncias Minkowski, padronização, escolha de K, etc.), veja [[KNN - Algoritmo de Classificação]].

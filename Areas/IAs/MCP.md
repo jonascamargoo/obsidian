@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia
+criada: '2025-03-17'
+---
+
 ## O que é?
 
 É um protocolo open-source que padroniza o fornecimento de contexto para as LLMs. Promove a flexibilidade entre a troca de provedores LLMs, mantem os dados seguros dentro da nossa infraestrutura. Além disso, fornece uma lista crescente de integrações pré-configuradas que sua LLM pode conectar diretamente.

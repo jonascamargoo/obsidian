@@ -1,3 +1,11 @@
+---
+tipo: aula
+area: IAs
+tags:
+- ia/rag
+- ia/knowledge-graph
+criada: '2026-03-16'
+---
 
 Nesta sessão, traduzimos a teoria dos **Knowledge Graphs (KG)** para o código, utilizando o **Neo4j** como motor de banco de dados e o **LangChain** como interface de orquestração. Vamos trabalhar com um exemplo de filmes.
 ![[Pasted image 20260315213505.png]]

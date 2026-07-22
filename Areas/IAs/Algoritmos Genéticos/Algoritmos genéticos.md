@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/algoritmos-geneticos
+criada: '2025-06-10'
+---
 
 ## 1. Introdução aos Algoritmos Genéticos
 

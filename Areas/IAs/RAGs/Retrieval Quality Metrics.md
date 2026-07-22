@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-11-02'
+---
+
 Embora métricas de engenharia de software (latência, _throughput_, uso de recursos) sejam importantes, a métrica fundamental de um retriever é sua **qualidade de busca**.
 
 Para "dar uma nota" a um retriever, três componentes são necessários:

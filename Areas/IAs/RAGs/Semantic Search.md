@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-10-31'
+---
 
 A busca por **keyword search** (correspondência de palavras-chave) é limitada. Se você procura por "comida italiana barata" e um documento usa a frase "pizza com bom preço", o keyword search pode falhar. Ele procura por correspondências literais.
 

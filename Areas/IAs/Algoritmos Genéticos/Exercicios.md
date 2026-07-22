@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/algoritmos-geneticos
+criada: '2025-06-10'
+---
+
 ## 1 - Resuma o FGA em forma de passos
 
 Um Algoritmo Genético (AG) opera em um ciclo evolutivo para encontrar soluções para problemas de busca e otimização. Os passos fundamentais são:

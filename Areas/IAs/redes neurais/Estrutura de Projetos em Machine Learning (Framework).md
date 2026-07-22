@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/redes-neurais
+criada: '2025-12-16'
+---
 
 Este material resume o fluxo de trabalho sistemático (pipeline) utilizado para criar modelos de Inteligência Artificial, ilustrado através do problema de **previsão de tempo de entrega**.
 

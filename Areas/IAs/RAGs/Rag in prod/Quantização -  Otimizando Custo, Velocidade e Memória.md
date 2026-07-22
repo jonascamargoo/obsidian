@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+- ia/llmops
+criada: '2026-02-23'
+---
 
 **Data:** 23/02/2026
 

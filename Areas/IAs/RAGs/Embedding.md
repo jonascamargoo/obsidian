@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-10-31'
+---
+
 O trabalho de um modelo de embedding parece simples: transformar textos similares em vetores (pontos) que fiquem próximos, e transformar textos diferentes em vetores que fiquem distantes.
 
 Mas como um computador aprende a fazer isso? O processo é sofisticado e se baseia em uma técnica chamada **Treinamento Contrastivo** (Contrastive Training).

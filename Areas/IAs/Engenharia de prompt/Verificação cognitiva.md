@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/prompt-engineering
+criada: '2024-10-14'
+---
 
 A verificação cognitiva é uma abordagem eficaz para extrair informações mais precisas e úteis do ChatGPT ou de um grande modelo de linguagem (LLM). Esta técnica envolve a quebra de problemas complexos em subproblemas ou subquestões, o que melhora o desempenho do modelo, permitindo um raciocínio mais eficaz.
 

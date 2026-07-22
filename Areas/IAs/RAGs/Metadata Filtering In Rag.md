@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-08-27'
+---
+
 Em sistemas de busca avançada, como o RAG (Retrieval-Augmented Generation), o "metadata filtering" (filtragem por metadados) é um mecanismo crucial de segurança, personalização e relevância.
 
 Como o texto-base indica, a filtragem por metadados **não realiza a recuperação de dados** por si só. Em vez disso, ela **restringe os resultados** que foram obtidos por outras técnicas (como a busca vetorial semântica).

@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2026-02-24'
+---
 
 **Data:** 24/02/2026
 

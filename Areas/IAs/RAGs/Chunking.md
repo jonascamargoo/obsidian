@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-11-02'
+---
+
 Embora os Vector Databases sejam otimizados para a recuperação de vetores em escala, a _performance_ e a _qualidade_ de um sistema RAG dependem criticamente de como os dados são preparados. A primeira e mais importante adaptação é o **Chunking** (ou fragmentação).
 
 **Chunking** é a prática de quebrar documentos longos (ex: livros, artigos) em pedaços menores (chunks) antes da vetorização.

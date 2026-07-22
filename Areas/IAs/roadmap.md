@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia
+criada: '2025-06-25'
+---
+
 # Inteligência Artificial
 ## Nivel 1
 - [ ] **Python para Ciência de Dados**:

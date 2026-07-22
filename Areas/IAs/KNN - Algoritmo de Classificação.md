@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia
+criada: '2026-05-26'
+---
 
 O **K-Nearest Neighbors (KNN)** é um dos algoritmos mais intuitivos de aprendizado de máquina supervisionado. Apesar da simplicidade, ele apresenta características particulares (sensibilidade a escala, lentidão na predição, sensibilidade a features irrelevantes) que precisam ser entendidas a fundo para ser usado corretamente.
 

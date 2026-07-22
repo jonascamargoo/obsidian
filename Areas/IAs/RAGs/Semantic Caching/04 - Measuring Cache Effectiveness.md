@@ -1,11 +1,15 @@
 ---
+tipo: aula
+area: IAs
 tags:
-  - AI
-  - Metrics
-  - Performance
-  - Latency
-  - Evaluation
-  - Lab
+- ai
+- metrics
+- performance
+- latency
+- evaluation
+- lab
+- ia/rag
+criada: '2025-11-26'
 status: ✅ Completed
 source: Semantic Caching for AI Agents (Lesson 3/4)
 ---

@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/nlp
+criada: '2025-02-25'
+---
+
 ## O que é?
 
 O pré-processamento de textos é uma etapa crucial na execução da análise de sentimentos, pois ajuda a limpar e normalizar os dados de textos, facilitando a análise. A etapa de pré-processamento envolve uma série de técnicas que ajudam a transformar dados de textos brutos em um formato que pode ser usado para análise. Algumas técnicas comuns de pré-processamento de textos incluem tokenização, remoção de palavras irrelevantes (stop words), stemming e lematização.

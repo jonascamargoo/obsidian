@@ -1,3 +1,10 @@
+---
+tipo: aula
+area: IAs
+tags:
+- ia/agentes
+criada: '2026-04-20'
+---
 
 ## 1. O Problema: Modelos Paramétricos vs. Dados Dinâmicos
 

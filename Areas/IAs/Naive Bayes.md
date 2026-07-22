@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia
+criada: '2025-01-20'
+---
 
 ### Teorema de Bayes
 

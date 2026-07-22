@@ -1,3 +1,11 @@
+---
+tipo: aula
+area: IAs
+tags:
+- ia/rag
+- ia/knowledge-graph
+criada: '2026-03-16'
+---
 
 Nesta etapa, você aprenderá a transformar documentos estruturados (JSON extraídos de relatórios anuais) em uma base de conhecimento pesquisável, lidando com grandes volumes de texto através de técnicas de fragmentação (_chunking_) e indexação vetorial.
 

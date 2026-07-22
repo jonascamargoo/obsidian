@@ -1,3 +1,11 @@
+---
+tipo: aula
+area: IAs
+tags:
+- ia/agentes
+criada: '2026-04-20'
+---
+
 ## 1. A Anatomia do Padrão ReAct
 
 O padrão **ReAct** (Reasoning + Acting) é a fundação teórica da maioria dos agentes autônomos. Ele força o LLM a intercalar etapas de raciocínio (Chain of Thought) com ações no ambiente externo, resolvendo o problema de alucinação e falta de aterramento (_grounding_) de prompts diretos.

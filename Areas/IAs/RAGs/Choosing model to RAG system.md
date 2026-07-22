@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-11-03'
+---
 
 A seleção do LLM (Large Language Model) é uma decisão de arquitetura crítica que impacta diretamente a performance, o custo e a latência do sistema RAG. A escolha é um _trade-off_ complexo entre métricas quantificáveis e a "qualidade" de geração, que é mais difícil de medir.
 

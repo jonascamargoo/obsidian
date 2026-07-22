@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia
+criada: '2025-03-18'
+---
+
 # Por que o LangChain é importante?
 
 Os Large Language Models (LLMs) se destacam em responder a prompts em um contexto geral, mas enfrentam dificuldades em domínios específicos nos quais nunca foram treinados. Os prompts são consultas utilizadas para buscar respostas de um LLM. Por exemplo, um LLM pode fornecer uma estimativa do custo de um computador, mas não pode listar o preço exato de um modelo específico vendido por uma empresa.

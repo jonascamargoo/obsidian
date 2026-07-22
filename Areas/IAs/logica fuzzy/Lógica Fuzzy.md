@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/logica-fuzzy
+criada: '2025-04-14'
+---
+
 ## 🧠 Introdução à Lógica Fuzzy
 
 A **Lógica Fuzzy**, ou **Lógica Nebulosa**, é uma extensão da lógica booleana tradicional. Enquanto a lógica booleana trabalha com apenas dois valores (0 e 1, ou falso e verdadeiro), a fuzzy permite que existam **valores intermediários**, como 0.3 ou 0.8, representando graus de verdade ou grau de pertencimento a um conjunto.

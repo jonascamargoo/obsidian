@@ -1,11 +1,15 @@
 ---
+tipo: aula
+area: IAs
 tags:
-  - AI
-  - LLM
-  - Caching
-  - Redis
-  - Performance
-  - Course/DeepLearningAI
+- ai
+- llm
+- caching
+- redis
+- performance
+- course/deeplearningai
+- ia/rag
+criada: '2025-11-26'
 status: 📝 In Progress
 source: Semantic Caching for AI Agents (Redis)
 ---

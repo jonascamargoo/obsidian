@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia
+criada: '2025-11-04'
+---
 
 Por que aos chatbots AI-powered se perdem ao longo da conversa? (respondido no final). Mais detalhes podem ser vistos  [aqui](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FIAs%2FRAGs%2FEngenharia%20de%20prompt%20em%20RAGs).
 ## Mecanismo de Conversa Multi-Turn

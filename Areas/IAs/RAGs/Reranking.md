@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-11-03'
+---
+
 O Reranking (Reclassificação) é uma etapa de **pós-recuperação** no pipeline RAG. Ele não é uma técnica de _busca_, mas sim um processo de _otimização_ que refina os resultados de uma busca inicial (como a de um Bi-Encoder) antes de enviá-los à LLM.
 
 Seu objetivo é resolver o principal "trade-off" da busca semântica:

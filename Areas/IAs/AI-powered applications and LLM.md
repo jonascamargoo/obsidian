@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia
+criada: '2025-03-19'
+---
+
 ## O que é?
 
 Devemos lembrar que LLM é apenas um gerador de token. Então, como é possível que exista agentes virtuais? Operadores? Como eles executam funções no sistema operacional? 

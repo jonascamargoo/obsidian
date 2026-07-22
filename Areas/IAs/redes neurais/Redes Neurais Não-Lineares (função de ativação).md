@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/redes-neurais
+criada: '2025-12-17'
+---
 
 Este módulo aborda as limitações fundamentais da regressão linear e introduz a arquitetura necessária para modelar sistemas complexos e não-lineares, como o tráfego urbano heterogêneo.
 

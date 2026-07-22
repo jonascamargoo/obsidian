@@ -1,3 +1,11 @@
+---
+tipo: aula
+area: IAs
+tags:
+- ia/rag
+- ia/knowledge-graph
+criada: '2026-03-16'
+---
 
 O uso de Grafos de Conhecimento (KGs) representa uma evolução na forma como estruturamos a base de conhecimento para LLMs. Enquanto o RAG tradicional utiliza representações vetoriais densas (embeddings) para busca por similaridade, o GraphRAG utiliza a **relação explícita** entre entidades para fornecer contexto estruturado.
 

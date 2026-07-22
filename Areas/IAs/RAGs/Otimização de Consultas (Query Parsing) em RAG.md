@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-11-02'
+---
+
 Um RAG de produção precisa lidar com um problema central: os usuários interagem de forma **conversacional**, o que gera prompts (consultas) péssimos para a recuperação de dados.
 
 O prompt "Eu estava passeando com minha cachorra Poppy quando... meu ombro ficou dormente" é terrível para um banco de dados vetorial. O retriever precisa, portanto, **analisar e transformar** a consulta antes de enviá-la ao banco.

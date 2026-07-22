@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-11-02'
+---
+
 Em sistemas RAG de produção, a performance e a escalabilidade da recuperação de vetores são gargalos críticos.
 
 - **O Problema:** Bancos de dados relacionais tradicionais (SQL) são péssimos para busca semântica, pois suas operações se assemelham ao ineficiente $O(N)$ k-NN (Busca Exata).

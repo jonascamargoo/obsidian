@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/visao-computacional
+criada: '2026-04-20'
+---
 
 **Tags:** #machine-learning #vlm #multimodal #computer-vision #nlp #llm
 

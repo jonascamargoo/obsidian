@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-08-27'
+---
 
 Greedy decoding
 * sampling strategy that always select the token with the highest probability at each step of the text generation

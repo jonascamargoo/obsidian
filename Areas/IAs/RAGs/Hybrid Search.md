@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-10-31'
+---
+
 A busca híbrida (Hybrid Search) não é uma técnica única, mas sim um **pipeline orquestrado** que combina os pontos fortes de diferentes métodos de recuperação para mitigar suas fraquezas individuais. O objetivo é criar um sistema de recuperação mais robusto e ajustável.
 
 O pipeline geralmente se baseia em três componentes principais.

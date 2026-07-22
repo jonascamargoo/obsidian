@@ -1,3 +1,11 @@
+---
+tipo: aula
+area: IAs
+tags:
+- ia/agentes
+criada: '2026-04-20'
+---
+
 ## 1. Do "While Loop" para a Máquina de Estados (State Machine)
 
 ### Como foi feito antes (forma "ruim")

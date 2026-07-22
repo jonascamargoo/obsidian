@@ -1,3 +1,11 @@
+---
+tipo: aula
+area: IAs
+tags:
+- ia/agentes
+criada: '2026-04-20'
+---
+
 ## 1. O Padrão Human-in-the-Loop (HITL)
 
 Em aplicações agentic corporativas, agentes autônomos raramente têm permissão irrestrita para executar ações que modificam estado no mundo real (como `DROP TABLE`, enviar um e-mail ou fazer uma compra). O padrão _Human-in-the-Loop_ introduz uma aprovação manual e síncrona no meio de um fluxo assíncrono.

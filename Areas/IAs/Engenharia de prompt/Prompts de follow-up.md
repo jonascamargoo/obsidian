@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/prompt-engineering
+criada: '2024-10-14'
+---
 
 Os prompts de follow-up são usados quando seu prompt inicial é muito grande, causando potenciais problemas devido ao limite de tokens (um token sendo equivalente a aproximadamente 4 caracteres) que o ChatGPT pode processar. Em cada interação, que inclui entrada e saída de informações (input e output), a quantidade total de tokens é limitada, o que significa que se o prompt for muito extenso, o ChatGPT pode não ser capaz de produzir uma resposta completa ou adequada.
 

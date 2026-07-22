@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/redes-neurais
+criada: '2026-02-12'
+---
 
 ## Engenharia de Tensores: Manipulação, Formatos e Tipagem
 

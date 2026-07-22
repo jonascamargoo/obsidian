@@ -1,14 +1,18 @@
 ---
+tipo: aula
+area: IAs
 tags:
-  - AI
-  - Agents
-  - LangGraph
-  - Architecture
-  - RAG
-  - Implementation
+- ai
+- agents
+- ia/agentes
+- architecture
+- ia/rag
+- implementation
+criada: '2025-11-26'
 status: ✅ Completed
 source: Semantic Caching for AI Agents (Lesson 5/6)
 ---
+
 https://learn.deeplearning.ai/courses/semantic-caching-for-ai-agents/lesson/rmm0g6/fast-ai-agent-with-semantic-cache
 # Integrating Semantic Cache into AI Agents
 

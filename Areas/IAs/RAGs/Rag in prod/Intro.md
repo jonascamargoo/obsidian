@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+- ia/llmops
+criada: '2026-02-23'
+---
 
 Com certeza! Como você usa o **Obsidian**, estruturei este material utilizando uma sintaxe Markdown limpa, com uso estratégico de callouts (notas em destaque) e tags, que ajudam muito na organização e busca dentro do seu "segundo cérebro".
 

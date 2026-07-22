@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/nlp
+criada: '2025-02-25'
+---
+
 A análise de sentimentos é uma técnica usada para identificar o tom emocional ou sentimento expresso em um texto. Envolve a análise das palavras e frases usadas no texto para identificar o sentimento subjacente, seja ele positivo, negativo ou neutro.
 
 A análise de sentimentos tem uma ampla gama de aplicações, como monitoramento de redes sociais, análise de comentários de clientes e pesquisa de mercado.

@@ -1,3 +1,11 @@
+---
+tipo: aula
+area: IAs
+tags:
+- ia/rag
+- ia/knowledge-graph
+criada: '2026-03-16'
+---
 
 Nesta fase, o grafo atinge sua maturidade ao integrar coordenadas geográficas e permitir que um LLM escreva as consultas ao banco de dados em tempo real.
 

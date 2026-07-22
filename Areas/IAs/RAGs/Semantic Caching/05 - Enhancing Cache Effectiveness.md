@@ -1,3 +1,10 @@
+---
+tipo: aula
+area: IAs
+tags:
+- ia/rag
+criada: '2025-11-26'
+---
 
 ---
 tags:

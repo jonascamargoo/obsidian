@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/prompt-engineering
+criada: '2024-10-14'
+---
 
 ### Entendendo o MetaPrompt
 

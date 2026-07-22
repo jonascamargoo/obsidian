@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia
+criada: '2025-08-08'
+---
 
 O algoritmo de Árvore de Decisão se destaca por sua simplicidade, interpretabilidade e poder preditivo. Utilizado tanto para tarefas de classificação quanto de regressão, este método simula o processo de tomada de decisão humano em uma estrutura intuitiva de árvore, tornando-o uma ferramenta valiosa para cientistas de dados e entusiastas da área.
 

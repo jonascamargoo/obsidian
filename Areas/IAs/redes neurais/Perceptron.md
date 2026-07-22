@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/redes-neurais
+criada: '2025-07-02'
+---
+
 O Perceptron é um algoritmo de classificação universal de dados (ou aproximador universal de funções) que decide se uma entrada pertence a uma de duas categorias. Ele faz isso multiplicando os dados de entrada por pesos e somando o resultado. Se essa soma ultrapassar um certo limiar, a saída é 1; caso contrário, é 0.
 
 A principal limitação do Perceptron é que ele só funciona para problemas **linearmente separáveis**.

@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-11-04'
+---
+
 Alucinações (respostas plausíveis, mas factualmente incorretas) são uma preocupação constante em LLMs. Um sistema RAG é, em sua essência, a arquitetura mais eficaz para _reduzir_ alucinações, mas ele **não as elimina**.
 
 Garantir que as respostas sejam "ancoradas" (grounded) no contexto recuperado é a parte mais importante da construção de um pipeline RAG confiável.

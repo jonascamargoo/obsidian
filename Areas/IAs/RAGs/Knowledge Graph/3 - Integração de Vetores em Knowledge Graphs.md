@@ -1,3 +1,12 @@
+---
+tipo: aula
+area: IAs
+tags:
+- ia/rag
+- ia/knowledge-graph
+criada: '2026-03-16'
+---
+
 Para que um LLM encontre informações em um grafo de forma tão fluida quanto em documentos de texto, é necessário criar **índices vetoriais** sobre as propriedades de texto dos nós.
 
 ## 1. Setup de Infraestrutura e Embeddings

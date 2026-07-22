@@ -1,3 +1,12 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+- ia/llmops
+criada: '2026-02-24'
+---
+
 **Data:** 24/02/2026 **Tópico:** #Multimodal #ComputerVision #RAG #VectorDatabase #LLMOps
 
 ---

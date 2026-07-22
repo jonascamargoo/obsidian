@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/prompt-engineering
+criada: '2024-10-14'
+---
 
 Um prompt deve ter 8 itens:
 

@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-11-02'
+---
 
 A busca semântica "vanilla" (padrão) usa uma arquitetura **Bi-Encoder**, onde um único vetor representa o documento inteiro e outro vetor representa a consulta. Embora eficaz, arquiteturas mais sofisticadas existem para extrair resultados de maior qualidade, introduzindo _trade-offs_ de velocidade e custo.
 

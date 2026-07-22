@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2025-11-04'
+---
+
 **Engenharia de Prompt** (Prompt Engineering) é o termo guarda-chuva para as técnicas usadas para construir prompts de alta qualidade que geram os melhores resultados de uma LLM. Em um sistema RAG, isso não envolve apenas a pergunta do usuário, mas a montagem estruturada de múltiplos componentes de informação.
 
 ---

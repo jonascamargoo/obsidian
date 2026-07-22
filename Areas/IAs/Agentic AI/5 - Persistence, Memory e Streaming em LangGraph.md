@@ -1,3 +1,11 @@
+---
+tipo: aula
+area: IAs
+tags:
+- ia/agentes
+criada: '2026-04-20'
+---
+
 ## 1. O Problema do Estado Volátil
 
 Em agentes básicos (como na Lição 1), a memória reside inteiramente na RAM da aplicação (uma lista de mensagens em escopo de execução). Em um ambiente de produção (_LLMOps_), onde múltiplas instâncias da aplicação lidam com milhares de usuários simultâneos, essa abordagem falha. Se o processo morre, o histórico é perdido; se a tarefa é de longa duração (assíncrona), a thread principal fica bloqueada.

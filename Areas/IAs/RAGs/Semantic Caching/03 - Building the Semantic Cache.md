@@ -1,14 +1,18 @@
 ---
+tipo: aula
+area: IAs
 tags:
-  - AI
-  - Python
-  - Redis
-  - VectorSearch
-  - Implementation
-  - Performance
+- ai
+- python
+- redis
+- ia/rag
+- implementation
+- performance
+criada: '2025-11-26'
 status: 📝 In Progress
 source: Semantic Caching for AI Agents (Lesson 3)
 ---
+
 ---
 tags:
   - AI

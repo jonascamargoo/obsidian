@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+criada: '2024-10-14'
+---
+
 ## Keyword Search TF-IDF
 
 A **Keyword Search** (Busca por Palavra-Chave) é uma técnica fundamental de recuperação de informação que classifica documentos com base no compartilhamento de palavras com a consulta (prompt). A premissa é que a relevância é proporcional à sobreposição de termos.

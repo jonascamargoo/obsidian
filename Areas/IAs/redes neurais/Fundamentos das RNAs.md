@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/redes-neurais
+criada: '2025-07-02'
+---
+
 ## 1. Contexto Histórico e Evolução
 
 > 1943 | O Início (McCulloch & Pitts):

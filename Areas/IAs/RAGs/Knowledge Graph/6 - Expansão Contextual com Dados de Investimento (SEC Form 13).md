@@ -1,3 +1,12 @@
+---
+tipo: aula
+area: IAs
+tags:
+- ia/rag
+- ia/knowledge-graph
+criada: '2026-03-16'
+---
+
 O objetivo desta etapa é enriquecer as entidades de "Empresa" no grafo com informações sobre seus **gestores de investimento institucionais**. Isso transforma o grafo de um repositório de documentos em um mapa de dinâmica de mercado.
 
 ## 1. Ingestão e Estruturação de Dados de Terceiros

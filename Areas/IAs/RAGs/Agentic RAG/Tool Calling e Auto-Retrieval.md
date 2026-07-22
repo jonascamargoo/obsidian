@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: IAs
+tags:
+- ia/rag
+- ia/agentes
+criada: '2026-04-20'
+---
 
 ## 1. O Paradigma de Tool Calling em RAG
 
