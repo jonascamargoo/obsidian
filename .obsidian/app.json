@@ -1,5 +1,6 @@
 {
   "spellcheckLanguages": null,
   "alwaysUpdateLinks": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "attachmentFolderPath": "./imagens"
 }
