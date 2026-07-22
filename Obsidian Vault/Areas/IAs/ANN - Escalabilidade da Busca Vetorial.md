@@ -1,5 +1,8 @@
 
 
+> [!info] Veja também
+> Este arquivo trata da **escalabilidade** do KNN em produção (busca vetorial / RAG / embeddings). Para o KNN como **algoritmo de classificação supervisionada** (com K vizinhos, distâncias Minkowski, padronização, escolha de K, etc.), veja [[KNN - Algoritmo de Classificação]].
+
 Embora a busca vetorial (semântica) seja fundamental, sua implementação ingênua, conhecida como **k-Nearest Neighbors (k-NN)**, sofre de um grave problema de escalabilidade.
 
 ### O Problema do k-NN (Busca Exata)
@@ -15,6 +18,8 @@ O k-NN, ou "busca exata", é o algoritmo básico de recuperação vetorial.
 
 
 ![[Pasted image 20250824223907.png]]
+
+OBS: os dados precisam estar normalizados
 
 **O Problema:** O custo computacional é $O(N)$, crescendo linearmente com o número de documentos ($N$).
 
