@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Data Engineering
+tags:
+- dados/engenharia
+criada: '2024-10-14'
+---
+
 ## Definição:
 
 Em um Data Lakehouse, os dados brutos, semiestruturados e estruturados são armazenados em um repositório centralizado, permitindo flexibilidade na ingestão e processamento de dados. Ao mesmo tempo, são aplicadas estruturas de governança e organização, típicas de ambientes de Data Warehouse, para garantir a qualidade e a consistência dos dados.

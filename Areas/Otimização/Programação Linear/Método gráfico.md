@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Otimização
+tags:
+- matematica/otimizacao
+criada: '2025-04-07'
+---
+
 ## 🧠 Objetivo
 
 Resolver **problemas de programação linear com duas variáveis** usando uma representação **gráfica** para encontrar a solução ótima (máxima ou mínima) de uma função objetivo. As restrições determinam uma região poligonal no plano , chamada região viável ou região de viabilidade . Essa região é construída usando as linhas de restrição , que são as linhas obtidas das desigualdades das restrições.

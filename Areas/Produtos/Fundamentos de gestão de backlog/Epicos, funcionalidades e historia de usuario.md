@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Produtos
+tags:
+- produto
+criada: '2024-10-14'
+---
 
 ![[Pasted image 20240920150011.png]]
 

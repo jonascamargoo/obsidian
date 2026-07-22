@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Data Engineering
+tags:
+- dados/engenharia
+criada: '2024-10-14'
+---
 
 ## Definição:
 

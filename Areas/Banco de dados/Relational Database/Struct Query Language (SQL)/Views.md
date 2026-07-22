@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Banco de dados
+tags:
+- dados/sql
+criada: '2024-10-14'
+---
+
 ## O que é?
 
 Uma View é um objeto que pertence a um banco de dados, definida baseada em declarações SELECT’s, retornando uma determinada visualização de dados de uma ou mais tabelas. Esses objetos são chamados por vezes de “virtual tables”, formada a partir de outras tabelas que por sua vez são chamadas de “based tables” ou ainda outras Views. E alguns casos, as Views são atualizáveis e podem ser alvos de declaração INSERT, UPDATE e DELETE, que na verdade modificam sua “based tables”.

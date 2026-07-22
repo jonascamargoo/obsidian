@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Produtos
+tags:
+- produto
+criada: '2024-10-14'
+---
 
 ## O que é?
 É a atividade de avaliação do esforço para desenvolver completamente um item do backlog.

@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Produtos
+tags:
+- produto
+criada: '2024-10-14'
+---
 
 ## O que é?
 Fatiar histórias de usuário é uma técnica de decomposição de histórias e/ou funcionalidades em histórias menores. Podemos fatiar a partir de três estratégias: Por fluxo de trabalho, por papel e por regra de negócio.

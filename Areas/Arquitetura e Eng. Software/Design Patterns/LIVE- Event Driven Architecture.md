@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Arquitetura e Eng. Software
+tags:
+- dev/design-patterns
+criada: '2024-10-14'
+---
+
 # O que é?
 
 Event Driven Architecture (EDA) é um design pattern que propoe uma abordagem assíncrona para a comunicação entre serviços desacoplados, sendo muito comum em aplicações que seguem a abordagem de microserviços.

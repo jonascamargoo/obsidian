@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Banco de dados
+tags:
+- dados/sql
+criada: '2024-10-14'
+---
+
 ## Definição
 
 O problema N+1 é um padrão antipattern conhecido por ser uma maneira ineficiente de realizar consultas em um banco de dados com um grande volume de dados. Este problema surge quando, ao buscar informações de uma entidade principal (como usuários), são feitas consultas adicionais para obter detalhes relacionados a cada entidade, resultando em um número excessivo de consultas ao banco de dados.

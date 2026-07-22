@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Containers
+tags:
+- dev/containers
+criada: '2024-10-14'
+---
+
 ## Definição de virtualização
 
 Virtualização é a tecnologia que permite a criação de ambientes virtuais ou recursos computacionais abstratos, isolados do hardware físico subjacente. Esses ambientes virtuais podem incluir[ máquinas virtuais](obsidian://open?vault=obsidian&file=Areas%2FAOC%2FHierarquia%20de%20mem%C3%B3ria%2FM%C3%A1quina%20Virtual), contêineres ou outros recursos, proporcionando flexibilidade, eficiência e isolamento ao executar múltiplos sistemas operacionais ou aplicativos em um único servidor físico. A virtualização visa otimizar o uso de recursos, melhorar a escalabilidade, facilitar a administração de sistemas e promover a portabilidade de aplicações em ambientes computacionais.

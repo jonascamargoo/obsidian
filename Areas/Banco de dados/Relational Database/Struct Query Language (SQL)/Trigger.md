@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Banco de dados
+tags:
+- dados/sql
+criada: '2024-10-14'
+---
+
 ## O que é?
 
 Um trigger é um tipo especial de procedimento armazenado, que é executado sempre que há uma tentativa de modificar os dados de uma tabela que é protegida por ele. Por isso temos:

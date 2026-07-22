@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Arquitetura e Eng. Software
+tags:
+- dev/testes
+criada: '2024-10-14'
+---
 
 No contexto de testes de software, os "artefatos" referem-se a diversos tipos de documentos, scripts, ferramentas e outras formas de registros que são produzidos e utilizados durante o processo de testes. Eles são essenciais para planejar, executar, monitorar e documentar as atividades de teste, garantindo a rastreabilidade e a qualidade do processo de desenvolvimento de software. Vamos detalhar alguns dos principais artefatos mencionados nas etapas do processo de testes de software:
 ### Principais Artefatos no Processo de Testes

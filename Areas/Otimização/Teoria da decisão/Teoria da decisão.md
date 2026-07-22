@@ -1,12 +1,16 @@
 ---
+tipo: conceito
+area: Otimização
 tags:
-  - otimização
-  - teoria-da-decisao
-  - tomada-de-decisao
-  - CEFET-MG
+- otimização
+- teoria-da-decisao
+- tomada-de-decisao
+- cefet-mg
+- matematica/otimizacao
+criada: '2025-09-10'
 aliases:
-  - Teoria da Decisão
-  - Análise de Decisão
+- Teoria da Decisão
+- Análise de Decisão
 ---
 
 # Teoria da Decisão

@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Arquitetura e Eng. Software
+tags:
+- dev/arquitetura
+criada: '2024-10-14'
+---
+
 ### O que é?
 
 	http é um protocolo de comunicação. Seu domínio pode ter raiz nacionalidade (br), comercial (com), oraganizacional (org) e assim vai, podendo ter subdomínios. O DNS (domain name service) recebe o nome e procura algum ip correspondente (em números) como se fosse um banco de dados. O recurso vem depois do domínio. Com um certificado digital (chave pública), a mensagem é descriptografada com uma chave privada quando chega ao servidor, que recebe o requerimento. URL é o endereço do recurso informático.

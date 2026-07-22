@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Arquitetura e Eng. Software
+tags:
+- dev/testes
+criada: '2024-10-14'
+---
 
 ## O que é?
 

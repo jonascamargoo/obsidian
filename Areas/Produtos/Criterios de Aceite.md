@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Produtos
+tags:
+- produto
+criada: '2024-10-14'
+---
+
 ## O que são?
 
 Os critérios de aceite ou aceitação são uma lista de sentenças que definem aquilo que precisa ser verificado no item. São condições específicas e objetivas que uma **user story**  precisa atender para ser considerada completa. Eles funcionam como uma checklist de validação que garante que o que foi implementado está alinhado com as expectativas do usuário e do negócio. Se os critérios de aceite não forem cumpridos, a história não pode ser aprovada, ajudando a evitar ambiguidade no desenvolvimento e garantindo que o produto atenda aos requisitos definidos.

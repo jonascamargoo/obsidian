@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Banco de dados
+tags:
+- dados/sql
+criada: '2024-10-14'
+---
+
 ## O que é?
 
 É um modelo matemático que descreve as operações que podem ser realizadas sobre os dados de um banco de dados relacional. A Álgebra Relacional se fundamenta em operadores que atuam sobre relações, permitindo a realização de operações como seleção, projeção, união, interseção, diferença, junção e outras diversas. Essas operações são utilizadas para recuperar, transformar e combinar dados em um banco de dados.

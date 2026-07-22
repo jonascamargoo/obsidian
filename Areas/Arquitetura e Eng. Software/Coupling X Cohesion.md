@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Arquitetura e Eng. Software
+tags:
+- dev/arquitetura
+criada: '2024-10-14'
+---
 
 "Coupling" describes the relationships _between_ modules, and "cohesion" describes the relationships _within_ them. A reduction in interconnectedness between modules (or classes) is therefore achieved via a reduction in coupling. On the other hand, well-designed modules (or classes) should have some purpose; all the elements should be associated with a single task. This means that in a good design, the elements within a module (or class) should have internal cohesion.
 

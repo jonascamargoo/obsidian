@@ -1,4 +1,10 @@
-
+---
+tipo: conceito
+area: Banco de dados
+tags:
+- dados/sql
+criada: '2024-10-14'
+---
 
 Diretrizes informais podem ser usadas como medidas para determinar a qualidade de projeto. Dentre essas medidas, podemos citar:
 * Garantir que a semântica dos atributos seja clara;

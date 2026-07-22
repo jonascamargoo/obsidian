@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Banco de dados
+tags:
+- dados/sql
+criada: '2025-07-26'
+---
 
 Tradicionalmente, os **Bancos de Dados Relacionais** têm sido o pilar do armazenamento de informações, organizando dados de forma estruturada em **tabelas** com linhas e colunas, e usando **índices** para otimizar a recuperação baseada em correspondências exatas. No entanto, o cenário de dados atual, dominado por serviços como redes sociais, gera volumes massivos de **informações não estruturadas**: vídeos, posts, textos, áudios. Para lidar com essa nova realidade, os **Bancos de Dados NoSQL** surgiram com modelos mais flexíveis (documentos, grafos, chave-valor).
 

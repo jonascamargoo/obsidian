@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Banco de dados
+tags:
+- dados/sql
+criada: '2024-10-14'
+---
 
 O **Modelo de Entidade-Relacionamento Estendido (EER)**, também conhecido como **Modelo Entidade-Relacionamento Aprimorado**, é uma ferramenta de modelagem de dados que aprimora o modelo original Entidade-Relacionamento (ER) para lidar com situações mais complexas.
 ## Etapas de um projeto de BD

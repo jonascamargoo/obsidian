@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Banco de dados
+tags:
+- dados/sql
+criada: '2024-10-14'
+---
 
 ## O que é?
 

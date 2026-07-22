@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Produtos
+tags:
+- produto
+criada: '2024-10-14'
+---
+
 +Surgiu da metodologia ágil XP
 
 ## Os 3 C's de uma história de usuário são: 

@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Produtos
+tags:
+- produto
+criada: '2024-10-14'
+---
 
 É uma técnica de priorização usada na gestão de projetos e produtos com o intuito de alinhar as parte interessadas sobre a importância que elas atribuem a cada requisito.
 

@@ -1,4 +1,10 @@
-
+---
+tipo: conceito
+area: Produtos
+tags:
+- produto
+criada: '2024-10-14'
+---
 
 "Erro cria Defeito (bug) que por sua vez causa uma Falha. Nem sempre um bug irá resultar em uma falha."
 

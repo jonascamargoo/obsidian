@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Banco de dados
+tags:
+- dados/sql
+criada: '2024-10-14'
+---
 
 É uma restrição entre dois conjuntos de atributos do banco de dados. Suponha que o esquema de uma base de dados R possua n atributos: A1, A2, ..., An; pense em R = { A1, A2, ... , An } como a representação universal da base de dados.
 

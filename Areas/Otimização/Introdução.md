@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Otimização
+tags:
+- matematica/otimizacao
+criada: '2025-04-07'
+---
 
 ## 🎯 O que é Otimização?
 

@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Banco de dados
+tags:
+- dados/sql
+criada: '2024-10-14'
+---
 
 Um Modelo de Entidade Relacionamento (MER), também conhecido como Modelo ER, é uma ferramenta gráfica utilizada na área de banco de dados para representar as relações entre diferentes entidades em um sistema. Ele é uma forma de visualizar e projetar a estrutura de um banco de dados antes de sua implementação.
 

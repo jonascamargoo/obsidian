@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Banco de dados
+tags:
+- dados/sql
+criada: '2024-10-14'
+---
+
 ## O que é?
 
 Processo de eliminação de esquemas de relações (tabelas) insatisfatório, decompondo-os através da separação de seus atributos em esquemas de relações menos complexas que satisfazem as propriedades desejadas. A função da normalização é eliminar anomalias.

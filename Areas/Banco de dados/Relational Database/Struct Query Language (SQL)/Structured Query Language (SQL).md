@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Banco de dados
+tags:
+- dados/sql
+criada: '2024-10-14'
+---
+
 ## O que é?
 
 SQL é a linguagem padrão para interagir com sistemas de gerenciamento de banco de dados relacionais. Os principais tipos de comandos SQL são:

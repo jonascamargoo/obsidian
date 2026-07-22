@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Arquitetura e Eng. Software
+tags:
+- dev/arquitetura
+criada: '2024-10-14'
+---
+
 ## O que é?
 	Quando uma classe A usa uma funcionalidade da classe B, temos uma dependência de A por B. Em POO, para utilizar um método de uma classe, precisamos antes instanciar um objeto daquela mesma classe. Assim, transferir a tarefa de criar o objeto para outra pessoa e usar diretamente a dependência é chamado de injeção de dependência.
 

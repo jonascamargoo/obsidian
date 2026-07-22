@@ -1,3 +1,11 @@
+---
+tipo: conceito
+area: Produtos
+tags:
+- produto
+criada: '2024-10-14'
+---
+
 O método **ICE** (Impact, Confidence, Ease) de priorização auxilia na identificação de quão prioritário é o item. O método é simples e rápido, especialmente útil quando você precisa priorizar ideias ou funcionalidades com base em poucos critérios. Ele envolve pontuar três fatores:
 ## Impacto (impact)
 

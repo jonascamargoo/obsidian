@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Arquitetura e Eng. Software
+tags:
+- dev/arquitetura
+criada: '2024-10-14'
+---
 
 Existem vários tipos de diagramas UML disponíveis, como diagrama de classes, diagrama de sequência, diagrama de atividades, diagrama de casos de uso, entre outros
 

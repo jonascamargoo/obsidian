@@ -1,3 +1,10 @@
+---
+tipo: conceito
+area: Produtos
+tags:
+- produto
+criada: '2024-10-14'
+---
 
 O maior desafio do refinamento é alinhar com os desenvolvedores, fazendo a gestão do tempo deles. O refinamento é uma atividade contínua, portanto, devemos ter uma agenda recorrente.
 
