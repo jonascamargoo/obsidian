@@ -1,3 +1,11 @@
+---
+tipo: aula
+area: Claude Code
+tags:
+- ia/claude-code
+criada: '2026-04-20'
+---
+
 When working with Claude in your development environment, you'll often need to make changes to existing projects. This guide covers practical techniques for implementing changes effectively, including visual communication with screenshots and leveraging Claude's advanced reasoning capabilities.
 
 ## Using Screenshots for Precise Communication

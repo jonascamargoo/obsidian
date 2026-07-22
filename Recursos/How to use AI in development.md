@@ -1,3 +1,10 @@
+---
+tipo: referencia
+area: Recursos
+tags: []
+criada: '2025-12-29'
+---
+
 ## Workflow de Desenvolvimento Orientado a IA
 
 ### Fase 1: Preparação e Contexto

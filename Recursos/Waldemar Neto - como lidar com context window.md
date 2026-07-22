@@ -1,3 +1,9 @@
+---
+tipo: referencia
+area: Recursos
+tags: []
+criada: '2026-02-12'
+---
 
 ## Profressive Disclosure
 

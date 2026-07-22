@@ -1,3 +1,10 @@
+---
+tipo: projeto
+area: Migration Agentic Copilot
+tags:
+- ia/agentes
+criada: '2026-03-17'
+---
 
 ## Como usar
 

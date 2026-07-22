@@ -1,3 +1,9 @@
+---
+tipo: projeto
+area: Projetos
+tags: []
+criada: '2026-04-20'
+---
 
 1 - Consertar o modo rfp (ambos)
 	O modo planilha está bugado

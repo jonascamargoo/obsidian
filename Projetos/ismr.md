@@ -1,3 +1,10 @@
+---
+tipo: projeto
+area: Projetos
+tags: []
+criada: '2026-04-20'
+---
+
 Atue como um Engenheiro de Software Sênior e Especialista em IA para me ajudar a continuar o desenvolvimento do backend de um aplicativo chamado "ismr". 
 
 # 1. Visão Geral do Projeto (ismr)

@@ -1,3 +1,10 @@
+---
+tipo: projeto
+area: otimizacao atual
+tags:
+- ia/agentes
+criada: '2026-04-20'
+---
 
 # Prompt para Continuidade de Refatoração: Axur Sales Copilot V2
 

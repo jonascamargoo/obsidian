@@ -1,3 +1,10 @@
+---
+tipo: referencia
+area: Recursos
+tags: []
+criada: '2024-10-14'
+---
+
 to instal: https://www.youtube.com/watch?v=1jSb4LJH1dw&ab_channel=Jos%C3%A9AiltonTI
 
 How to uninstall: https://www.youtube.com/watch?v=AETYOpf2k5o&ab_channel=RookieC%26F

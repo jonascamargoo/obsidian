@@ -1,3 +1,9 @@
+---
+tipo: referencia
+area: Recursos
+tags: []
+criada: '2026-02-23'
+---
 
 Notas sobre a reunião do dia 12/02/2026
 

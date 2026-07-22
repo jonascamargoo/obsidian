@@ -2,8 +2,8 @@
 tipo: moc
 area: sistema
 tags:
-  - meta
-criada: 2026-07-22
+- meta
+criada: '2026-07-22'
 ---
 
 # Inbox

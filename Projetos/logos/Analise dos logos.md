@@ -1,3 +1,10 @@
+---
+tipo: projeto
+area: logos
+tags:
+- ia/agentes
+criada: '2026-07-22'
+---
 
 VLM1 recebem alguns atributos (html, logo, etc) recebe esse html e screenshot, retornando tipo de conteudo, idiomas, etc...
 

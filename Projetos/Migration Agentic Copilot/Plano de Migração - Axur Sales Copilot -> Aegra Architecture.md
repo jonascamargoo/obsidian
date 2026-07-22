@@ -1,3 +1,11 @@
+---
+tipo: projeto
+area: Migration Agentic Copilot
+tags:
+- ia/agentes
+criada: '2026-03-17'
+---
+
 ## FASE 1: Preparação da Infraestrutura Base (Backend)
 
 **Objetivo:** Abandonar a execução local em memória acoplada ao Streamlit e estabelecer o motor FastAPI com banco de dados para persistência de estado.

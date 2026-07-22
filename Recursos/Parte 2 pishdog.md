@@ -1,3 +1,9 @@
+---
+tipo: referencia
+area: Recursos
+tags: []
+criada: '2026-07-22'
+---
 
 Se não tem impersonation -> pode dar um accept
 

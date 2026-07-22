@@ -1,3 +1,11 @@
+---
+tipo: aula
+area: Claude Code
+tags:
+- ia/claude-code
+criada: '2026-04-20'
+---
+
 Claude Code comes with built-in commands that you can access by typing a forward slash, but you can also create your own custom commands to automate repetitive tasks you run frequently.
 
 ## Creating Custom Commands

@@ -1,3 +1,11 @@
+---
+tipo: aula
+area: Claude Code
+tags:
+- ia/claude-code
+criada: '2026-04-20'
+---
+
 When working with Claude on complex tasks, you'll often need to guide the conversation to keep it focused and productive. There are several techniques you can use to control the flow of your conversation and help Claude stay on track.
 
 ## Interrupting Claude with Escape

@@ -1,3 +1,10 @@
+---
+tipo: aula
+area: Claude Code
+tags:
+- ia/claude-code
+criada: '2026-04-20'
+---
 
 A coding assistant is more than just a tool that writes code - it's a sophisticated system that uses language models to tackle complex programming tasks. Understanding how these assistants work behind the scenes will help you appreciate what makes a truly powerful coding companion.
 

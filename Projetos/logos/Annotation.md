@@ -1,10 +1,10 @@
-
-
-
-
-
-
-
+---
+tipo: projeto
+area: logos
+tags:
+- ia/agentes
+criada: '2026-07-22'
+---
 
 O primeiro modelo detecta a posição geométrica -> aqui temos alto recall e muito falso positivo, qualquer coisa pode ser um logo afinal -> yolo (logo ou background)
 

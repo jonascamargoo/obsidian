@@ -1,3 +1,10 @@
+---
+tipo: projeto
+area: TCC
+tags:
+- tcc
+criada: '2026-04-20'
+---
 
 ## 1. Definição do Problema
 

@@ -1,3 +1,11 @@
+---
+tipo: projeto
+area: otimizacao atual
+tags:
+- ia/agentes
+criada: '2026-04-20'
+---
+
 Com base na arquitetura atual do **Axur Sales Copilot**, este plano de ação detalha a implementação técnica das três otimizações de maior impacto para reduzir a latência: a unificação de prompts, a paralelização da busca e a implementação de streaming.
 
 ### Fase 1: Unificação da Inteligência (Query Expansion)
