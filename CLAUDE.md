@@ -62,8 +62,9 @@ Quando o usuário compartilhar conhecimento, pedir para anotar algo ou colar mat
 
 1. **Localizar**: procurar (Grep por nome e conteúdo) se já existe nota sobre o tema. Existindo, **atualizar** em vez de duplicar.
 2. **Criar** no lugar certo da estrutura PARA, com frontmatter completo e no estilo das notas vizinhas.
-3. **Conectar**: adicionar wikilinks para notas relacionadas existentes e atualizar o `_MOC.md` da área.
-4. **Confirmar**: responder com o caminho da nota e os links criados.
+3. **Enriquecer**: a nota não se limita ao que o usuário ditou — complementar com conhecimento próprio (contexto, exemplos, pipeline, relações) até virar uma nota completa e autossuficiente. Afirmações factuais verificáveis que o Claude acrescentou (números, benchmarks, datas, nomes de produtos) levam uma ressalva curta de validação, pois a nota mistura o aprendizado do usuário com acréscimos do modelo.
+4. **Conectar**: adicionar wikilinks para notas relacionadas existentes e atualizar o `_MOC.md` da área.
+5. **Confirmar**: responder com o caminho da nota e os links criados.
 
 Outras operações sob demanda: triar o `Inbox/`, arquivar projetos/áreas concluídos (mover para `Arquivo/` atualizando MOCs), revisar notas órfãs.
 
