@@ -28,5 +28,5 @@ As abordagens baseadas em ML podem ser mais precisas do que a análise baseada e
 
 ### Aprendizado profundo baseado em um transformador pré-treinado
 
-[Pode ser visto aqui](obsidian://open?vault=obsidian&file=Obsidian%20Vault%2FAreas%2FIAs%2Fanalise%20de%20sentimentos%2FAprendizado%20profundo%20baseado%20em%20um%20transformador%20pr%C3%A9-treinado%2FPre-processamento%20de%20textos)
+[[Pre-processamento de textos|Pode ser visto aqui]]
 

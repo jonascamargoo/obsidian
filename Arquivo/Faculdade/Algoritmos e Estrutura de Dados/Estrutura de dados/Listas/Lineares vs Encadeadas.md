@@ -36,7 +36,7 @@ Em computação, listas são estruturas de dados que organizam elementos de form
 | indexOf() | O(n) | O(n) |
 | contains() | O(o) | O(n) |
 
-OBS: em add(), se vai ser O(n) ou O(1), explico [aqui](obsidian://open?vault=obsidian&file=Areas%2FAlgoritmos%20e%20Estrutura%20de%20Dados%2FEstrutura%20de%20dados%2FListas%2FLista%20Lineares), em "tamanho dinâmico". Além disso, estou considerando a lista duplamente encadeada. Além disso, operações de remoção em listas lineares são O(n) pois precisam fazer copias dos subsequentes (arredar).
+OBS: em add(), se vai ser O(n) ou O(1), explico [[Lista Lineares|aqui]], em "tamanho dinâmico". Além disso, estou considerando a lista duplamente encadeada. Além disso, operações de remoção em listas lineares são O(n) pois precisam fazer copias dos subsequentes (arredar).
 ## Dicas:
 
 Se tiver de adicionar e remover , use encadeada. Se tiver tamanho fixo, use linear. Se tiver de acessar elementos de forma aleatória (em qualquer posição), use linear, pois é indexado.

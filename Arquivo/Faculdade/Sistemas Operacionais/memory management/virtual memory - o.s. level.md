@@ -11,7 +11,7 @@ criada: '2025-01-14'
 cada programa possui seu próprio **espaço de endereçamento**, dividido em blocos chamados **páginas**. As **páginas** correspondem a partes do espaço de **memória virtual** que são mapeadas para quadros (frames) na **memória física**. Essas páginas são mapeadas na memória física, mas nem todas precisam estar carregadas simultaneamente para que o programa seja executado.  
 Quando o programa acessa uma parte do espaço de endereçamento que está na memória física, o hardware realiza rapidamente o mapeamento necessário. Caso o programa tente acessar uma parte que não está carregada, o sistema operacional é alertado para buscar a página ausente e reexecutar a instrução que falhou.
 
-Geralmente, os frames e as páginas possuem o mesmo tamanho, porém quadros não são contíguos. Com isso, o que é um endereço contíguo na memória, pode está completamente embaralhado no frame (quadro de página). Chamamos isso de [Realocação](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FComputer%20Organization%20and%20Architecture%2FHierarquia%20de%20mem%C3%B3ria%2Fvirtual%20memory). OBS: isso inclui a tabela de páginas, que também está com seus pedaços embaralhados se olharmos pela perspectiva da memória física.
+Geralmente, os frames e as páginas possuem o mesmo tamanho, porém quadros não são contíguos. Com isso, o que é um endereço contíguo na memória, pode está completamente embaralhado no frame (quadro de página). Chamamos isso de [[virtual memory - low level|Realocação]]. OBS: isso inclui a tabela de páginas, que também está com seus pedaços embaralhados se olharmos pela perspectiva da memória física.
 ## Resumo
 ### Conceito e Funcionamento  
 

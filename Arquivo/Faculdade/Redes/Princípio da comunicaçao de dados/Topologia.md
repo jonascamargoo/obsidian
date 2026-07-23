@@ -57,7 +57,7 @@ Apesar de suas limitações, a topologia de barramento ainda é utilizada em alg
 
 #### Características
 
-- Apenas um sinal percorre por vez, ou seja, um [nó](obsidian://open?vault=obsidian&file=Areas%2FRedes%2FConceitos%20base%20PCD) envia informação, ocupando toda a rede. Quando um nó envia o sinal, todos os outros escutam;
+- Apenas um sinal percorre por vez, ou seja, um [[Conceitos base PCD|nó]] envia informação, ocupando toda a rede. Quando um nó envia o sinal, todos os outros escutam;
 - Quando um nó tenta enviar um sinal e o meio está em uso (só pode um por vez), ocorre uma "Colisão". Se há colisão, o nó aguarda o tempo necessário para enviar novamente.
 	- E se 2 nós emitirem simultaneamente? O tempo de reenvio de cada nó é aleatório, pois se pré-determinássemos um tempo fixo, a colisão ocorreria novamente entre os mesmo sinais.
 - Quem lida com confirmação de recebimento é a camada superior

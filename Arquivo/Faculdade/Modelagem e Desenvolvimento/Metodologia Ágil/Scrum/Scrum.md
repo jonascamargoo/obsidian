@@ -6,7 +6,7 @@ tags:
 criada: '2024-10-14'
 ---
 
-Para a utilização da metodologia ágil, o framework Scrum é uma das ferramentas mais indicada. É um framework pois facilita o uso de diversos processos e técnicas. O Scrum vem sendo utilizado como uma ferramenta para controlar e gerenciar o [processo de desenvolvimento](obsidian://open?vault=obsidian&file=Areas%2FModelagem%20e%20Desenvolvimento%2FConceitos%20Gerais%2FProcesso%20de%20desenvolvimento%20de%20software%20(PDS)) de produtos complexos que agregam maior valor para o cliente.
+Para a utilização da metodologia ágil, o framework Scrum é uma das ferramentas mais indicada. É um framework pois facilita o uso de diversos processos e técnicas. O Scrum vem sendo utilizado como uma ferramenta para controlar e gerenciar o [[Processo de desenvolvimento de software (PDS)|processo de desenvolvimento]]) de produtos complexos que agregam maior valor para o cliente.
 
 O framework Scrum é composto por ciclos de desenvolvimentos, mais conhecidos como Sprints, com duração fixa não ultrapassando mais de um mês. Ele é maleável, mas pouco adaptativo, ou seja, deve-se evitar ao máximo realizar mudanças desnecessárias que afetem o objetivo da sprint. Essas mudanças devem ser discutidas entre o product owner e a equipe de desenvolvimento.
 

@@ -198,7 +198,7 @@ ICL é uma técnica onde se inserem exemplos de entradas e saídas de alta quali
 
 Este conjunto de técnicas força a LLM a decompor um problema antes de gerar a resposta final, melhorando a precisão e fornecendo rastreabilidade.
 
-- [**Chain-of-Thought (CoT](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FIAs%2FEngenharia%20de%20prompt%2FChain-of-Thought%20Prompting)):** A instrução "pense passo a passo" (think step-by-step). A LLM é instruída a primeiro gerar os passos lógicos necessários para responder e, em seguida, seguir esses passos para formular a resposta.
+- **[[Chain-of-Thought Prompting|Chain-of-Thought (CoT)]]:** A instrução "pense passo a passo" (think step-by-step). A LLM é instruída a primeiro gerar os passos lógicos necessários para responder e, em seguida, seguir esses passos para formular a resposta.
     
 - **Scratchpad (Bloco de Notas):** Uma formalização do CoT. O prompt instrui a LLM a usar tags especiais (ex: `<scratchpad>...</scratchpad>`) para seu "raciocínio". A aplicação pode então exibir ou ocultar esse bloco de notas do usuário final.
     ![[Pasted image 20251103231843.png]]

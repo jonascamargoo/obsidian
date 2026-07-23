@@ -137,7 +137,7 @@ Exemplo:  `π codAutor, Nome (Autor)`, resulta em:
 
 ### Junção (⨝) - Join
 
-- A operação de [junção](obsidian://open?vault=obsidian&file=Areas%2FBanco%20de%20dados%2FJoin)  opera de maneira semelhante à operação de produto cartesiano, mas seu resultado incluirá apenas as combinações das tuplas que se relacionam de acordo com a condição de junção específica. É através dela que criamos uma tabela de relação NxN, chamdas "tabela associativa" (AutorLivro, por exemplo).
+- A operação de [[Join|junção]]  opera de maneira semelhante à operação de produto cartesiano, mas seu resultado incluirá apenas as combinações das tuplas que se relacionam de acordo com a condição de junção específica. É através dela que criamos uma tabela de relação NxN, chamdas "tabela associativa" (AutorLivro, por exemplo).
 - **Sintaxe:** (relação 1) ⨝ <condição de junção> (relação 2)
 - **Exemplo:** Livro ⨝ Livro.codEditora = Editora.codEditora Editora
 

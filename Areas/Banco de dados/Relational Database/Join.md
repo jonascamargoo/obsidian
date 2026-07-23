@@ -8,7 +8,7 @@ criada: '2024-10-14'
 
 ## Descrição
 
-A parte teórica pode ser vista no artigo de [Algebra Relacional](obsidian://open?vault=obsidian&file=Areas%2FBanco%20de%20dados%2F%C3%81lgebra%20Relacional) Vamos utilizar um contexto de usuários e artigos associados a cada usuário (1 pra N)
+A parte teórica pode ser vista no artigo de [[Álgebra Relacional|Algebra Relacional]] Vamos utilizar um contexto de usuários e artigos associados a cada usuário (1 pra N)
 
 ### INNER JOIN:
 

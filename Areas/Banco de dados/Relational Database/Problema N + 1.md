@@ -47,7 +47,7 @@ Aqui, `array_of_users_id` seria uma lista contendo os IDs de todos os usuários.
 É como se eu ligasse o notebook pra registrar presença (1 query) e fizesse chamada com 30 alunos, um a um (30 queries), totalizando 31 queries. A outra forma seria eu pegar o celular (1 query) e tirasse foto (1 query), totalizando 2 queries com o mesmo resultado.
 ## Join
 
-O operador [`JOIN`](obsidian://open?vault=obsidian&file=Areas%2FBanco%20de%20dados%2FJoin) em SQL é utilizado para combinar registros de duas ou mais tabelas em uma única consulta, com base em uma condição de relacionamento entre elas. Isso permite extrair informações relacionadas de diferentes tabelas em uma única consulta, facilitando a obtenção de dados complexos de um banco de dados relacional.
+O operador [[Join|`JOIN`]] em SQL é utilizado para combinar registros de duas ou mais tabelas em uma única consulta, com base em uma condição de relacionamento entre elas. Isso permite extrair informações relacionadas de diferentes tabelas em uma única consulta, facilitando a obtenção de dados complexos de um banco de dados relacional.
 ### Em vez de usar o operador `IN`, é possível realizar um JOIN entre as tabelas:
 
 ```sql

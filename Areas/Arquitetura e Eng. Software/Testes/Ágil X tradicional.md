@@ -8,12 +8,12 @@ criada: '2024-10-14'
 
 ## O que é um projeto de software?
 
-Podemos definir um [projeto](obsidian://open?vault=obsidian&file=Areas%2FModelagem%20e%20Desenvolvimento%2FConceitos%20Gerais%2FProjeto%20x%20Processo) de software como sendo um empreendimento temporário dividido em ciclos de vida ou fases com o objetivo de criar um produto, serviço ou resultado único de forma a atender às especificações e expectativas de negócio. Os ciclos de vida de um projeto de software normalmente definem: qual trabalho técnico será realizado, quais entregas serão geradas em cada fase, como serão verificadas e validadas, quais as pessoas ou papéis estarão envolvidos em cada fase e como será realizado o controle e aprovação de cada fase.
+Podemos definir um [[Projeto x Processo|projeto]] de software como sendo um empreendimento temporário dividido em ciclos de vida ou fases com o objetivo de criar um produto, serviço ou resultado único de forma a atender às especificações e expectativas de negócio. Os ciclos de vida de um projeto de software normalmente definem: qual trabalho técnico será realizado, quais entregas serão geradas em cada fase, como serão verificadas e validadas, quais as pessoas ou papéis estarão envolvidos em cada fase e como será realizado o controle e aprovação de cada fase.
 
 Todo o processo de testes, metodologias, equipes e definições são realizados em projetos, por isso é crucial que o conceito esteja claro e bem definido.
 ## Processo de testes de software
 
-De forma geral, o [processo](obsidian://open?vault=obsidian&file=Areas%2FModelagem%20e%20Desenvolvimento%2FConceitos%20Gerais%2FProjeto%20x%20Processo) de testes de software representa uma estruturação de atividades, etapas, [artefatos](obsidian://open?vault=obsidian&file=Areas%2FArquitetura%20e%20Eng.%20Software%2FTestes%2FConceitos%20gerais%2FArtefatos), papéis e responsabilidades que buscam a padronização de equipes e trabalhos buscando uma forma de ampliar a organização, a qualidade e o controle dos projetos de teste.
+De forma geral, o [[Projeto x Processo|processo]] de testes de software representa uma estruturação de atividades, etapas, [[Artefatos]], papéis e responsabilidades que buscam a padronização de equipes e trabalhos buscando uma forma de ampliar a organização, a qualidade e o controle dos projetos de teste.
 
 Para melhor eficácia e eficiência, o processo de teste, como qualquer outro processo, deve ser revisto continuamente de forma a aperfeiçoar sua atuação buscando a melhoria contínua, além de analisar sua aplicabilidade e continuidade possibilitando aos profissionais envolvidos uma maior visibilidade e organização de seus trabalhos, o que resulta em uma maior agilidade e controle operacional dos projetos.
 
@@ -21,7 +21,7 @@ Independentemente das metodologias utilizadas nos projetos, o processo pode ser 
 
 ### Planejamento dos testes
 
-É onde será definido como os testes serão realizados tendo como base as restrições do cliente em relação a prazos, custos e qualidade esperada. Fazem parte das atividades de planejamento: estudar o projeto (quais serão os requisitos, alterações de arquitetura do sistema, avaliar custos, riscos, prazos e impactos), realizar uma análise interna e externa de qual será o esforço (especificar quais serão as métricas utilizadas e fazer uma estimativa do esforço), definir os cenários possíveis (lista de prioridades e riscos), aprovação do planejamento (por meio de aceite da diretoria e dos clientes), definir responsabilidades (qual o papel de cada um no projeto) e mapear os [artefatos](obsidian://open?vault=obsidian&file=Areas%2FArquitetura%20e%20Eng.%20Software%2FTestes%2FConceitos%20gerais%2FArtefatos) (quais serão as documentações e onde será realizada a gestão do projeto).
+É onde será definido como os testes serão realizados tendo como base as restrições do cliente em relação a prazos, custos e qualidade esperada. Fazem parte das atividades de planejamento: estudar o projeto (quais serão os requisitos, alterações de arquitetura do sistema, avaliar custos, riscos, prazos e impactos), realizar uma análise interna e externa de qual será o esforço (especificar quais serão as métricas utilizadas e fazer uma estimativa do esforço), definir os cenários possíveis (lista de prioridades e riscos), aprovação do planejamento (por meio de aceite da diretoria e dos clientes), definir responsabilidades (qual o papel de cada um no projeto) e mapear os [[Artefatos]] (quais serão as documentações e onde será realizada a gestão do projeto).
 
 **Foco Principal:**
 
@@ -45,7 +45,7 @@ Independentemente das metodologias utilizadas nos projetos, o processo pode ser 
     - Definição da documentação necessária e da gestão do projeto.
 ### Especificação dos testes
 
-Nessa atividade são especificados os cenários e casos de teste considerando os requisitos especificados e a necessidade de cobertura dos testes a serem realizados. Casos de testes são escritos com base em requisitos ou documentos onde estão os critérios de aceite, casos de uso e checklists. Fazem parte das atividades de especificação: estudar os requisitos funcionais e não funcionais e demais documentos solicitados pelos clientes (com o objetivo de entender e identificar inconsistências ou pontos falhos), especificar adaptações da arquitetura dos testes (no que diz respeito às ferramentas utilizadas e exigidas, scripts de testes e de automação), identificar os casos de testes e cenários a serem validados (mapeando fluxos de casos de usos e garantindo que os requisitos estejam totalmente cobertos), refinamento e aceite dos casos de testes (por meio de uma reunião entre a equipe de teste, onde os casos de testes serão apresentados com o objetivo de encontrar pontos de melhoria e garantir a cobertura), definir as responsabilidades (qual o papel de cada membro na equipe de teste) e mapeamento dos [artefatos](obsidian://open?vault=obsidian&file=Areas%2FArquitetura%20e%20Eng.%20Software%2FTestes%2FConceitos%20gerais%2FArtefatos) (qual o padrão de casos de testes, quais ferramentas utilizar, onde reportar bugs).
+Nessa atividade são especificados os cenários e casos de teste considerando os requisitos especificados e a necessidade de cobertura dos testes a serem realizados. Casos de testes são escritos com base em requisitos ou documentos onde estão os critérios de aceite, casos de uso e checklists. Fazem parte das atividades de especificação: estudar os requisitos funcionais e não funcionais e demais documentos solicitados pelos clientes (com o objetivo de entender e identificar inconsistências ou pontos falhos), especificar adaptações da arquitetura dos testes (no que diz respeito às ferramentas utilizadas e exigidas, scripts de testes e de automação), identificar os casos de testes e cenários a serem validados (mapeando fluxos de casos de usos e garantindo que os requisitos estejam totalmente cobertos), refinamento e aceite dos casos de testes (por meio de uma reunião entre a equipe de teste, onde os casos de testes serão apresentados com o objetivo de encontrar pontos de melhoria e garantir a cobertura), definir as responsabilidades (qual o papel de cada membro na equipe de teste) e mapeamento dos [[Artefatos]] (qual o padrão de casos de testes, quais ferramentas utilizar, onde reportar bugs).
 
 **Foco Principal:**
 
@@ -73,7 +73,7 @@ Nessa atividade são especificados os cenários e casos de teste considerando os
 
 ### Modelagem dos testes
 
-Etapa onde é realizada a definição dos itens necessários para a implementação dos cenários de teste especificados. A tarefa central nessa etapa é a modelagem das massas de testes. Fazem parte das atividades de modelagem: criação dos roteiros de testes (identificação, especificação, organização e revisão dos roteiros e critérios de entrada/saída e de todos os procedimentos para execução dos testes), detalhamento da massa de testes (identificação dos pontos de validação, parametrização, detalhamento da massa de entrada/saída esperada), elaboração do plano de execução dos testes (identificação de quais sistemas estarão envolvidos, quais configurações de hardware, quais características e licenças de uso), quais [artefatos](obsidian://open?vault=obsidian&file=Areas%2FArquitetura%20e%20Eng.%20Software%2FTestes%2FConceitos%20gerais%2FArtefatos) e quais os papéis de cada membro da equipe também fazem parte da modelagem.
+Etapa onde é realizada a definição dos itens necessários para a implementação dos cenários de teste especificados. A tarefa central nessa etapa é a modelagem das massas de testes. Fazem parte das atividades de modelagem: criação dos roteiros de testes (identificação, especificação, organização e revisão dos roteiros e critérios de entrada/saída e de todos os procedimentos para execução dos testes), detalhamento da massa de testes (identificação dos pontos de validação, parametrização, detalhamento da massa de entrada/saída esperada), elaboração do plano de execução dos testes (identificação de quais sistemas estarão envolvidos, quais configurações de hardware, quais características e licenças de uso), quais [[Artefatos]] e quais os papéis de cada membro da equipe também fazem parte da modelagem.
 
 **Foco Principal:**
 
@@ -93,7 +93,7 @@ Etapa onde é realizada a definição dos itens necessários para a implementaç
     - Definição das configurações de hardware e características necessárias.
     - Verificação das licenças de uso.
 4. **Identificação de Artefatos e Papéis da Equipe:**
-    - Detalhamento dos [artefatos](obsidian://open?vault=obsidian&file=Areas%2FArquitetura%20e%20Eng.%20Software%2FTestes%2FConceitos%20gerais%2FArtefatos) a serem utilizados.
+    - Detalhamento dos [[Artefatos]] a serem utilizados.
     - Clarificação das responsabilidades de cada membro da equipe.
 
 ### Disponibilização ou preparação do ambiente de testes
@@ -116,7 +116,7 @@ Atividades relacionadas à preparação do ambiente de testes da organização. 
     - Atribuição de responsabilidades específicas dentro da equipe de testes.
 ### Execução dos testes
 
-Etapa na qual os testes planejados são executados. Nessa etapa a coleta de [artefatos](obsidian://open?vault=obsidian&file=Areas%2FArquitetura%20e%20Eng.%20Software%2FTestes%2FConceitos%20gerais%2FArtefatos) e informações é importante para a validação plena das funcionalidades, de forma a garantir que os critérios de aceite foram totalmente ou parcialmente cobertos. Fazem parte da execução as seguintes atividades: execução dos casos de testes (seguindo prioridade pré-definida, coleta e análise de evidências, validação de conformidade e não conformidade) e confirmação dos resultados (revalidação das não conformidades e conformidades, análise de impactos). O papel de cada membro dentro da equipe de testes também faz parte da execução dos testes.
+Etapa na qual os testes planejados são executados. Nessa etapa a coleta de [[Artefatos]] e informações é importante para a validação plena das funcionalidades, de forma a garantir que os critérios de aceite foram totalmente ou parcialmente cobertos. Fazem parte da execução as seguintes atividades: execução dos casos de testes (seguindo prioridade pré-definida, coleta e análise de evidências, validação de conformidade e não conformidade) e confirmação dos resultados (revalidação das não conformidades e conformidades, análise de impactos). O papel de cada membro dentro da equipe de testes também faz parte da execução dos testes.
 
 **Foco Principal:**
 
@@ -133,7 +133,7 @@ Etapa na qual os testes planejados são executados. Nessa etapa a coleta de [art
 
 ### Análise dos resultados
 
-Nessa atividade os resultados da execução dos testes são comparados com os resultados esperados. Aqueles que não estiverem em conformidade devem ser reportados em detalhes para facilitar a identificação dos defeitos pela equipe de desenvolvimento. Fazem parte das atividades de análise de resultados: revisão dos resultados de não conformidade (avaliar evidências de testes e avaliar e priorizar a lista de bugs), formalizar defeitos encontrados (coletar, detalhar e classificar os defeitos por nível de severidade e priorização), reexecutar testes falhos (avaliar impactos, reexecutar casos de testes com falhas e possíveis casos de sucesso — dependendo da correção, um defeito pode ocasionar outro). Também faz parte da execução dos testes o papel de cada membro dentro da equipe e quais [artefatos](obsidian://open?vault=obsidian&file=Areas%2FArquitetura%20e%20Eng.%20Software%2FTestes%2FConceitos%20gerais%2FArtefatos) serão utilizados como forma de evidenciar os testes executados (como prints de telas, gravação, geração de scripts, passo-a-passo, etc).
+Nessa atividade os resultados da execução dos testes são comparados com os resultados esperados. Aqueles que não estiverem em conformidade devem ser reportados em detalhes para facilitar a identificação dos defeitos pela equipe de desenvolvimento. Fazem parte das atividades de análise de resultados: revisão dos resultados de não conformidade (avaliar evidências de testes e avaliar e priorizar a lista de bugs), formalizar defeitos encontrados (coletar, detalhar e classificar os defeitos por nível de severidade e priorização), reexecutar testes falhos (avaliar impactos, reexecutar casos de testes com falhas e possíveis casos de sucesso — dependendo da correção, um defeito pode ocasionar outro). Também faz parte da execução dos testes o papel de cada membro dentro da equipe e quais [[Artefatos]] serão utilizados como forma de evidenciar os testes executados (como prints de telas, gravação, geração de scripts, passo-a-passo, etc).
 
 **Foco Principal:**
 
@@ -185,7 +185,7 @@ Atividade realizada entre o gerente de testes ou outro membro qualificado da equ
 O gerente de teste ou outro membro da equipe qualificado deverá gerar o plano de teste baseando-se nas demandas existentes no plano de projeto, para isso deverá realizar o preenchimento do template ou modelo de plano de teste utilizado pela empresa. Esse modelo deverá conter algumas referências para apoiar o planejamento das atividades. O projeto e plano de testes devem ser criados na ferramenta utilizada pela empresa, a qual pode ser o jira, testlink, mantis, docs, entre outras.
 #### Solicitação da validação do documento de plano de teste
 
-O gerente de teste ou o integrante qualificado para tal atividade deverá solicitar a validação do documento de plano de teste. Esse plano deverá ser validado e aprovado pelos [stakeholders](obsidian://open?vault=obsidian&file=Areas%2FModelagem%20e%20Desenvolvimento%2FConceitos%20Gerais%2FStakeholders) e, em casos em que haja necessidade, quando as características do projeto, como complexidade, tamanho e importância, forem críticas, pode-se realizar uma reunião de inspeção em grupo.
+O gerente de teste ou o integrante qualificado para tal atividade deverá solicitar a validação do documento de plano de teste. Esse plano deverá ser validado e aprovado pelos [[Stakeholders]] e, em casos em que haja necessidade, quando as características do projeto, como complexidade, tamanho e importância, forem críticas, pode-se realizar uma reunião de inspeção em grupo.
 
 #### Avaliação, convocação e solicitação de inspeção em grupo
 

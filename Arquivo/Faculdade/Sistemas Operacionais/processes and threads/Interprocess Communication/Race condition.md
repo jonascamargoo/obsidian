@@ -52,7 +52,7 @@ A chave para evitar condições de corrida é garantir que apenas um processo ac
 
 1 -  **Exclusividade:** Dois processos jamais podem estar simultaneamente dentro de suas regiões críticas.
 2 -  **Independência de hardware:** Nenhuma suposição deve ser feita sobre velocidades ou quantidade de CPUs.
-3 -  **Não interferência:** Um processo fora de sua região crítica não deve bloquear outros processos. OBS: isso ainda acontece na solução [turn-based switching](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FSistemas%20Operacionais%2FProcessos%20e%20threads%2FInterprocess%20Communication%2FMutual%20exclusion%20using%20Busy%20Wait).
-4 -  **Evitar espera infinita:** Nenhum processo deve esperar eternamente para entrar em sua região crítica. OBS: Esse problema é resolvido nas soluções de [Peterson e TSL](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FSistemas%20Operacionais%2FProcessos%20e%20threads%2FInterprocess%20Communication%2FMutual%20exclusion%20using%20Busy%20Wait)
+3 -  **Não interferência:** Um processo fora de sua região crítica não deve bloquear outros processos. OBS: isso ainda acontece na solução [[Mutual exclusion using Busy Wait|turn-based switching]].
+4 -  **Evitar espera infinita:** Nenhum processo deve esperar eternamente para entrar em sua região crítica. OBS: Esse problema é resolvido nas soluções de [[Mutual exclusion using Busy Wait|Peterson e TSL]]
 
 ![[Pasted image 20241118141617.png]]

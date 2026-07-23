@@ -46,15 +46,15 @@ Para obter esse nível de detalhamento, o PO deve reservar cerca de 10% do tempo
 
 
 ### Estimado
-Todos os itens têm uma[ **estimativa**](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FProdutos%2FFundamentos%20de%20gest%C3%A3o%20de%20backlog%2FEstimativa%20do%20backlog) pontual associada. Para isso, a história precisa estar descrita de forma clara, para que seja possível estimar e discutir sua complexidade.
+Todos os itens têm uma [[Estimativa do backlog|**estimativa**]] pontual associada. Para isso, a história precisa estar descrita de forma clara, para que seja possível estimar e discutir sua complexidade.
 
 ### Emergente
 O _backlog_ **evolui** para refletir o novo aprendizado, por isso, ele não pode ser imutável. Pelo contrário, o backlog pode e deve ser sempre atualizado, priorizado e reordenado para refletir o propósito e a visão do objetivo do produto ou projeto.
 
 ### Priorizado
-[Essa](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FProdutos%2FPriorizar%20bklog%2FMetodo%20ICE) é a etapa **mais importante** para se obter **valor**. Por isso, evitaremos o conceito “tudo é prioridade”, pois como diz a máxima do dia a dia de projeto “quando tudo é prioridade, nada é prioridade”.
+[[Metodo ICE|Essa]] é a etapa **mais importante** para se obter **valor**. Por isso, evitaremos o conceito “tudo é prioridade”, pois como diz a máxima do dia a dia de projeto “quando tudo é prioridade, nada é prioridade”.
 
-Voltando ao cenário citado anteriormente cujo projeto visa descartar um sistema legado, imagine que esse sistema faz emissão de notas fiscais e que ele esteja sofrendo degradação de performance na integração com o ERP devido ao alto volume de emissões. Saiba mais em [Técnicas de Priorização](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FProdutos%2FFundamentos%20de%20gest%C3%A3o%20de%20backlog%2FT%C3%A9cnicas%20de%20Prioriza%C3%A7%C3%A3o).
+Voltando ao cenário citado anteriormente cujo projeto visa descartar um sistema legado, imagine que esse sistema faz emissão de notas fiscais e que ele esteja sofrendo degradação de performance na integração com o ERP devido ao alto volume de emissões. Saiba mais em [[Técnicas de Priorização]].
 
 
 

@@ -89,7 +89,7 @@ O Throughput **nunca pode ser superior à Taxa de Transferência**. O Throughpu
 Uma conexão de internet com taxa de transferência de 100 Mbps pode ter um throughput de 80 Mbps devido a congestionamento na rede.
 #### Limite da taxa de dados
 
-Sabemos que a taxa de dados depende de: largura da banda disponível; nível dos sinais usados; qualidade do sinal (nível de [ruído](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FRedes%2FPrinc%C3%ADpio%20da%20comunica%C3%A7ao%20de%20dados%2FPerda%20na%20transmiss%C3%A3o))
+Sabemos que a taxa de dados depende de: largura da banda disponível; nível dos sinais usados; qualidade do sinal (nível de [[Perda na transmissão|ruído]])
 
 ##### Sem Com ruídos
 

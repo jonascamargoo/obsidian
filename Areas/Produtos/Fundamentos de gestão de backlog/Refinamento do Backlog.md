@@ -28,7 +28,7 @@ O objetivo é tornar as histórias mais claras e compreensíveis para o time. En
 O objetivo é estimar o esforço ou a complexidade de cada item do backlog, geralmente usando técnicas como Planning Poker ou estimativas em pontos de história.  Ajuda a equipe a entender o tamanho do trabalho e a planejar melhor os sprints, considerando a capacidade do time.
 
 #### Priorizar
- Definir a ordem em que os itens do backlog serão trabalhados, com base no valor de negócio, impacto para o usuário e urgência.  Saber [priorizar](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FProdutos%2FFundamentos%20de%20gest%C3%A3o%20de%20backlog%2FT%C3%A9cnicas%20de%20Prioriza%C3%A7%C3%A3o) garante que a equipe esteja sempre focada no que gera mais valor, entregando rapidamente as funcionalidades mais importantes.
+ Definir a ordem em que os itens do backlog serão trabalhados, com base no valor de negócio, impacto para o usuário e urgência.  Saber [[Técnicas de Priorização|priorizar]] garante que a equipe esteja sempre focada no que gera mais valor, entregando rapidamente as funcionalidades mais importantes.
 
 ## Canva de refinamento - Lean Product Backlog
 

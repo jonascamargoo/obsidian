@@ -115,7 +115,7 @@ Essencialmente, se não puder ser testada, a história não está "pronta" para 
 
 ![[Pasted image 20240926112722.png]]
 
-Ex de história testável: Na funcionalidade "Encontrar Pessoas", temos a seguinte história: "Como cliente, eu quero filtrar pessoas para visualizar apenas as pessoas que me agradam". [Critério de Aceite](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FProdutos%2FCriterios%20de%20Aceite): Permitir filtrar por cidade, estado e distância em KM.
+Ex de história testável: Na funcionalidade "Encontrar Pessoas", temos a seguinte história: "Como cliente, eu quero filtrar pessoas para visualizar apenas as pessoas que me agradam". [[Criterios de Aceite|Critério de Aceite]]: Permitir filtrar por cidade, estado e distância em KM.
 
 ### Recomendações
 1. Criar bons critérios de aceite é fundamental para um bom desenvolvimento da funcionalidade.

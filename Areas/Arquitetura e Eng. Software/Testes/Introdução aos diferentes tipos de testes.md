@@ -125,7 +125,7 @@ A execução desse tipo de teste consiste em avaliar algumas características fu
 
 Esse tipo de teste pode ter o seu planejamento voltado para avaliar questões de hardware, browsers, de diferentes tipos, e sistemas operacionais, com suas várias versões e _service packs_.
 
-Uma dica para testar a aplicação em diferentes plataformas é a utilização de [máquinas virtuais (VMs)](obsidian://open?vault=obsidian&file=Areas%2FContainers%2FO%20que%20%C3%A9%20um%20container). Através de emulação as VMs permitem que diferentes sistemas operacionais sejam executados em uma mesma máquina, sem a necessidade de _dual boot_. Além disso, as VMs permitem salvar o estado da máquina ou restaurá-lo facilmente.
+Uma dica para testar a aplicação em diferentes plataformas é a utilização de [[O que é um container|máquinas virtuais (VMs)]]. Através de emulação as VMs permitem que diferentes sistemas operacionais sejam executados em uma mesma máquina, sem a necessidade de _dual boot_. Além disso, as VMs permitem salvar o estado da máquina ou restaurá-lo facilmente.
 
 ### Como executar o teste de portabilidade?
 

@@ -22,7 +22,7 @@ O Data Warehouse é um componente central em business intelligence, armazenando 
 
 ### Desvantagens:
 
-- Falta de flexibilidade: Embora desempenhe bem o papel de estrutura de dados, enfrenta desafios ao lidar com dados semi-estruturados e não estruturados, como streaming, logs e mídias sociais, prejudicando sua aplicação em IA, ao contrário de [data lakes](obsidian://open?vault=obsidian&file=Areas%2FBanco%20de%20dados%2FArquitetura%20de%20Dados%2FData%20Lake);
+- Falta de flexibilidade: Embora desempenhe bem o papel de estrutura de dados, enfrenta desafios ao lidar com dados semi-estruturados e não estruturados, como streaming, logs e mídias sociais, prejudicando sua aplicação em IA, ao contrário de [[Data Lake|data lakes]];
 - Altos custos de manutenção.
 
 

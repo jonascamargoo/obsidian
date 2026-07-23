@@ -81,7 +81,7 @@ As WLANs são comumente usadas em ambientes domésticos, empresariais e educacio
 	![[Pasted image 20240309210753.png]]
 
 - Taxa de transferência: 11, 55, 150, 300, 600 Mbps até 76 Gbps
-- A [largura de banda](obsidian://open?vault=obsidian&file=Areas%2FRedes%2FBandas%20de%20frequ%C3%AAncia) utilizadas é compartilhada entre todos os nós ativos
+- A [[Bandas de frequência|largura de banda]] utilizadas é compartilhada entre todos os nós ativos
 - Os valores comerciais das taxas de transferências são "falsos", devida à perda (uma LAN ganha de lavada de uma WLAN)
 - O access point pode ser simplesmente um access point (repetidor) ou pode assumir o papel de um roteador (mais complexo, requer abstração lógica e configuração)
 - Nosso roteador físico utilizado em casa funciona como:

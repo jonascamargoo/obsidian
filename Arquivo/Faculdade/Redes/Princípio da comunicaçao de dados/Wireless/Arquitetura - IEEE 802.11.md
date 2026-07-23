@@ -39,6 +39,6 @@ O Extended Service Set (ESS) é formado por dois ou mais BSSs interconectados at
 
 Essa estrutura permite que redes sem fio sejam escaláveis, flexíveis e capazes de cobrir grandes áreas, fornecendo conectividade contínua e confiável para os usuários móveis.
 
-O desenho da rede é afetado por:  Broadcast limitado ao alcance da área de cobertura; Meio compartilhado (rede desprotegida);  Menos confiabilidade;  Método de acesso [CSMA/CA](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FRedes%2FPrinc%C3%ADpio%20da%20comunica%C3%A7ao%20de%20dados%2FCSMA%20CA).
+O desenho da rede é afetado por:  Broadcast limitado ao alcance da área de cobertura; Meio compartilhado (rede desprotegida);  Menos confiabilidade;  Método de acesso [[CSMA CA (algoritmo)|CSMA/CA]].
 
 	![[Pasted image 20240729131702.png]]

@@ -8,7 +8,7 @@ criada: '2025-01-10'
 
 ## O que é?
 
-A camada de aplicação no modelo de redes [TCP](obsidian://open?vault=obsidian&file=Obsidian%20Vault%2FAreas%2FRedes%2Ftransport%20layer%2Ftransport%20layer)/[IP](obsidian://open?vault=obsidian&file=Obsidian%20Vault%2FAreas%2FRedes%2Fnetwork%20layer%2Fnetwork%20layer) é onde ocorre a interação entre os usuários e a rede, proporcionando os serviços necessários para as aplicações que utilizamos diariamente, como navegação na web, envio de e-mails e compartilhamento de arquivos. Essa camada atua como um ponto de entrada para os dados, traduzindo solicitações e respostas para que possam ser compreendidas pelos usuários e pela infraestrutura de rede. Sua relevância está no fato de que ela abrange os protocolos que tornam possíveis serviços essenciais, como HTTP, FTP e SMTP, além de permitir a comunicação entre sistemas heterogêneos.
+A camada de aplicação no modelo de redes [[transport layer|TCP]]/[[network layer|IP]] é onde ocorre a interação entre os usuários e a rede, proporcionando os serviços necessários para as aplicações que utilizamos diariamente, como navegação na web, envio de e-mails e compartilhamento de arquivos. Essa camada atua como um ponto de entrada para os dados, traduzindo solicitações e respostas para que possam ser compreendidas pelos usuários e pela infraestrutura de rede. Sua relevância está no fato de que ela abrange os protocolos que tornam possíveis serviços essenciais, como HTTP, FTP e SMTP, além de permitir a comunicação entre sistemas heterogêneos.
 
 ## Arquitetura de aplicação
 
@@ -20,7 +20,7 @@ Na arquitetura cliente/servidor, o servidor desempenha um papel central e está 
 
 * Hospedeiro (servidor) sempre em funcionamento;
 * Servidor com endereço IP fixo;
-* [HTTP](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FRedes%2Fapplication%20layer%2FHTTP%20and%20HTTPS), [FTP](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FRedes%2Fapplication%20layer%2FFTP), [SSH](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FRedes%2Fapplication%20layer%2FSSH) ,[ SMTP](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FRedes%2Fapplication%20layer%2FSMTP);
+* [[HTTP and HTTPS|HTTP]], [[FTP]], [[SSH e Telnet|SSH]] , [[SMTP, POP3, IMAP|SMTP]];
 * Servidor virtual: grande número de hospedeiros para atender requisições dos clientes;
 * Mecanismo de busca (Google), yt, amazon...
 

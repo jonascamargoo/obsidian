@@ -108,7 +108,7 @@ Eu como... / quero... / para... -> Quem quer? / O que quer? / Por que quer?
 
 Ex: Problema -> Me sinto sozinho e sem ninguém para conversar. Funcionalidades -> Encontrar pessoas e conversar com pessoas. Histórias de usuário -> Como cliente, quero filtrar pessoas para visualizar apenas as pessoas que me agradam; Como cliente, eu quero consultar a foto de perfil da pessoa para verificar se simpatizo com ela.
 
-Para [saber mais](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FProdutos%2FFundamentos%20de%20gest%C3%A3o%20de%20backlog%2FHist%C3%B3rias%20de%20usu%C3%A1rio).
+Para [[Histórias de usuário|saber mais]].
 
 ### Recomendações 
 
