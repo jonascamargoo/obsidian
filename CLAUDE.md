@@ -74,3 +74,7 @@ Outras operações sob demanda: triar o `Inbox/`, arquivar projetos/áreas concl
 - Renomeou/moveu nota? Verificar wikilinks que apontam para ela (`grep -r "[[Nome"`) e corrigir.
 - Commits em português, mensagem curta descrevendo a mudança de conhecimento (ex.: "Nota: ReAct pattern em IAs/Agentic AI").
 - Não editar `.obsidian/workspace.json` (estado de UI, muda sozinho).
+
+### Git: nunca `git add -A` / `git add .`
+
+Sempre adicionar **caminhos explícitos** dos arquivos que a sessão tocou (`git add "Caminho/Nota.md"`) e conferir `git status` antes de commitar. Motivo: o histórico de merge deste repo pode deixar deleções pendentes no working tree; um `git add -A` as efetiva sem aviso (já causou remoção indevida de notas em 2026-07). O usuário às vezes apaga/move notas direto no Obsidian — se algo aparecer como deletado e você não fez isso, **pergunte antes**, não recupere nem re-delete por conta própria.
