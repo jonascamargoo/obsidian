@@ -38,7 +38,7 @@ Hub da área de Inteligência Artificial. Ver também [[roadmap]].
 ## RAG
 
 - [[Retrieval-Augmented Generation (RAG)]] — ponto de partida · [[RAG vs. Fine-Tuning]]
-- **Indexação**: [[Chunking]] · [[Embedding]] · [[Vector DBs]] · [[Vector Database]] · [[ANN - Escalabilidade da Busca Vetorial]]
+- **Indexação**: [[Chunking]] · [[Contextual Retrieval]] · [[Embedding]] · [[Vector DBs]] · [[Vector Database]] · [[ANN - Escalabilidade da Busca Vetorial]]
 - **Busca**: [[Semantic Search]] · [[Keyword Search]] · [[Hybrid Search]] · [[Metadata Filtering In Rag]] · [[Otimização de Consultas (Query Parsing) em RAG]]
 - **Refinamento**: [[Reranking]] · [[Arquiteturas Avançadas de Busca Semântica - Cross-encoders e ColBERT]]
 - **Qualidade**: [[Retrieval Quality Metrics]] · [[Avaliando a LLM no RAG]] · [[Alucinações em RAGs]] · [[Choosing model to RAG system]] · [[Engenharia de prompt em RAGs]]
