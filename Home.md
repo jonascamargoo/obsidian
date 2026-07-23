@@ -31,9 +31,7 @@ Ponto de entrada do second brain. Convenções: ver `CLAUDE.md`.
 
 ## Recursos
 
-- IA no desenvolvimento: [[How to use AI in development]] · [[Vibe Coding]] · [[Waldemar Neto - como lidar com context window]]
-- [[RAG Local]] — ideia de RAG sobre o vault
-- [[Github Documentation via Code Wiki]] · [[Config postgres]] · [[Parte 2 pishdog]] · [[Notes|English Notes]]
+- [[How to use AI in development]] — uso de IA no desenvolvimento
 
 ## Sistema
 
