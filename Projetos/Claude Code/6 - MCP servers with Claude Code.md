@@ -6,7 +6,7 @@ tags:
 criada: '2026-04-20'
 ---
 
-You can extend Claude Code's capabilities by adding MCP (Model Context Protocol) servers. These servers run either remotely or locally on your machine and provide Claude with new tools and abilities it wouldn't normally have.
+You can extend Claude Code's capabilities by adding [[MCP|MCP (Model Context Protocol)]] servers. These servers run either remotely or locally on your machine and provide Claude with new tools and abilities it wouldn't normally have.
 
 One of the most popular MCP servers is Playwright, which gives Claude the ability to control a web browser. This opens up powerful possibilities for web development workflows.
 

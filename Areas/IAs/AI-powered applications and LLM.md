@@ -145,6 +145,6 @@ https://platform.openai.com/docs/guides/function-calling?api-mode=chat&lang=pyth
 
 ## A grande questão
 
-Considerando que as aplicações já possuem suas tools, o que eu poderia fazer para utilizar minhas próprias tools customizadas? Há duas formas. A primeira consiste em provar que minha aplicação é tão especial que os provedores de IA deveriam incluir ferramentas específicas em sua base de código para atender minhas necessidades. A segunda forma é a mais fácil, utilizando [Protocolo de  Contexto de Modelo - MCP](obsidian://open?vault=Obsidian%20Vault&file=Areas%2FIAs%2FMCP)
+Considerando que as aplicações já possuem suas tools, o que eu poderia fazer para utilizar minhas próprias tools customizadas? Há duas formas. A primeira consiste em provar que minha aplicação é tão especial que os provedores de IA deveriam incluir ferramentas específicas em sua base de código para atender minhas necessidades. A segunda forma é a mais fácil, utilizando o [[MCP|Protocolo de Contexto de Modelo (MCP)]].
 
 

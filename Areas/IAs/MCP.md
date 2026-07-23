@@ -25,3 +25,8 @@ Segue uma arquitetura client-server, onde a aplicação pode conectar com vário
 - **Fontes de Dados Locais**: Arquivos, bancos de dados e serviços do seu computador que os servidores MCP podem acessar com segurança.
 
 - **Serviços Remotos**: Sistemas externos disponíveis na internet (por exemplo, via APIs) aos quais os servidores MCP podem se conectar.
+
+## Relacionadas
+
+- [[AI-powered applications and LLM]] — MCP é a resposta ao problema de expor _tools_ customizadas a uma aplicação de IA.
+- [[6 - MCP servers with Claude Code]] — aplicação prática do protocolo: conectar servidores MCP ao Claude Code.
